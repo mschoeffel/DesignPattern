@@ -1,0 +1,14 @@
+# DesignPattern
+## Erzeugungsmuster
+
+Hier werden alle Erzeugungsmuster implementiert:
+
+---
+### Factory
+
+* [FactoryMethod](https://github.com/mschoeffel/DesignPattern/src/erzeugungsmuster/factorymethod)
+
+* [FactoryMethod Erweitert](https://github.com/mschoeffel/DesignPattern/src/erzeugungsmuster/factorymethodmore)
+
+* [FactoryMethod Static](https://github.com/mschoeffel/DesignPattern/src/erzeugungsmuster/factorymethodstatic)
+---
