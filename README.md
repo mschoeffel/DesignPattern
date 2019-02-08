@@ -12,4 +12,8 @@ Hier werden alle DesignPattern einmal zur Übung und Veranschaulichung durchgega
   * [FactoryMethod Erweitert](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodmore)
 
   * [FactoryMethod Static](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic)
+
+* Singleton
+  
+  * [Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
 ---

@@ -12,3 +12,7 @@ Hier werden alle Erzeugungsmuster implementiert:
 
 * [FactoryMethod Static](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic)
 ---
+### Singleton
+
+* [Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
+---
