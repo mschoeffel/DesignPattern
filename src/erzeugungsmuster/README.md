@@ -16,3 +16,7 @@ Hier werden alle Erzeugungsmuster implementiert:
 
 * [Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
 ---
+### Multiton
+
+* [Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
+---

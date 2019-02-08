@@ -16,4 +16,8 @@ Hier werden alle DesignPattern einmal zur Übung und Veranschaulichung durchgega
 * Singleton
   
   * [Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
+
+* Multiton
+
+  * [Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
 ---
