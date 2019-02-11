@@ -28,3 +28,7 @@ Hier werden alle Erzeugungsmuster implementiert:
 
 * [Builder](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder)
 ---
+### Prototype
+
+* [Prototype](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype)
+---

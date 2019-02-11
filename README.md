@@ -33,3 +33,8 @@ Hier werden alle DesignPattern einmal zur Übung und Veranschaulichung durchgega
 
   * [Prototype](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype)
 ---
+## [Strukturmuster](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster)
+
+* Adapter
+
+  * [Adapter](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter)
