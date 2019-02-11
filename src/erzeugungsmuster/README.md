@@ -20,3 +20,7 @@ Hier werden alle Erzeugungsmuster implementiert:
 
 * [Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
 ---
+### Abstrakte Fabrik
+
+* [Abstrakte Fabrik](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory)
+---

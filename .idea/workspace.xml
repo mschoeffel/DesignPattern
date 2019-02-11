@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/multiton/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/multiton/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/multiton/DbPoolConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimautomationFabrik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusFabrik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusJalousieAktor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusTemperaturSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/JalousieAktor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusFabrik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusJalousieAktor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusTemperaturSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/TemperaturSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/erzeugungsmuster/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,112 +28,122 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/JalousieAktor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusFabrik.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Fakturierer.java">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/singleton/Konfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            <state relative-caret-position="299">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/singleton/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="421">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="25" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/multiton/DbPoolConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding>
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="550">
+                <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/multiton/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/multiton/DatabaseConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusFabrik.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Rechnung.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/Nachnahmerechnung.java">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusJalousieAktor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/GutschriftFakturierer.java">
+        <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusJalousieAktor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -132,6 +154,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -164,6 +187,20 @@
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/multiton/DatabaseConnection.java" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/multiton/DbPoolConnection.java" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/multiton/Client.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimautomationFabrik.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/TemperaturSensor.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/JalousieAktor.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusFabrik.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusFabrik.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusTemperaturSensor.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusTemperaturSensor.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusJalousieAktor.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusJalousieAktor.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/Client.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimController.java" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/README.md" />
+        <option value="$PROJECT_DIR$/src/erzeugungsmuster/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -199,20 +236,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
-              <item name="multiton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="erzeugungsmuster" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -224,9 +247,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549640518334" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549906758958" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\DesignPattern\DesignPattern\src\erzeugungsmuster\abstractfactory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,18 +279,19 @@
       <option name="presentableId" value="Default" />
       <updated>1549563990856</updated>
       <workItem from="1549563992088" duration="4132000" />
-      <workItem from="1549638841232" duration="1658000" />
+      <workItem from="1549638841232" duration="2396000" />
+      <workItem from="1549905287287" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5790000" />
+    <option name="totallyTimeSpent" value="7998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,14 +325,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Lieferschein.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -416,6 +437,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Fakturierer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/singleton/Konfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/singleton/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/multiton/DbPoolConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/multiton/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Rechnung.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -441,59 +497,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Fakturierer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/singleton/Konfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/singleton/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/multiton/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/multiton/DatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="276">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/multiton/DbPoolConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimautomationFabrikInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="46">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimautomationFabrik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/TemperaturSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusTemperaturSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusTemperaturSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/JalousieAktor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusJalousieAktor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusJalousieAktor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusFabrik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusFabrik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="421">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="25" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="550">
+            <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

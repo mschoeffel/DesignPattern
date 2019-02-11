@@ -20,4 +20,9 @@ Hier werden alle DesignPattern einmal zur Übung und Veranschaulichung durchgega
 * Multiton
 
   * [Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
+  
+* Abstrakte Fabrik
+  
+  * [Abstrakte Fabrik](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory)
+  ---
 ---
