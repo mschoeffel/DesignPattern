@@ -24,7 +24,3 @@ Hier werden alle Erzeugungsmuster implementiert:
 
 * [Abstrakte Fabrik](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory)
 ---
-### Builder
-
-* [Builder](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder)
----
