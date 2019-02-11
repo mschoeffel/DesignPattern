@@ -1,0 +1,9 @@
+<configuration>
+    <urlaube>
+        <urlaub name="halber_tag" bezahlt="true">0.5</urlaub>
+        <urlaub name="ganzer_tag" bezahlt="true">1</urlaub>
+        <urlaub name="halber_tag_unbezahlt" bezahlt="false">0.5</urlaub>
+        <urlaub name="ganzer_tag_unbezahlt" bezahlt="false">0.5</urlaub>
+    </urlaube>
+    <!-- Krankeit und Arbeitszeitobjekte hier -->
+</configuration>

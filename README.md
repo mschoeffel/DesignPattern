@@ -28,4 +28,8 @@ Hier werden alle DesignPattern einmal zur Übung und Veranschaulichung durchgega
 * Builder
 
   * [Builder](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder)
+  
+* Prototype
+
+  * [Prototype](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype)
 ---
