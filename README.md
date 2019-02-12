@@ -56,6 +56,10 @@ The main language of the code is german maybe this will be changed to english.
 * Brücke / Bridge
 
   * [Brücke / Bridge](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/bridge)
+  
+* Kompositum / Composite
+
+  * [Kompositum / Composite](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/kompositum)
 ---
 
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)

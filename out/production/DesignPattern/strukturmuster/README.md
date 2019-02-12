@@ -15,8 +15,3 @@ Here all structural patterns:
 ### Brücke / Bridge
 
 * [Brücke / Bridge](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/bridge)
----
-### Kompositum / Composite
-
-* [Kompositum / Composite](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/kompositum)
----

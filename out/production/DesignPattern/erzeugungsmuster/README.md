@@ -1,34 +1,38 @@
-# DesignPattern
-## Erzeugungsmuster
+# [Entwurfsmuster / Design Patterns](https://github.com/mschoeffel/DesignPattern)
+## Erzeugungsmuster / Creational Patterns
 
-Hier werden alle Erzeugungsmuster implementiert:
+Hier alle Erzeugungsmuster:
 
 ---
-### Factory
 
-* [FactoryMethod](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethod)
+Here all creational patterns:
 
-* [FactoryMethod Erweitert](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodmore)
-
-* [FactoryMethod Static](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic)
 ---
-### Singleton
+### Fabrik / Factory
 
-* [Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
+* [Fabrik Methode / Factory Method](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethod)
+
+* [Fabrik Methode Erweitert / Factory Method Advanced](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodmore)
+
+* [Fabrik Methode Statisch / Factory Method Static](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic)
 ---
-### Multiton
+### Einzelstück / Singleton
 
-* [Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
+* [Einzelstück / Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
 ---
-### Abstrakte Fabrik
+### Multiton / Multiton
 
-* [Abstrakte Fabrik](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory)
+* [Multiton / Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
 ---
-### Builder
+### Abstrakte Fabrik / Abstract Factory
 
-* [Builder](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder)
+* [Abstrakte Fabrik / Abstract Factory](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory)
 ---
-### Prototype
+### Erbauer / Builder
 
-* [Prototype](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype)
+* [Erbauer / Builder](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder)
+---
+### Prototyp / Prototype
+
+* [Prototyp / Prototype](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype)
 ---

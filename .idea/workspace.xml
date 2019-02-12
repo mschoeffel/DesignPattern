@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/Belegverarbeitung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/Blob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/Dokument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/FilesystemProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/Gutschrift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/Lieferschein.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/Rechnung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/bridge/StorageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEmailBenachrichtigung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKomponente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKonsolenausgabe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMSequenz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/kompositum/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/kompositum/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/strukturmuster/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,34 +24,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowAdapterAusgabeGross.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Belegverarbeitung.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="276">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Blob.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEditor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -59,78 +42,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Dokument.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-              <folding>
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Gutschrift.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Lieferschein.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEmailBenachrichtigung.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Rechnung.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKomponente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="46">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/StorageProvider.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKonsolenausgabe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/FilesystemProvider.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="414">
+                <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="113" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="343">
+                <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMSequenz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="782">
+              <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -154,14 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/TemperaturSensor.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/JalousieAktor.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusFabrik.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusFabrik.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusTemperaturSensor.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusTemperaturSensor.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusJalousieAktor.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusJalousieAktor.java" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/Client.java" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimController.java" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/README.md" />
@@ -193,9 +172,7 @@
         <option value="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowAdapterAusgabeGross.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowEngine.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/adapter/Client.java" />
-        <option value="$PROJECT_DIR$/src/strukturmuster/README.md" />
         <option value="$PROJECT_DIR$/src/strukturmuster/adapter/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Blob.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/bridge/StorageProvider.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Rechnung.java" />
@@ -205,10 +182,20 @@
         <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Dokument.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Belegverarbeitung.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Client.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEditor.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEmailBenachrichtigung.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKomponente.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKonsolenausgabe.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMSequenz.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/bridge/README.md" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/Client.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/README.md" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="80" />
     <option name="width" value="1400" />
@@ -242,6 +229,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="strukturmuster" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strukturmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strukturmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="kompositum" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -251,17 +252,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549992048785" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549993636993" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\kompositum" />
+      <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\bridge" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\adapter" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\erzeugungsmuster\prototype" />
-      <recent name="D:\Shared\DesignPattern\DesignPattern\src\erzeugungsmuster\builder" />
-      <recent name="D:\Shared\DesignPattern\DesignPattern\src\erzeugungsmuster\abstractfactory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="erzeugungsmuster.prototype.Client" />
       <module name="DesignPattern" />
@@ -303,6 +304,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strukturmuster.kompositum.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strukturmuster.kompositum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="erzeugungsmuster.builder.Client" />
       <module name="DesignPattern" />
@@ -318,6 +332,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
@@ -337,15 +352,16 @@
       <workItem from="1549563992088" duration="4132000" />
       <workItem from="1549638841232" duration="2396000" />
       <workItem from="1549905287287" duration="7576000" />
-      <workItem from="1549989985634" duration="1895000" />
+      <workItem from="1549989985634" duration="2956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15999000" />
+    <option name="totallyTimeSpent" value="17060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108208954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -356,7 +372,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32940018" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32940018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39921337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,84 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/TemperaturSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusTemperaturSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusTemperaturSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/JalousieAktor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusJalousieAktor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusJalousieAktor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusFabrik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusFabrik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -775,31 +713,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/adapter/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="92">
             <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="89">
-            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor />
         </state>
@@ -898,10 +816,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEmailBenachrichtigung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKomponente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKonsolenausgabe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMSequenz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="113" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="343">
+            <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
