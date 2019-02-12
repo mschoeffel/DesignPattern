@@ -1,10 +1,14 @@
-# DesignPattern
-## Strukturmuster
+# [Entwurfsmuster / Design Patterns](https://github.com/mschoeffel/DesignPattern)
+## Strukturmuster / Structural Patterns
 
-Hier werden alle Strukturmuster implementiert:
+Hier alle Strukturmuster:
 
 ---
-### Adapter
 
-* [Adapter](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter)
+Here all structural patterns:
+
+---
+### Adapter / Adapter
+
+* [Adapter / Adapter](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter)
 ---

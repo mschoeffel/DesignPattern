@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowAdapterAusgabeGross.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowErgebnis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowErgebnisB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowObjekt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowObjektAusgabe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowObjektAusgabeGross.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/Dienstplan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/Dienstplan.class" afterDir="false" />
-    </list>
+    <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="444">
+              <first_editor relative-caret-position="779">
                 <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               </first_editor>
               <second_editor />
@@ -255,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549913694446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549914046851" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -340,16 +325,15 @@
       <updated>1549563990856</updated>
       <workItem from="1549563992088" duration="4132000" />
       <workItem from="1549638841232" duration="2396000" />
-      <workItem from="1549905287287" duration="7540000" />
+      <workItem from="1549905287287" duration="7576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14068000" />
+    <option name="totallyTimeSpent" value="14104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -361,7 +345,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32940018" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32940018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39921337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -910,7 +894,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="444">
+          <first_editor relative-caret-position="779">
             <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           </first_editor>
           <second_editor />

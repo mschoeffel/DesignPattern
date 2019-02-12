@@ -1,40 +1,59 @@
-# DesignPattern
+# Entwurfsmuster / Design Patterns
 
-Hier werden alle DesignPattern einmal zur Übung und Veranschaulichung durchgegangen und implementiert:
+Ich hatte Zeit und wollte hier einfach einmal alle Entwurfsmuster nachprogrammieren, lernen und  trainieren.
+
+Somit sind hier alle bisherigen Entwurfsmuster aufgelistet und implementiert anhand von mehr oder weiger praxisrelevanten Beispielen, die mir eingefallen sind.
+
+Die primärsprache des Codes ist aktuell deutsch ggf. wird das noch auf englisch geändert.
 
 ---
-## [Erzeugungsmuster](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster)
 
-* Factory
+I had some sparetime and just wanted to programm, learn and train all the different design patterns.
 
-  * [FactoryMethod](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethod)
+So here the list of all design patterns already done based on more or less practical relevant examples that came to my mind.
 
-  * [FactoryMethod Erweitert](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodmore)
+The main language of the code is german maybe this will be changed to english.
 
-  * [FactoryMethod Static](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic)
-
-* Singleton
-  
-  * [Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
-
-* Multiton
-
-  * [Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
-  
-* Abstrakte Fabrik
-  
-  * [Abstrakte Fabrik](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory)
-
-* Builder
-
-  * [Builder](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder)
-  
-* Prototype
-
-  * [Prototype](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype)
 ---
-## [Strukturmuster](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster)
 
-* Adapter
+## [Erzeugungsmuster / Creational Patterns](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster)
 
-  * [Adapter](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter)
+* Fabrik / Factory
+
+  * [Fabrik Methode / Factory Method](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethod)
+
+  * [Fabrik Methode Erweitert / Factory Method Advanced](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodmore)
+
+  * [Fabrik Methode Statisch / Factory Method Static](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic)
+
+* Einzelstück / Singleton
+  
+  * [Einzelstück / Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
+
+* Multiton / Multiton
+
+  * [Multiton / Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
+  
+* Abstrakte Fabrik / Abstract Factory
+  
+  * [Abstrakte Fabrik / Abstract Factory](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory)
+
+* Erbauer / Builder
+
+  * [Erbauer / Builder](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder)
+
+* Prototyp / Prototype
+
+  * [Prototyp / Prototype](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype)
+---
+
+## [Strukturmuster / Structural Patterns](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster)
+
+* Adapter / Adapter
+
+  * [Adapter / Adapter](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter)
+---
+
+Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)
+
+Reference offered the book "Entwurfsmuster" by Matthias Geirhos (2015) 
