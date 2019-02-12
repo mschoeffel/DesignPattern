@@ -12,3 +12,6 @@ Here all structural patterns:
 
 * [Adapter / Adapter](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter)
 ---
+### Brücke / Bridge
+
+* [Brücke / Bridge](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/bridge)

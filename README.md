@@ -52,6 +52,10 @@ The main language of the code is german maybe this will be changed to english.
 * Adapter / Adapter
 
   * [Adapter / Adapter](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter)
+
+* Brücke / Bridge
+
+  * [Brücke / Bridge](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/bridge)
 ---
 
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)
