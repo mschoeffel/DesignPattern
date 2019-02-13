@@ -20,3 +20,7 @@ Here all structural patterns:
 
 * [Kompositum / Composite](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/kompositum)
 ---
+### Dekorierer / Wrapper / Decorator
+
+* [Dekorierer / Wrapper / Decorator](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/dekorierer)
+---

@@ -60,6 +60,10 @@ The main language of the code is german maybe this will be changed to english.
 * Kompositum / Composite
 
   * [Kompositum / Composite](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/kompositum)
+  
+* Dekorierer / Wrapper / Decorator
+ 
+  * [Dekorierer / Wrapper / Decorator](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/dekorierer)
 ---
 
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)
