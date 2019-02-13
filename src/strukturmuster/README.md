@@ -24,3 +24,7 @@ Here all structural patterns:
 
 * [Dekorierer / Wrapper / Decorator](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/dekorierer)
 ---
+### Fassade / Facade
+
+* [Fassade / Facade](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/fassade)
+---

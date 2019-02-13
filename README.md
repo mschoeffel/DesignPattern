@@ -64,6 +64,10 @@ The main language of the code is german maybe this will be changed to english.
 * Dekorierer / Wrapper / Decorator
  
   * [Dekorierer / Wrapper / Decorator](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/dekorierer)
+  
+* Fassade / Facade
+
+  * [Fassade / Facade](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/fassade)
 ---
 
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)

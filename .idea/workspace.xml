@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonArchivierung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonVerschlüsselung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/dekorierer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/dekorierer/KaufVertrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/dekorierer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/dekorierer/Vertrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/dekorierer/VertragAddon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailSendungsverfolgung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strukturmuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/strukturmuster/README.md" afterDir="false" />
@@ -26,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="506">
-                <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="123" />
+              <first_editor relative-caret-position="598">
+                <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="104" />
               </first_editor>
               <second_editor />
             </state>
@@ -38,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="618">
-                <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+              <first_editor relative-caret-position="733">
+                <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,112 +48,80 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/Vertrag.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-              <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/KaufVertrag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/VertragAddon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonArchivierung.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailSendungsverfolgung.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonVerschlüsselung.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/FassadeEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#142#143#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+            <state relative-caret-position="161">
+              <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/README.md">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="92">
-                <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+                <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMSequenz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -162,10 +131,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="XML" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -176,14 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/builder/FlowLayoutmanager.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/builder/BoxLayoutmanager.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/builder/Layouter.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/builder/Client.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/builder/README.md" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/dienstplanobjekte.fxml" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Client.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/dienstplanobjekte.xml" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Urlaub.java" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/ICloneable.java" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/DienstplanObjekt.java" />
@@ -225,6 +186,14 @@
         <option value="$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonArchivierung.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/dekorierer/Client.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/dekorierer/README.md" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixEnum.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailEnum.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailSendungsverfolgung.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeEnum.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/fassade/Client.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/fassade/README.md" />
         <option value="$PROJECT_DIR$/src/strukturmuster/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
@@ -267,7 +236,7 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="strukturmuster" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="dekorierer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,17 +249,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550077458749" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550078481252" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\dekorierer" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\kompositum" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\bridge" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\adapter" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster" />
-      <recent name="D:\Shared\DesignPattern\DesignPattern\src\erzeugungsmuster\prototype" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,18 +351,19 @@
       <workItem from="1549905287287" duration="7576000" />
       <workItem from="1549989985634" duration="3554000" />
       <workItem from="1549998853321" duration="93000" />
-      <workItem from="1550077424836" duration="1055000" />
+      <workItem from="1550077424836" duration="1735000" />
+      <workItem from="1550083686421" duration="904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18806000" />
+    <option name="totallyTimeSpent" value="20390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,92 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/builder/BoxLayoutmanager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/builder/Layouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/builder/FlowLayoutmanager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/builder/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/builder/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/dienstplanobjekte.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/dienstplanobjekte.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/Urlaub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/ICloneable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -822,59 +706,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMSequenz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/Vertrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/KaufVertrag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/VertragAddon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="368">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonArchivierung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -882,28 +735,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonArchivierung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -917,11 +755,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMSequenz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/dekorierer/Vertrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailSendungsverfolgung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/FassadeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="506">
-            <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="123" />
+          <first_editor relative-caret-position="598">
+            <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="104" />
           </first_editor>
           <second_editor />
         </state>
@@ -930,8 +845,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="618">
-            <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+          <first_editor relative-caret-position="733">
+            <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
