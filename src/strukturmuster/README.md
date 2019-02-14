@@ -28,3 +28,7 @@ Here all structural patterns:
 
 * [Fassade / Facade](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/fassade)
 ---
+### Fliegengewicht / Flyweight
+
+* [Fliegengewicht / Flyweight](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/flyweight)
+---

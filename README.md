@@ -68,8 +68,12 @@ The main language of the code is german maybe this will be changed to english.
 * Fassade / Facade
 
   * [Fassade / Facade](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/fassade)
----
 
+* Fliegengewicht / Flyweight
+
+  * [Fliegengewicht / Flyweight](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/flyweight)
+
+---
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)
 
 Reference offered the book "Entwurfsmuster" by Matthias Geirhos (2015) 

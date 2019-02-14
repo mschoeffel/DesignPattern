@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailSendungsverfolgung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/flyweight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/flyweight/LuftdruckSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/flyweight/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/flyweight/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/flyweight/SensorFabrik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/flyweight/TemperaturSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strukturmuster/flyweight/WindgeschwindigkeitSensor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strukturmuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/strukturmuster/README.md" afterDir="false" />
@@ -27,8 +26,8 @@
         <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="598">
-                <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="104" />
+              <first_editor relative-caret-position="690">
+                <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="116" />
               </first_editor>
               <second_editor />
             </state>
@@ -39,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="733">
-                <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+              <first_editor relative-caret-position="664">
+                <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               </first_editor>
               <second_editor />
             </state>
@@ -48,68 +47,95 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixEnum.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/Sensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailSendungsverfolgung.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="460">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/FassadeEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/TemperaturSensor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="29" />
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/SensorFabrik.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding>
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/WindgeschwindigkeitSensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/LuftdruckSensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -145,13 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Urlaub.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/ICloneable.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/DienstplanObjekt.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/README.md" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Krankheit.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Arbeit.java" />
-        <option value="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Dienstplan.java" />
         <option value="$PROJECT_DIR$/src/erzeugungsmuster/README.md" />
         <option value="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowErgebnis.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowObjekt.java" />
@@ -194,12 +213,19 @@
         <option value="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/fassade/Client.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/fassade/README.md" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/flyweight/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/flyweight/TemperaturSensor.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/flyweight/SensorFabrik.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/flyweight/WindgeschwindigkeitSensor.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/flyweight/LuftdruckSensor.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/flyweight/Client.java" />
+        <option value="$PROJECT_DIR$/src/strukturmuster/flyweight/README.md" />
         <option value="$PROJECT_DIR$/src/strukturmuster/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="80" />
     <option name="width" value="1400" />
@@ -213,6 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,35 +259,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="strukturmuster" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="strukturmuster" type="462c0819:PsiDirectoryNode" />
-              <item name="dekorierer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550078481252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550162268281" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\fassade" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\dekorierer" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\kompositum" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\bridge" />
       <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster\adapter" />
-      <recent name="D:\Shared\DesignPattern\DesignPattern\src\strukturmuster" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,18 +371,19 @@
       <workItem from="1549989985634" duration="3554000" />
       <workItem from="1549998853321" duration="93000" />
       <workItem from="1550077424836" duration="1735000" />
-      <workItem from="1550083686421" duration="904000" />
+      <workItem from="1550083686421" duration="1017000" />
+      <workItem from="1550160784065" duration="1584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20390000" />
+    <option name="totallyTimeSpent" value="22087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,71 +430,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/ICloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/DienstplanObjekt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/Krankheit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/Arbeit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/Dienstplan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/erzeugungsmuster/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -776,6 +731,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -785,26 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailSendungsverfolgung.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="161">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -815,10 +759,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/fassade/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -832,11 +783,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/SensorFabrik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/WindgeschwindigkeitSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/TemperaturSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/LuftdruckSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/flyweight/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="598">
-            <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="104" />
+          <first_editor relative-caret-position="690">
+            <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="116" />
           </first_editor>
           <second_editor />
         </state>
@@ -845,8 +876,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="733">
-            <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+          <first_editor relative-caret-position="664">
+            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
           </first_editor>
           <second_editor />
         </state>
