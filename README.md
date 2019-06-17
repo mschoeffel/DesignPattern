@@ -78,6 +78,14 @@ The main language of the code is german maybe this will be changed to english.
   * [Proxy](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/proxy)
 
 ---
+
+## [Verhaltensmuster / Behaviour Pattern](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster)
+
+* Zuständigkeitskette / Chain of Responsibility
+
+  * [Zuständigkeitskette / Chain of Responsibility](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustaendigkeitskette)
+
+
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)
 
 Reference offered the book "Entwurfsmuster" by Matthias Geirhos (2015) 

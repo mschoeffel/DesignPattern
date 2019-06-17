@@ -15,3 +15,24 @@ Here all structural patterns:
 ### Brücke / Bridge
 
 * [Brücke / Bridge](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/bridge)
+---
+### Kompositum / Composite
+
+* [Kompositum / Composite](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/kompositum)
+---
+### Dekorierer / Wrapper / Decorator
+
+* [Dekorierer / Wrapper / Decorator](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/dekorierer)
+---
+### Fassade / Facade
+
+* [Fassade / Facade](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/fassade)
+---
+### Fliegengewicht / Flyweight
+
+* [Fliegengewicht / Flyweight](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/flyweight)
+---
+### Proxy
+
+* [Proxy](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/proxy)
+---
