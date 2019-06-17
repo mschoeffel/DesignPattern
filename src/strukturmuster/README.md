@@ -32,3 +32,7 @@ Here all structural patterns:
 
 * [Fliegengewicht / Flyweight](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/flyweight)
 ---
+### Proxy
+
+* [Proxy](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/proxy)
+---

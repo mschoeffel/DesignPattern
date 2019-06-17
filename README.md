@@ -8,7 +8,7 @@ Die primärsprache des Codes ist aktuell deutsch ggf. wird das noch auf englisch
 
 ---
 
-I had some sparetime and just wanted to programm, learn and train all the different design patterns.
+I had some sparetime and just wanted to program, learn and train all the different design patterns.
 
 So here the list of all design patterns already done based on more or less practical relevant examples that came to my mind.
 
@@ -72,6 +72,10 @@ The main language of the code is german maybe this will be changed to english.
 * Fliegengewicht / Flyweight
 
   * [Fliegengewicht / Flyweight](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/flyweight)
+  
+* Proxy
+
+  * [Proxy](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/proxy)
 
 ---
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)
