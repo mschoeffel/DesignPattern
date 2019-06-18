@@ -85,6 +85,12 @@ The main language of the code is german maybe this will be changed to english.
 
   * [Zuständigkeitskette / Chain of Responsibility](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustaendigkeitskette)
 
+* Kommando / Befehl / Command
+
+  * [Kommando / Befehl / Command](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/kommando)
+
+
+
 
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)
 

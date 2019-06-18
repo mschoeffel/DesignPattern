@@ -1,5 +1,5 @@
 # DesignPattern
 ## Verhaltensmuster
-### Zuständigkeitskette / Chain of Responsibility
+### Kommando / Befehl /Command
 
-Die Umsetzung einer Zuständigkeitskette.
+Die Umsetzung eines Kommando.
