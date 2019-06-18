@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/BuildEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/DebugEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Bewege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Schachspiel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfeld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfigur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielzug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Turm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,105 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="23">
-                <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="39" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strukturmuster/proxy/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="361">
-                <caret line="85" column="149" selection-start-line="85" selection-start-column="149" selection-end-line="85" selection-end-column="149" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Engine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/DebugEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/BuildEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -133,14 +33,121 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="115">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfigur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding>
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Turm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielzug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Bewege.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+              <folding>
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfeld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Schachspiel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -164,14 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Rechnung.java" />
-        <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Lieferschein.java" />
-        <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Gutschrift.java" />
-        <option value="$PROJECT_DIR$/src/strukturmuster/bridge/FilesystemProvider.java" />
-        <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Dokument.java" />
-        <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Belegverarbeitung.java" />
-        <option value="$PROJECT_DIR$/src/strukturmuster/bridge/Client.java" />
-        <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEditor.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEmailBenachrichtigung.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKomponente.java" />
         <option value="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKonsolenausgabe.java" />
@@ -215,6 +214,14 @@
         <option value="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/verhaltensmuster/README.md" />
+        <option value="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfigur.java" />
+        <option value="$PROJECT_DIR$/src/verhaltensmuster/kommando/Turm.java" />
+        <option value="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielzug.java" />
+        <option value="$PROJECT_DIR$/src/verhaltensmuster/kommando/Bewege.java" />
+        <option value="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfeld.java" />
+        <option value="$PROJECT_DIR$/src/verhaltensmuster/kommando/Position.java" />
+        <option value="$PROJECT_DIR$/src/verhaltensmuster/kommando/Client.java" />
+        <option value="$PROJECT_DIR$/src/verhaltensmuster/kommando/Schachspiel.java" />
       </list>
     </option>
   </component>
@@ -261,6 +268,13 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="verhaltensmuster" type="462c0819:PsiDirectoryNode" />
+              <item name="kommando" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="verhaltensmuster" type="462c0819:PsiDirectoryNode" />
               <item name="zustaendigkeitskette" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -274,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560792539247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560872522668" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -300,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
+  <component name="RunManager" selected="Application.Client (5)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="erzeugungsmuster.prototype.Client" />
       <module name="DesignPattern" />
@@ -353,12 +367,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="erzeugungsmuster.builder.Client" />
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="verhaltensmuster.kommando.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="erzeugungsmuster.builder.*" />
+          <option name="PATTERN" value="verhaltensmuster.kommando.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -397,18 +411,19 @@
       <workItem from="1550425673112" duration="32000" />
       <workItem from="1550432379024" duration="599000" />
       <workItem from="1550569396361" duration="88000" />
-      <workItem from="1560791049978" duration="1668000" />
+      <workItem from="1560791049978" duration="1710000" />
+      <workItem from="1560870056892" duration="1897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25071000" />
+    <option name="totallyTimeSpent" value="27010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,88 +470,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Lieferschein.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/FilesystemProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Dokument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Blob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Belegverarbeitung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Gutschrift.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/bridge/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -792,11 +725,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="23">
+            <caret line="1" column="39" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/strukturmuster/proxy/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="92">
-            <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1955">
+            <caret line="85" column="149" selection-start-line="85" selection-start-column="149" selection-end-line="85" selection-end-column="149" />
           </first_editor>
           <second_editor />
         </state>
@@ -812,38 +765,32 @@
     <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/DebugEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
           <folding>
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/BuildEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="207">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/DebugEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,27 +798,7 @@
     <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strukturmuster/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="85" column="149" selection-start-line="85" selection-start-column="149" selection-end-line="85" selection-end-column="149" />
-          </first_editor>
-          <second_editor />
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -889,9 +816,100 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="115">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfigur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Turm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Schachspiel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfeld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielzug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Bewege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/kommando/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
