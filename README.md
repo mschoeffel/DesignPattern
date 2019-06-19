@@ -88,6 +88,10 @@ The main language of the code is german maybe this will be changed to english.
 * Kommando / Befehl / Command
 
   * [Kommando / Befehl / Command](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/kommando)
+  
+* Interceptor
+
+  * [Interceptor](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interceptor)
 
 
 
