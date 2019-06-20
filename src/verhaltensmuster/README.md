@@ -28,3 +28,7 @@ Here all behaviour patterns:
 
 * [Iterator / Cursor](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/iterator)
 ---
+### Vermittler / Mediator
+
+* [Vermittler / Mediator](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/vermittler)
+---

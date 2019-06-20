@@ -24,3 +24,7 @@ Here all behaviour patterns:
 
 * [Interpreter](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interpreter)
 ---
+### Iterator / Cursor
+
+* [Iterator / Cursor](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/iterator)
+---
