@@ -96,6 +96,10 @@ The main language of the code is german maybe this will be changed to english.
 * Interpreter
 
   * [Interpreter](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interpreter)
+  
+* Iterator / Cursor
+
+  * [Iterator / Cursor](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/iterator)
 
 
 
