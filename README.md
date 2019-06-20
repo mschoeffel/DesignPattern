@@ -92,6 +92,10 @@ The main language of the code is german maybe this will be changed to english.
 * Interceptor
 
   * [Interceptor](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interceptor)
+  
+* Interpreter
+
+  * [Interpreter](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interpreter)
 
 
 
