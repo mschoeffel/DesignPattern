@@ -112,6 +112,10 @@ The main language of the code is german maybe this will be changed to english.
 * Beobachter / Observer
 
   * [Beobachter / Observer](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/beobachter)
+  
+* Zustand / State
+
+  * [Zustand / State](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustand)
 
 
 

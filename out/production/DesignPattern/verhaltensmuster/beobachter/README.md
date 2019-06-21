@@ -1,5 +1,5 @@
 # DesignPattern
 ## Verhaltensmuster
-### Beobachter
+### Beobachter / Observer
 
-Die Umsetzung eines Interceptor.
+Die Umsetzung eines Beobachters.
