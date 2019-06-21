@@ -104,6 +104,10 @@ The main language of the code is german maybe this will be changed to english.
 * Vermittler / Mediator
 
   * [Vermittler / Mediator](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/vermittler)
+  
+* Memento / Token
+
+  * [Memento / Token](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/memento)
 
 
 
