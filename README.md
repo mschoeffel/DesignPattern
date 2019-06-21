@@ -108,6 +108,10 @@ The main language of the code is german maybe this will be changed to english.
 * Memento / Token
 
   * [Memento / Token](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/memento)
+  
+* Beobachter / Observer
+
+  * [Beobachter / Observer](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/beobachter)
 
 
 

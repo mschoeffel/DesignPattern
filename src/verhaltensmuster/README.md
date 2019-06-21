@@ -36,3 +36,7 @@ Here all behaviour patterns:
 
 * [Memento / Token](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/memento)
 ---
+### Beobachter / Observer
+
+* [Beobachter / Observer](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/beobachter)
+---
