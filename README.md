@@ -116,6 +116,10 @@ The main language of the code is german maybe this will be changed to english.
 * Zustand / State
 
   * [Zustand / State](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustand)
+  
+* Strategie / Strategy
+
+  * [Strategie / Strategy](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/strategie)
 
 
 

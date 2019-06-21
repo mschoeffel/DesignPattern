@@ -44,3 +44,7 @@ Here all behaviour patterns:
 
 * [Zustand / State](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustand)
 ---
+### Strategie / Strategy
+
+* [Strategie / Strategy](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/strategie)
+---
