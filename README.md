@@ -121,6 +121,10 @@ The main language of the code is german maybe this will be changed to english.
 
   * [Strategie / Strategy](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/strategie)
 
+* Schablonenmethode / Template Method
+
+  * [Schablonenmethode / Template Method](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/schablone)
+
 
 
 
