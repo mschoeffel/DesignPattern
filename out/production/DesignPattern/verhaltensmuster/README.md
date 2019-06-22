@@ -48,3 +48,7 @@ Here all behaviour patterns:
 
 * [Strategie / Strategy](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/strategie)
 ---
+### Schablonenmethode / Template Method
+
+* [Schablonenmethode / Template Method](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/schablone)
+---
