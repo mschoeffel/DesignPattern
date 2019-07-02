@@ -15,119 +15,44 @@ So here the list of all design patterns already done based on more or less pract
 The main language of the code is german maybe this will be changed to english.
 
 ---
-
-## [Erzeugungsmuster / Creational Patterns](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster)
-
-* Fabrik / Factory
-
-  * [Fabrik Methode / Factory Method](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethod)
-
-  * [Fabrik Methode Erweitert / Factory Method Advanced](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodmore)
-
-  * [Fabrik Methode Statisch / Factory Method Static](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic)
-
-* Einzelstück / Singleton
-  
-  * [Einzelstück / Singleton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton)
-
-* Multiton / Multiton
-
-  * [Multiton / Multiton](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton)
-  
-* Abstrakte Fabrik / Abstract Factory
-  
-  * [Abstrakte Fabrik / Abstract Factory](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory)
-
-* Erbauer / Builder
-
-  * [Erbauer / Builder](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder)
-
-* Prototyp / Prototype
-
-  * [Prototyp / Prototype](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype)
----
-
-## [Strukturmuster / Structural Patterns](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster)
-
-* Adapter / Adapter
-
-  * [Adapter / Adapter](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter)
-
-* Brücke / Bridge
-
-  * [Brücke / Bridge](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/bridge)
-  
-* Kompositum / Composite
-
-  * [Kompositum / Composite](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/kompositum)
-  
-* Dekorierer / Wrapper / Decorator
- 
-  * [Dekorierer / Wrapper / Decorator](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/dekorierer)
-  
-* Fassade / Facade
-
-  * [Fassade / Facade](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/fassade)
-
-* Fliegengewicht / Flyweight
-
-  * [Fliegengewicht / Flyweight](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/flyweight)
-  
-* Proxy
-
-  * [Proxy](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/proxy)
-
----
-
-## [Verhaltensmuster / Behaviour Pattern](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster)
-
-* Zuständigkeitskette / Chain of Responsibility
-
-  * [Zuständigkeitskette / Chain of Responsibility](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustaendigkeitskette)
-
-* Kommando / Befehl / Command
-
-  * [Kommando / Befehl / Command](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/kommando)
-  
-* Interceptor
-
-  * [Interceptor](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interceptor)
-  
-* Interpreter
-
-  * [Interpreter](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interpreter)
-  
-* Iterator / Cursor
-
-  * [Iterator / Cursor](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/iterator)
-  
-* Vermittler / Mediator
-
-  * [Vermittler / Mediator](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/vermittler)
-  
-* Memento / Token
-
-  * [Memento / Token](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/memento)
-  
-* Beobachter / Observer
-
-  * [Beobachter / Observer](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/beobachter)
-  
-* Zustand / State
-
-  * [Zustand / State](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustand)
-  
-* Strategie / Strategy
-
-  * [Strategie / Strategy](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/strategie)
-
-* Schablonenmethode / Template Method
-
-  * [Schablonenmethode / Template Method](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/schablone)
-
-* Besucher / Visitor
-
-  * [Besucher / Visitor](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/besucher)
+LINK | ENGLISH | DEUTSCH
+----|----|----
+&nbsp; | &nbsp; | &nbsp;
+&nbsp; | **Creational Patterns** | **Erzeugungsmuster**
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethod) | Factory Method | Fabrik Methode
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodmore) | Factory Method Advanced | Fabrik Methode Erweitert
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic) | Factory Method Static | Fabrik Methode Statisch
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory) | Abstract Factory | Abstrakte Fabrik
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton) | Singleton | Einzelstück
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton) | Multiton | Multiton
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder) | Builder | Erbauer
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype) | Prototype | Prototyp
+&nbsp;|&nbsp;| &nbsp;
+&nbsp; | **Structural Patterns** | **Strukturmuster**
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter) | Adapter | Adapter
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/bridge) | Bridge | Brücke
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/kompositum) | Composite | Kompositum
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/dekorierer) | Wrapper / Decorator | Dekorierer
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/fassade) | Facade | Fassade
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/flyweight) | Flyweight | Fliegengewicht
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/proxy) | Proxy | Proxy
+&nbsp;|&nbsp;| &nbsp;
+&nbsp; | **Behaviour Pattern** | **Verhaltensmuster**
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustaendigkeitskette) | Chain of Responsibility | Zuständigkeitskette
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/kommando) | Command | Kommando / Befehl
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interceptor) | Interceptor | Interceptor
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interpreter) | Interpreter | Interpreter
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/iterator) | Iterator / Cursor | Iterator
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/vermittler) | Mediator | Vermittler
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/memento) | Token | Memento
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/beobachter) | Observer | Beobachter
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustand) | State | Zustand
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/strategie) | Strategy | Strategie
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/schablone) | Template Method | Schablonenmethode
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/besucher) | Visitor | Besucher
+&nbsp;|&nbsp;| &nbsp;
+&nbsp; | **_Template_** | **_Template_**
+[Link]() | ENGLISH | DEUTSCH
 
 
 
