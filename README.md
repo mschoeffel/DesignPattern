@@ -15,6 +15,7 @@ So here the list of all design patterns already done based on more or less pract
 The main language of the code is german maybe this will be changed to english.
 
 ---
+### Table of content / Inhalt:
 LINK | ENGLISH | DEUTSCH
 ----|----|----
 &nbsp; | &nbsp; | &nbsp;
@@ -54,6 +55,95 @@ LINK | ENGLISH | DEUTSCH
 &nbsp; | **_Template_** | **_Template_**
 [Link]() | ENGLISH | DEUTSCH
 
+### Open / TODO:
+* Abstract document
+* Acyclic visitor
+* Aggregator microservices
+* Ambassador
+* API gateway
+* Async method invocation
+* Balking
+* Business delegate
+* Caching
+* Callback
+* Collection pipeline
+* Converter
+* CQRS
+* DAO
+* Data bus
+* Data Mapper
+* Data transfer object
+* Delegation
+* Dependency injection
+* Dirty flag
+* Double checked locking
+* Double dispatch
+* EIP aggregator
+* EIP message channel
+* EIP publish subscribe
+* EIP splitter
+* EIP wire tap
+* Event aggregator
+* Event aggregator
+* Event asynchronous
+* Event driven architecture
+* Event queue
+* Event sourcing
+* Execute around
+* Extension objects
+* Factory kit
+* Feature toggle
+* Fluentinterface
+* Flux
+* Front controller
+* Guarded suspension
+* Half sync half async
+* Hexagonal
+* Intercepting filter
+* Layers
+* Lazy loading
+* Marker
+* Master worker pattern
+* Model view controller
+* Model view presenter
+* Module
+* Monad
+* Monostate
+* Mute idiom
+* Mutex
+* Naked objects
+* Null object
+* Object mother
+* Object pool
+* Page object
+* Partial response
+* Poison pill
+* Private class data
+* Producer consumer
+* Promise
+* Property
+* Queue load leveling
+* Reactor
+* Reader writer lock
+* Repository
+* Resource acquisition is initialisation
+* Retry
+* Semaphore
+* Servant
+* Serverless
+* Service layer
+* Service Locator
+* Spatial partition
+* Specification
+* Step builder
+* Thread pool
+* Throttling
+* TLS
+* Tolerant reader
+* Trampoline
+* Twin
+* Unit of work
+* Value object
 
 
 Nachschlagewerk bot das Buch "Entwurfsmuster" von Matthias Geirhos (2015)

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1265">
-                <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <first_editor relative-caret-position="199">
+                <caret line="118" column="18" lean-forward="true" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -193,11 +192,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="260" />
-    <option name="y" value="80" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -378,18 +376,18 @@
       <workItem from="1561123265213" duration="4372000" />
       <workItem from="1561211895918" duration="2703000" />
       <workItem from="1562009365452" duration="7000" />
-      <workItem from="1562081006992" duration="1818000" />
+      <workItem from="1562081006992" duration="2856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43315000" />
+    <option name="totallyTimeSpent" value="44353000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30743983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -770,8 +768,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1265">
-            <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <first_editor relative-caret-position="199">
+            <caret line="118" column="18" lean-forward="true" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
