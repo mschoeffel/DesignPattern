@@ -14,7 +14,12 @@ So here the list of all design patterns already done based on more or less pract
 
 The main language of the code is german maybe this will be changed to english.
 
----
+----
+
+### Script with 220+ Questions & Answers about Java (Beginner, Intermediate & Advanced) + Java Best Practices
+[Skript Java Questions + Best Practices](https://github.com/mschoeffel/DesignPattern/tree/master/src/script/JavaQuestions.md)
+
+----
 ### Table of content / Inhalt:
 LINK | ENGLISH | DEUTSCH
 ----|----|----
