@@ -1,4 +1,4 @@
-# Entwurfsmuster / Design Patterns
+# Design Patterns / Entwurfsmuster
 
 Ich hatte Zeit und wollte hier einfach einmal alle Entwurfsmuster nachprogrammieren, lernen und  trainieren.
 
@@ -25,37 +25,43 @@ LINK | ENGLISH | DEUTSCH
 ----|----|----
 &nbsp; | &nbsp; | &nbsp;
 &nbsp; | **Creational Patterns** | **Erzeugungsmuster**
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethod) | Factory Method | Fabrik Methode
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodmore) | Factory Method Advanced | Fabrik Methode Erweitert
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/factorymethodstatic) | Factory Method Static | Fabrik Methode Statisch
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/abstractfactory) | Abstract Factory | Abstrakte Fabrik
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/singleton) | Singleton | Einzelstück
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/multiton) | Multiton | Multiton
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/builder) | Builder | Erbauer
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/erzeugungsmuster/prototype) | Prototype | Prototyp
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factorymethod) | Factory Method | Fabrik Methode
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factorymethodmore) | Factory Method Advanced | Fabrik Methode Erweitert
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factorymethodstatic) | Factory Method Static | Fabrik Methode Statisch
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/abstractfactory) | Abstract Factory | Abstrakte Fabrik
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/singleton) | Singleton | Einzelstück
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/multiton) | Multiton | Multiton
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/builder) | Builder | Erbauer
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/prototype) | Prototype | Prototyp
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **Structural Patterns** | **Strukturmuster**
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/adapter) | Adapter | Adapter
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/bridge) | Bridge | Brücke
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/kompositum) | Composite | Kompositum
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/dekorierer) | Wrapper / Decorator | Dekorierer
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/fassade) | Facade | Fassade
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/flyweight) | Flyweight | Fliegengewicht
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/strukturmuster/proxy) | Proxy | Proxy
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/adapter) | Adapter | Adapter
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/bridge) | Bridge | Brücke
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/composite) | Composite | Kompositum
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/wrapper) | Wrapper / Decorator | Dekorierer
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/facade) | Facade | Fassade
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/flyweight) | Flyweight | Fliegengewicht
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/proxy) | Proxy | Proxy
 &nbsp;|&nbsp;| &nbsp;
-&nbsp; | **Behaviour Pattern** | **Verhaltensmuster**
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustaendigkeitskette) | Chain of Responsibility | Zuständigkeitskette
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/kommando) | Command | Kommando / Befehl
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interceptor) | Interceptor | Interceptor
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/interpreter) | Interpreter | Interpreter
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/iterator) | Iterator / Cursor | Iterator
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/vermittler) | Mediator | Vermittler
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/memento) | Token | Memento
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/beobachter) | Observer | Beobachter
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/zustand) | State | Zustand
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/strategie) | Strategy | Strategie
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/schablone) | Template Method | Schablonenmethode
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/verhaltensmuster/besucher) | Visitor | Besucher
+&nbsp; | **Behaviour Patterns** | **Verhaltensmuster**
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/chain_of_responsibility) | Chain of Responsibility | Zuständigkeitskette
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/command) | Command | Kommando / Befehl
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/interceptor) | Interceptor | Interceptor
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/interpreter) | Interpreter | Interpreter
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/iterator) | Iterator / Cursor | Iterator
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/mediator) | Mediator | Vermittler
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/token) | Token | Memento
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/observer) | Observer | Beobachter
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/state) | State | Zustand
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/strategy) | Strategy | Strategie
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/template_method) | Template Method | Schablonenmethode
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/visitor) | Visitor | Besucher
+&nbsp;|&nbsp;| &nbsp;
+&nbsp; | **Data Patterns** | **Datenmuster**
+&nbsp;|&nbsp;| &nbsp;
+&nbsp; | **GUI Patterns** | **Oberflächenmuster**
+&nbsp;|&nbsp;| &nbsp;
+&nbsp; | **Other Patterns** | **Andere Muster**
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **_Template_** | **_Template_**
 [Link]() | ENGLISH | DEUTSCH

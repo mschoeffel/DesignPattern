@@ -2,8 +2,395 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/mediator/TelephoneSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/HeimController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/HeimautomationFabrik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/HomebusFabrik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/HomebusJalousieAktor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/HomebusTemperaturSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/JalousieAktor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/ProbusFabrik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/ProbusJalousieAktor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/ProbusTemperaturSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/abstractfactory/TemperaturSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/BorderLayoutmanager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/BoxLayoutmanager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/FlowLayoutmanager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/HtmlPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/LayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/Layouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/builder/Widget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethod/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethod/Dokument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethod/Fakturierer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethod/Gutschrift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethod/GutschriftFakturierer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethod/Lieferschein.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethod/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethod/Rechnung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodmore/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodmore/Nachnahmerechnung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodmore/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodmore/RechnungFakturierer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodmore/RechnungFakturierer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodmore/Rechnungstyp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodmore/Teilzahlungsrechnung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodmore/Vorausrechnung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodstatic/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodstatic/MyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodstatic/MyObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/factorymethodstatic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/multiton/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/multiton/DatabaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/multiton/DbPoolConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/multiton/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/Arbeit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/Dienstplan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/DienstplanObjekt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/ICloneable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/Krankheit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/Urlaub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/prototype/dienstplanobjekte.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/singleton/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/singleton/Konfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/erzeugungsmuster/singleton/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/WorkflowAdapterAusgabeGross.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/WorkflowEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/WorkflowErgebnis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/WorkflowErgebnisB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/WorkflowObjekt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/WorkflowObjektAusgabe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/adapter/WorkflowObjektAusgabeGross.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/Belegverarbeitung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/Blob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/Dokument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/FilesystemProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/Gutschrift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/Lieferschein.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/Rechnung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/bridge/StorageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/dekorierer/AddonArchivierung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/dekorierer/AddonVerschlüsselung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/dekorierer/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/dekorierer/KaufVertrag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/dekorierer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/dekorierer/Vertrag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/dekorierer/VertragAddon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/fassade/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/fassade/FassadeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/fassade/FassadeSendungsVerfolgung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/fassade/LieferFixEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/fassade/LieferFixSendungsverfolgung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/fassade/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/fassade/SnailMailEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/fassade/SnailMailSendungsverfolgung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/flyweight/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/flyweight/LuftdruckSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/flyweight/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/flyweight/Sensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/flyweight/SensorFabrik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/flyweight/TemperaturSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/flyweight/WindgeschwindigkeitSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/kompositum/BPMEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/kompositum/BPMEmailBenachrichtigung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/kompositum/BPMKomponente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/kompositum/BPMKonsolenausgabe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/kompositum/BPMSequenz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/kompositum/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/kompositum/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/proxy/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/proxy/Mailer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/proxy/MailerInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/proxy/MailerProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/strukturmuster/proxy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/beobachter/Beobachter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/beobachter/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/beobachter/Datumsauswahl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/beobachter/Kalender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/beobachter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/beobachter/Subjekt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/besucher/BerechnePreisBesucher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/besucher/Besucher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/besucher/Buch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/besucher/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/besucher/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/besucher/HtmlBesucher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/besucher/Warenkorb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interceptor/BestellContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interceptor/BestellFramework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interceptor/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interceptor/Dispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interceptor/EntschluesselungInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interceptor/Interceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interceptor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/Kontext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/LiteralAusdruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/TestdatenAusdruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/VariableAusdruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/WiederholungAusdruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/ZufallszahlAusdruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/interpreter/ZusammengesetzterAusdruck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/iterator/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/iterator/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/iterator/MP3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/iterator/Musikbibliothek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/iterator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/iterator/ZufallsIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/Bewege.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/Schachspiel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/Spielfeld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/Spielfigur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/Spielzug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/kommando/Turm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/memento/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/memento/Memento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/memento/Originator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/memento/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/schablone/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/schablone/MyOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/schablone/OutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/schablone/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/strategie/Bewegung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/strategie/Bewertung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/strategie/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/strategie/Durchschnittsbewertung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/strategie/Festbewertung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/strategie/Lager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/strategie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/vermittler/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/vermittler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/vermittler/Switch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/vermittler/SwitchException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/vermittler/Teilnehmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/vermittler/Telefon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/vermittler/Telefonanlage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustaendigkeitskette/BuildEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustaendigkeitskette/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustaendigkeitskette/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustaendigkeitskette/DebugEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustaendigkeitskette/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustaendigkeitskette/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustand/Bewerbung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustand/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustand/Eingegangen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustand/Eingeladen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustand/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustand/Zustand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/verhaltensmuster/zustand/ZustandInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/HeimController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HeimautomationFabrik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/HeimautomationFabrik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusFabrik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/HomebusFabrik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusJalousieAktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/HomebusJalousieAktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/HomebusTemperaturSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/HomebusTemperaturSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/JalousieAktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/JalousieAktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusFabrik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/ProbusFabrik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusJalousieAktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/ProbusJalousieAktor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/ProbusTemperaturSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/ProbusTemperaturSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/abstractfactory/TemperaturSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/abstractfactory/TemperaturSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/BorderLayoutmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/BorderLayoutmanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/BoxLayoutmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/BoxLayoutmanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/FlowLayoutmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/FlowLayoutmanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/HtmlPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/HtmlPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/LayoutManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/LayoutManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/Layouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/Layouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/builder/Widget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/Widget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethod/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethod/Dokument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Fakturierer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethod/Fakturierer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Gutschrift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethod/Gutschrift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/GutschriftFakturierer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethod/GutschriftFakturierer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Lieferschein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethod/Lieferschein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethod/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethod/Rechnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethod/Rechnung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodmore/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/Nachnahmerechnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodmore/Nachnahmerechnung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodmore/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/RechnungFakturierer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodmore/RechnungFakturierer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/Rechnungstyp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodmore/Rechnungstyp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/Teilzahlungsrechnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodmore/Teilzahlungsrechnung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodmore/Vorausrechnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodmore/Vorausrechnung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodstatic/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodstatic/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodstatic/MyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodstatic/MyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodstatic/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodstatic/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/factorymethodstatic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factorymethodstatic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/multiton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/multiton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/multiton/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/multiton/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/multiton/DbPoolConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/multiton/DbPoolConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/multiton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/multiton/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Arbeit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/Arbeit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Dienstplan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/Dienstplan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/DienstplanObjekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/DienstplanObjekt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/ICloneable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/ICloneable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Krankheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/Krankheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/Urlaub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/Urlaub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/prototype/dienstplanobjekte.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/prototype/dienstplanobjekte.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/singleton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/singleton/Konfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/singleton/Konfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erzeugungsmuster/singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/singleton/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowAdapterAusgabeGross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowAdapterAusgabeGross.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowErgebnis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowErgebnis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowErgebnisB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowErgebnisB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowObjekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObjekt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowObjektAusgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObjektAusgabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/adapter/WorkflowObjektAusgabeGross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObjektAusgabeGross.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/Belegverarbeitung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Belegverarbeitung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/Blob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Blob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Dokument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/FilesystemProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/FilesystemProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/Gutschrift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Gutschrift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/Lieferschein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Lieferschein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/Rechnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Rechnung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/bridge/StorageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/StorageProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonArchivierung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/AddonArchivierung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/dekorierer/AddonVerschlüsselung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/AddonVerschlüsselung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/dekorierer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/dekorierer/KaufVertrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/KaufVertrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/dekorierer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/dekorierer/Vertrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/Vertrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/dekorierer/VertragAddon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/VertragAddon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/fassade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/FassadeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/fassade/FassadeSendungsVerfolgung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/FassadeSendungsVerfolgung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/LieferFixEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/fassade/LieferFixSendungsverfolgung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/LieferFixSendungsverfolgung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/fassade/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/SnailMailEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/fassade/SnailMailSendungsverfolgung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/SnailMailSendungsverfolgung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/flyweight/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/flyweight/LuftdruckSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/LuftdruckSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/flyweight/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/flyweight/SensorFabrik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/SensorFabrik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/flyweight/TemperaturSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/TemperaturSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/flyweight/WindgeschwindigkeitSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/WindgeschwindigkeitSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMEmailBenachrichtigung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMEmailBenachrichtigung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKomponente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMKomponente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMKonsolenausgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMKonsolenausgabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/kompositum/BPMSequenz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMSequenz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/kompositum/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/kompositum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/proxy/Mailer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/Mailer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/proxy/MailerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/MailerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/proxy/MailerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/MailerProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strukturmuster/proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Beobachter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/observer/Beobachter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/observer/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Datumsauswahl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/observer/Datumsauswahl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Kalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/observer/Kalender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/beobachter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/observer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Subjekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/observer/Subjekt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/besucher/BerechnePreisBesucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/visitor/BerechnePreisBesucher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/besucher/Besucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/visitor/Besucher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/besucher/Buch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/visitor/Buch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/besucher/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/visitor/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/besucher/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/visitor/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/besucher/HtmlBesucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/visitor/HtmlBesucher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/besucher/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/visitor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/besucher/Warenkorb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/visitor/Warenkorb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interceptor/BestellContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/OrderContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interceptor/BestellFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/OrderFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interceptor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interceptor/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Dispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interceptor/EntschluesselungInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/DecryptionInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interceptor/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Interceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interceptor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/Kontext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/LiteralAusdruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/LiteralExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/TestdatenAusdruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/TestdataPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/VariableAusdruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/VariablePrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/WiederholungAusdruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/RepeatedPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/ZufallszahlAusdruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/RandomNumberPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/interpreter/ZusammengesetzterAusdruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interpreter/CompoundPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/iterator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/iterator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/iterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/iterator/MP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/iterator/MP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/iterator/Musikbibliothek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/iterator/MusicLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/iterator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/iterator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/iterator/ZufallsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/iterator/RandomIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Bewege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Schachspiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Chess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfeld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielfigur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Spielzug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Turn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/kommando/Turm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/memento/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/token/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/memento/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/token/Memento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/memento/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/token/Originator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/memento/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/token/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/schablone/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/template_method/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/schablone/MyOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/template_method/MyOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/schablone/OutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/template_method/OutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/schablone/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/template_method/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/strategie/Bewegung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/strategy/Bewegung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/strategie/Bewertung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/strategy/Bewertung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/strategie/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/strategy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/strategie/Durchschnittsbewertung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/strategy/Durchschnittsbewertung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/strategie/Festbewertung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/strategy/Festbewertung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/strategie/Lager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/strategy/Lager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/strategie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/strategy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/mediator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/vermittler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/mediator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/mediator/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/vermittler/SwitchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/mediator/SwitchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Teilnehmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/mediator/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Telefon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/mediator/Telephone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Telefonanlage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/BuildEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/BuildEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/DebugEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/DebugEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustaendigkeitskette/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustand/Bewerbung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/state/Bewerbung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustand/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/state/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustand/Eingegangen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/state/Eingegangen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustand/Eingeladen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/state/Eingeladen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustand/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/state/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustand/Zustand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/state/Zustand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/verhaltensmuster/zustand/ZustandInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/state/ZustandInterface.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,109 +401,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Move.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Rook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Turn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/BuildEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/DebugEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="391">
-                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/script/JavaQuestions.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Buch.java">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/HtmlBesucher.java">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Warenkorb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Besucher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/BerechnePreisBesucher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1288">
-                <caret line="56" column="108" selection-start-line="56" selection-start-column="108" selection-end-line="56" selection-end-column="108" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="345">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -138,6 +508,7 @@
     <findStrings>
       <find>state</find>
       <find>template</find>
+      <find>erzeugungsmuster</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,46 +517,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Switch.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Telefon.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/vermittler/SwitchException.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Client.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Teilnehmer.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/vermittler/Telefonanlage.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/vermittler/README.md" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/memento/Stellung.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/memento/StellungInterface.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/memento/MementoDemo.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/memento/Memento.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/memento/originator.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/memento/Originator.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/memento/Client.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/memento/README.md" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Beobachter.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Client.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Subjekt.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Kalender.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/beobachter/Datumsauswahl.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/beobachter/README.md" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/zustand/ZustandInterface.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/zustand/Zustand.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/zustand/Eingeladen.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/zustand/Eingegangen.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/zustand/Bewerbung.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/zustand/Client.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/zustand/README.md" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/strategie/Festbewertung.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/strategie/Lager.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/strategie/Bewegung.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/strategie/Client.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/strategie/Durchschnittsbewertung.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/strategie/Bewertung.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/strategie/README.md" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/schablone/OutputStream.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/schablone/ByteArrayOutputStream.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/schablone/MyOutputStream.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/schablone/Client.java" />
-        <option value="$PROJECT_DIR$/src/verhaltensmuster/schablone/README.md" />
         <option value="$PROJECT_DIR$/src/verhaltensmuster/besucher/Besucher.java" />
         <option value="$PROJECT_DIR$/src/verhaltensmuster/beobachter/BerechnePreisBesucher.java" />
         <option value="$PROJECT_DIR$/src/verhaltensmuster/besucher/BerechnePreisBesucher.java" />
@@ -197,6 +528,46 @@
         <option value="$PROJECT_DIR$/src/verhaltensmuster/besucher/README.md" />
         <option value="$PROJECT_DIR$/src/verhaltensmuster/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/README.md" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/README.md" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/OrderContext.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/README.md" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interpreter/VariablePrint.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/iterator/README.md" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interpreter/README.md" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/mediator/README.md" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/mediator/TelephoneSystem.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/mediator/Telephone.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/mediator/SwitchException.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/mediator/Switch.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/mediator/Member.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/mediator/Client.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/iterator/RandomIterator.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/iterator/MusicLibrary.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/iterator/MP3.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/iterator/Client.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interpreter/Client.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interpreter/CompoundPrint.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interpreter/Context.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interpreter/Parser.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interpreter/RandomNumberPrint.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interpreter/RepeatedPrint.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Client.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/DecryptionInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Dispatcher.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/OrderFramework.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Chess.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Client.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Field.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Move.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Piece.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Position.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Rook.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Turn.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Client.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Command.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Engine.java" />
       </list>
     </option>
   </component>
@@ -212,12 +583,44 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviour_patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviour_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="chain_of_responsibility" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562168251257" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562176185020" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,13 +646,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="verhaltensmuster.strategie.Client" />
+      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.command.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="verhaltensmuster.strategie.*" />
+          <option name="PATTERN" value="behaviour_patterns.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,37 +661,11 @@
       </method>
     </configuration>
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="verhaltensmuster.schablone.Client" />
+      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.mediator.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="verhaltensmuster.schablone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="verhaltensmuster.besucher.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="verhaltensmuster.besucher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="verhaltensmuster.zustand.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="verhaltensmuster.zustand.*" />
+          <option name="PATTERN" value="behaviour_patterns.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,11 +674,63 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="verhaltensmuster.beobachter.Client" />
+      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.observer.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="verhaltensmuster.besucher.*" />
+          <option name="PATTERN" value="behaviour_patterns.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.strategy.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviour_patterns.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.template_method.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviour_patterns.template_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.visitor.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviour_patterns.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.state.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviour_patterns.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,10 +740,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,12 +778,12 @@
       <workItem from="1562009365452" duration="7000" />
       <workItem from="1562081006992" duration="3299000" />
       <workItem from="1562091781250" duration="25000" />
-      <workItem from="1562168122411" duration="239000" />
+      <workItem from="1562168122411" duration="3845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44821000" />
+    <option name="totallyTimeSpent" value="48666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -367,8 +797,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34791058" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32847425" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34791058" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984451" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +827,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/erzeugungsmuster/prototype/Client.java</url>
+          <url>file://$PROJECT_DIR$/src/creational_patterns/prototype/Client.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="4" />
@@ -406,403 +836,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/vermittler/StwitchException.java" />
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/vermittler/Switch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/vermittler/Telefon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/vermittler/Telefonanlage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/vermittler/SwitchException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/vermittler/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/vermittler/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/iterator/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/memento/Stellung.java" />
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/memento/StellungInterface.java" />
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/vermittler/Teilnehmer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/memento/Memento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/memento/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/memento/Originator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/beobachter/Beobachter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/beobachter/Subjekt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/beobachter/Kalender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/beobachter/Datumsauswahl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/beobachter/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/beobachter/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustand/ZustandInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustand/Eingeladen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustand/Zustand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustand/Eingegangen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustand/Bewerbung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustand/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/zustand/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/strategie/Festbeweertung.java" />
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/strategie/Bewegung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/strategie/Lager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/strategie/Bewertung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/strategie/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/memento/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/strategie/Durchschnittsbewertung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/strategie/Festbewertung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/strategie/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/schablone/OutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/schablone/MyOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/schablone/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/schablone/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Buch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/HtmlBesucher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Warenkorb.java">
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/visitor/Warenkorb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/Besucher.java">
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/visitor/Besucher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/besucher/BerechnePreisBesucher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/verhaltensmuster/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1288">
-            <caret line="56" column="108" selection-start-line="56" selection-start-column="108" selection-end-line="56" selection-end-column="108" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -814,13 +858,370 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="920">
+            <caret line="56" column="108" selection-start-line="56" selection-start-column="108" selection-end-line="56" selection-end-column="108" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/visitor/BerechnePreisBesucher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <first_editor relative-caret-position="345">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="2" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/iterator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/mediator/TelephoneSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/mediator/Telephone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/mediator/SwitchException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/mediator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/mediator/Switch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/mediator/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/mediator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/iterator/RandomIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/iterator/MusicLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/iterator/MP3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/iterator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/CompoundPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/LiteralExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/RandomNumberPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/RepeatedPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/TestdataPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interpreter/VariablePrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/DecryptionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/OrderContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/OrderFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Chess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Turn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/BuildEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/DebugEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
