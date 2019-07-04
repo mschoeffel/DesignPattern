@@ -1,5 +1,5 @@
 # DesignPattern
-## Verhaltensmuster
-### Beobachter / Observer
+## Behaviour Patterns
+### Observer / Beobachter
 
-Die Umsetzung eines Beobachters.
+TODO

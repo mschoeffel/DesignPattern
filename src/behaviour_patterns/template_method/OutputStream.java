@@ -2,14 +2,14 @@ package behaviour_patterns.template_method;
 
 import java.io.IOException;
 
-public abstract class OutputStream
-{
+public abstract class OutputStream {
     public abstract void write(int b) throws IOException;
+
     public void write(byte b[]) throws IOException {
         write(b, 0, b.length);
     }
-    public void write(byte b[], int off, int len) throws IOException
-    {
+
+    public void write(byte b[], int off, int len) throws IOException {
         if (b == null) {
             throw new NullPointerException();
         } else if ((off < 0) || (off > b.length) || (len < 0) ||
@@ -18,7 +18,7 @@ public abstract class OutputStream
         } else if (len == 0) {
             return;
         }
-        for (int i = 0 ; i < len ; i++) {
+        for (int i = 0; i < len; i++) {
             write(b[off + i]);
         }
     }

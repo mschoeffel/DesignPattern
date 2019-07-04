@@ -2,19 +2,19 @@ package behaviour_patterns.strategy;
 
 public class Client {
 
-    public static void main(String[] args){
-        Lager lager = new Lager();
-        lager.addBewegung(new Bewegung(10, 2)); //20
-        lager.addBewegung(new Bewegung(10, 3)); //30
-        lager.addBewegung(new Bewegung(22, 2)); //44
-        lager.addBewegung(new Bewegung(30, 5)); //150
-        lager.addBewegung(new Bewegung(8, 10)); //80
+    public static void main(String[] args) {
+        Warehouse warehouse = new Warehouse();
+        warehouse.addMovement(new Movement(10, 2)); //20
+        warehouse.addMovement(new Movement(10, 3)); //30
+        warehouse.addMovement(new Movement(22, 2)); //44
+        warehouse.addMovement(new Movement(30, 5)); //150
+        warehouse.addMovement(new Movement(8, 10)); //80
 
-        lager.setAktuelleBewertung(new Durchschnittsbewertung());
-        System.out.println("Bewertung mit Durchschnitt: " + lager.bewerte());
+        warehouse.setActualRating(new AvgRating());
+        System.out.println("Rating with Avg: " + warehouse.rate());
 
-        lager.setAktuelleBewertung(new Festbewertung());
-        System.out.println("Bewertung mit Festwert: " + lager.bewerte());
+        warehouse.setActualRating(new NormalRating());
+        System.out.println("Rating with Normal: " + warehouse.rate());
     }
 
 }

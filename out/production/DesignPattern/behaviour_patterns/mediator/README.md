@@ -1,5 +1,5 @@
 # DesignPattern
-## Verhaltensmuster
-### Vermittler / Mediator
+## Behaviour Patterns
+### Mediator / Vermittler
 
-Die Umsetzung eines Vermittlers.
+TODO

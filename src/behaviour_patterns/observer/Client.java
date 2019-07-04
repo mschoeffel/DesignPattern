@@ -4,13 +4,13 @@ import java.time.LocalDate;
 
 public class Client {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Datumsauswahl datumsauswahl = new Datumsauswahl();
-        datumsauswahl.setDate(LocalDate.now());
-        Kalender kalender = new Kalender(datumsauswahl);
-        datumsauswahl.meldeAn(kalender);
-        datumsauswahl.setDate(LocalDate.MIN);
+        DatePick datePick = new DatePick();
+        datePick.setDate(LocalDate.now());
+        Calendar calendar = new Calendar(datePick);
+        datePick.register(calendar);
+        datePick.setDate(LocalDate.MIN);
     }
 
 }

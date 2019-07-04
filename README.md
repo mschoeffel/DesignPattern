@@ -50,7 +50,7 @@ LINK | ENGLISH | DEUTSCH
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/interpreter) | Interpreter | Interpreter
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/iterator) | Iterator / Cursor | Iterator
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/mediator) | Mediator | Vermittler
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/token) | Token | Memento
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/memento) | Token / Memento | Memento
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/observer) | Observer | Beobachter
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/state) | State | Zustand
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/strategy) | Strategy | Strategie

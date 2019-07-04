@@ -1,5 +1,5 @@
 # DesignPattern
-## Verhaltensmuster
-### Zustand / State
+## Behaviour Patterns
+### State / Zustand
 
-Die Umsetzung eines Zustands.
+TODO

@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Client {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         OutputStream outputStream = new MyOutputStream();
 
@@ -12,7 +12,7 @@ public class Client {
 
         try {
             outputStream.write(data);
-        } catch(IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
 

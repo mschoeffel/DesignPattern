@@ -2,39 +2,39 @@ package behaviour_patterns.visitor;
 
 public abstract class Element {
 
-    private int anzahl;
-    private float preis;
-    private String titel;
+    private int count;
+    private float price;
+    private String title;
 
-    public Element(int anzahl, float preis, String titel) {
-        this.anzahl = anzahl;
-        this.preis = preis;
-        this.titel = titel;
+    public Element(int count, float price, String title) {
+        this.count = count;
+        this.price = price;
+        this.title = title;
     }
 
-    public abstract void nimmEntgegen(Besucher besucher);
+    public abstract void take(Visitor visitor);
 
-    public int getAnzahl() {
-        return anzahl;
+    public int getCount() {
+        return count;
     }
 
-    public void setAnzahl(int anzahl) {
-        this.anzahl = anzahl;
+    public void setCount(int count) {
+        this.count = count;
     }
 
-    public float getPreis() {
-        return preis;
+    public float getPrice() {
+        return price;
     }
 
-    public void setPreis(float preis) {
-        this.preis = preis;
+    public void setPrice(float price) {
+        this.price = price;
     }
 
-    public String getTitel() {
-        return titel;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitel(String titel) {
-        this.titel = titel;
+    public void setTitle(String title) {
+        this.title = title;
     }
 }

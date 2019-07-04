@@ -1,5 +1,5 @@
 # DesignPattern
-## Verhaltensmuster
-### Strategie / Strategy
+## Behaviour Patterns
+### Strategy / Strategie
 
-Die Umsetzung einer Strategie.
+TODO
