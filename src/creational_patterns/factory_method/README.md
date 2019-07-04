@@ -2,6 +2,9 @@
 ## Creational Patterns
 ### Factorymethod static/ Fabrikmethode Static
 
-TODO
-
+#### UML
 ![FactoryMethodUML](img/FactoryMethod.png)
+
+#### Description
+
+#### Usecases
