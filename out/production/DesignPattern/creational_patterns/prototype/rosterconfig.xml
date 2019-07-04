@@ -1,0 +1,8 @@
+<configuration>
+    <holidays>
+        <holiday name="half_day" paid="true">0.5</holiday>
+        <holiday name="full_day" paid="true">1</holiday>
+        <holiday name="half_day_unpaid" paid="false">0.5</holiday>
+        <holiday name="full_day_unpaid" paid="false">0.5</holiday>
+    </holidays>
+</configuration>

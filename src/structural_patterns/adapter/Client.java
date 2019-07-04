@@ -2,18 +2,18 @@ package structural_patterns.adapter;
 
 public class Client {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
         WorkflowEngine engine = new WorkflowEngine();
 
-        WorkflowObjektAusgabe kleineAusgabe = new WorkflowObjektAusgabe("1", "kleine ausgabe");
-        engine.addWorkflowObjekt(kleineAusgabe);
+        WorkflowObjectOutput littleOutput = new WorkflowObjectOutput("1", "little output");
+        engine.addWorkflowObject(littleOutput);
 
-        WorkflowAdapterAusgabeGross grosseAusgabe = new WorkflowAdapterAusgabeGross("2", "grosse ausgabe");
-        engine.addWorkflowObjekt(grosseAusgabe);
+        WorkflowAdapterOutputBig bigOutput = new WorkflowAdapterOutputBig("2", "big output");
+        engine.addWorkflowObject(bigOutput);
 
-        WorkflowObjektAusgabe kindAusgabe = new WorkflowObjektAusgabe("3", "kind ausgabe");
-        grosseAusgabe.addWorkflowObjekt(kindAusgabe);
+        WorkflowObjectOutput childOutput = new WorkflowObjectOutput("3", "child output");
+        bigOutput.addWorkflowObject(childOutput);
 
-        WorkflowErgebnis ergebnis = engine.alleWorkflowsAusfuehren();
+        WorkflowResult result = engine.runAllWorkflowObjects();
     }
 }

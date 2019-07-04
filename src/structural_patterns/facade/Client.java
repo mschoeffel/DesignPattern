@@ -2,9 +2,9 @@ package structural_patterns.facade;
 
 public class Client {
 
-    public static void main(String[] args){
-        FassadeEnum resultSnail = FassadeSendungsVerfolgung.verfolge("123456");
+    public static void main(String[] args) {
+        FacadeEnum resultSnail = FacadeShipmentTracking.track("123456");
 
-        FassadeEnum resultFix = FassadeSendungsVerfolgung.verfolge("123456789");
+        FacadeEnum resultFix = FacadeShipmentTracking.track("123456789");
     }
 }

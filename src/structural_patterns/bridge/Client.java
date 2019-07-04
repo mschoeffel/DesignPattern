@@ -2,11 +2,11 @@ package structural_patterns.bridge;
 
 public class Client {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         StorageProvider storageProvider = new FilesystemProvider("C:/temp");
-        Gutschrift gutschrift = new Gutschrift(storageProvider, 1234, 456);
-        gutschrift.speichere();
+        Credit credit = new Credit(storageProvider, 1234, 456);
+        credit.save();
 
-        gutschrift.lade(1234);
+        credit.load(1234);
     }
 }

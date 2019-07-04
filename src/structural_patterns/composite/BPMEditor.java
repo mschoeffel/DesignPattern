@@ -1,19 +1,17 @@
 package structural_patterns.composite;
 
-public class BPMEditor 
-{
-	public void Starte()
-	{
-		BPMSequenz lagerEingangWorkflow = new BPMSequenz(1);
-		
-		BPMKomponente ausgabe = new BPMKonsolenausgabe(2, "Neue Ware ist da");
-		lagerEingangWorkflow.fuegeHinzu(ausgabe);
-		
-		BPMSequenz warenPruefung = new BPMSequenz(3);
-		BPMKomponente informiereLabor = new BPMKonsolenausgabe(4, "Bitte Stichprobe ziehen");
-		warenPruefung.fuegeHinzu(informiereLabor);
-		lagerEingangWorkflow.fuegeHinzu(warenPruefung);
-		
-		lagerEingangWorkflow.starte();
-	}
+public class BPMEditor {
+    public void start() {
+        BPMSequence storageInput = new BPMSequence(1);
+
+        BPMComponent output = new BPMConsoleOutput(2, "New delivery arrived");
+        storageInput.add(output);
+
+        BPMSequence checkDelivery = new BPMSequence(3);
+        BPMComponent informLaboratory = new BPMConsoleOutput(4, "Please check");
+        checkDelivery.add(informLaboratory);
+        storageInput.add(checkDelivery);
+
+        storageInput.start();
+    }
 }

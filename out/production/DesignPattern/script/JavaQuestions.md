@@ -50,7 +50,7 @@ NUMBER | QUESTION
 [4.17](#q-4-17) | How do you implement an interface?
 [4.18](#q-4-18) | Can you explain a few tricky things about interfaces?
 [4.19](#q-4-19) | Can you extend an interface?
-[4.20](#q-4-20) | Can a class extend multiple interfaces?
+[4.20](#q-4-20) | Can a class implement multiple interfaces?
 [4.21](#q-4-21) | What is an abstract class?
 [4.22](#q-4-22) | When do you use an abstract class?
 [4.23](#q-4-23) | How do you define an abstract method?
@@ -104,8 +104,7 @@ NUMBER | QUESTION
 [8.1](#q-8-1) | Why is exception handling important?
 [8.2](#q-8-2) | What design pattern is used to implement exception handling features in most languages?
 [8.3](#q-8-3) | What is the need for finally block?
-[8.4](#q-8-4) | In what scenarios is code in finally not executed?
-[8.5](#q-8-5) | Does `finally` always execute?
+[8.4](#q-8-4) | Does `finally` always execute?
 [8.6](#q-8-6) | Is try without a catch is allowed?
 [8.7](#q-8-7) | Is try without catch and finally allowed?
 [8.8](#q-8-8) | Can you explain the hierarchy of exception handling classes?
@@ -249,7 +248,7 @@ NUMBER | QUESTION
 [14.14](#q-14-14) | Can you give examples of functional interfaces with multiple arguments?
 &nbsp; | &nbsp;
 &nbsp; | **New Features**
-[15.1](#q-15-1) | What are the new features in Java 5?
+[15.1](#q-15-1) | What are the new features in Java 4/5?
 [15.2](#q-15-2) | What are the new features in Java 6?
 [15.3](#q-15-3) | What are the new features in Java 7?
 [15.4](#q-15-4) | What are the new features in Java 8?
@@ -263,65 +262,305 @@ NUMBER | QUESTION
 
 ## Java Platform
 ## <a name="q-1-1"></a> 1.1 Why is Java so popular?
+An important reason that contributes to the immense popularity enjoyed by Java is its platform independence or multiplatform support. Java programs are able to execute on different machines as long as there is a JRE (Java Runtime Environment) in place.
+Since it has been around for so long, some of the biggest organisations in the world are built using the language. Many banks, retailers, insurance companies, utilities, and manufacturers all use Java.
+Steve Zara, a programmer for more than 40 years, describes how there is no sign of Java declining in use. Instead, it is an evolving language which almost uniquely combines stability with innovation.
+
 ## <a name="q-1-2"></a> 1.2 What is platform independence?
+Platform independence is a term that describes a technology (usually a ProgrammingLanguage or a FrameWork) that you can use to implement things on one machine and use them on another machine without (or with minimal) changes.\
+There are two basic types of PlatformIndependence:
+1. Binary Platform Independence:\
+Languages like Java (JavaLanguage) or Python (PythonLanguage) use a VirtualMachine to run and therefore can be transported from one machine to another in their compiled, binary format. CsharpLanguage seems to be moving in that direction as well, by way of the MonoProject.
+2. Source Platform Independence:\
+ANSI C (CeeLanguage) and ANSI C++ (CeePlusPlus) could be considered platform independent to the extent that the source needs no change (or almost no change) to be moved from one type of machine to another. The source needs to be recompiled for each platform. If the programmer adheres to strict ANSI standards, programs in both languages should compile and run nicely on all platforms.
+
+ScriptingLanguage / InterpretedLanguage platform independence PerlLanguage can also be listed here - it doesn't compile into a binary distributable and most Perl programs (especially text based ones) can run on many platforms. There needs to be an interpreter for each platform.
+
 ## <a name="q-1-3"></a> 1.3 What is bytecode?
+Bytecode, also termed portable code or p-code, is a form of instruction set designed for efficient execution by a software interpreter. Unlike human-readable source code, bytecodes are compact numeric codes, constants, and references (normally numeric addresses) that encode the result of compiler parsing and performing semantic analysis of things like type, scope, and nesting depths of program objects.
+
 ## <a name="q-1-4"></a> 1.4 Compare JDK vs JVM vs JRE 
+1. JDK:\
+JDK (Java Development Kit) is a software development kit to develop applications in Java. When you download JDK, JRE is also downloaded, and don't need to download it separately. In addition to JRE, JDK also contains number of development tools (compilers, JavaDoc, Java Debugger etc).
+2. JVM:\
+JVM (Java Virtual Machine) is an abstract machine that enables your computer to run a Java program.\
+When you run the Java program, Java compiler first compiles your Java code to bytecode. Then, the JVM translates bytecode into native machine code (set of instructions that a computer's CPU executes directly).\
+Java is a platform-independent language. It's because when you write Java code, it's ultimately written for JVM but not your physical machine (computer). Since, JVM ​executes the Java bytecode which is platform independent, Java is platform-independent.
+3. JRE:\
+JRE (Java Runtime Environment) is a software package that provides Java class libraries, along with Java Virtual Machine (JVM), and other components to run applications written in Java programming. JRE is the superset of JVM.
+
 ## <a name="q-1-5"></a> 1.5 What are the important differences between C++ and Java?
+Topic | Java | C++
+----|----|----
+Memory Management | Conrolled by system, does not use pointers. Supports Threads and Interfaces. | Managed by developers using pointers. Supports structures and union.
+Inheritance | Does not support multiple inheritance. Uses the concept of Interface to achieve. | Provides single and multiple inheritance.
+Runtime error detection mechanism | System's responsoility. | Programmer's responsobility.
+Libraries | Provides wide range of classes for various high-level services. | Comparatively available with low-level functionalities.
+Program Handling | All meethods and data reside in class itself. Concept of Package is used. | Methods and data can reside outside classes. Concept of global file, namespace scopes available.
+Type Semantics | Differend for primitive and object types. | Supports consistent support between primitive and object types.
+Portability| Uses concept of bytecode which is platform independent and can be used with platform specific JVM. | Platform dependent as source code must be recompiled for different platform.
+Polymorphism | Automatic, uses static and dynamic binding. | Explicit for methods, supports mied hierarchies.
+
 ## <a name="q-1-6"></a> 1.6 What is the role for a classloader in Java?
+Class loaders are responsible for loading Java classes during runtime dynamically to the JVM (Java Virtual Machine). Also, they are part of the JRE (Java Runtime Environment). Hence, the JVM doesn’t need to know about the underlying files or file systems in order to run Java programs thanks to class loaders.
+
+Also, these Java classes aren’t loaded into memory all at once, but when required by an application. This is where class loaders come into the picture. They are responsible for loading classes into memory.
 
 ## Wrapper Classes
 ## <a name="q-2-1"></a> 2.1 What are Wrapper classes?
+A Wrapper class is a class whose object wraps or contains a primitive data types.
+
 ## <a name="q-2-2"></a> 2.2 Why do we need Wrapper classes in Java?
+1. They convert primitive data types into objects. Objects are needed if we wish to modify the arguments passed into a method (because primitive types are passed by value).
+2. The classes in java.util package handles only objects and hence wrapper classes help in this case also.
+3. Data structures in the Collection framework, such as ArrayList and Vector, store only objects (reference types) and not primitive types.
+4. An object is needed to support synchronization in multithreading.
+
 ## <a name="q-2-3"></a> 2.3 What are the different ways of creating Wrapper class instances?
+1. Autoboxing\
+You just set a value to the Wrapper instance:
+```java
+char ch = 'a';
+Character a = ch;
+//Or:
+int i = 5;
+Integer o = Integer.valueOf(i);
+```
+2. Constructor\
+When instantiating a Wrapper you give the primitive type as Parameter in the constructor:
+```java
+int i = 5;
+Integer o = new Integer(i);
+```
+
 ## <a name="q-2-4"></a> 2.4 What are differences in the two ways of creating Wrapper classes?
 ## <a name="q-2-5"></a> 2.5 What is auto boxing?
 ## <a name="q-2-6"></a> 2.6 What are the advantages of auto boxing?
 ## <a name="q-2-7"></a> 2.7 What is casting?
+Type Casting in Java is nothing but converting a primitive or interface or class in Java into other type. There is a rule in Java Language that classes or interface which shares the same type hierrachy only can be typecasted. If there is no relationship between then Java will throw ClassCastException.\
+Type casting are of two types they are:
+1. Implicit Casting (Widening)
+2. Explicit Casting (Narrowing)
+
 ## <a name="q-2-8"></a> 2.8 What is implicit casting?
+No Explicit casting required if you are widenting the datatype from smaller to larger or child to parent.\
+Example:
+```java
+public class Implicit_Casting_Example {
+    public static void main(String args[]){
+        byte i = 50;
+        // No casting needed for below conversion
+        short j = i;
+        int k = j;
+        long l = k;
+        float m = l;
+        double n = m;
+    }
+}
+```
+
 ## <a name="q-2-9"></a> 2.9 What is explicit casting?
+When you are assigning a larger type to a smaller type, then Explicit Casting is required. Also if you are narrowing from a parent class to a child class\
+Example:
+```java
+public class Explicit_Casting_Example {
+    public static void main(String args[]){
+        double d = 75.0;
+        // Explicit casting is needed for below conversion
+        float f = (float) d;
+        long l = (long) f;
+        int i  = (int) l;
+        short s = (short) i;
+        byte b = (byte) s;
+    }
+}
+```
 
 ## Strings
 ## <a name="q-3-1"></a> 3.1 Are all String’s immutable?
+All `String` are immutable in Java. An immutable class is simply a class whose instances cannot be modified. All information in an instance is initialized when the instance is created and the information can not be modified. There are many advantages of immutable classes.
+
 ## <a name="q-3-2"></a> 3.2 Where are String values stored in memory?
+All the `String` objects will be stored in the heap.
+
 ## <a name="q-3-3"></a> 3.3 Why should you be careful about String concatenation(+) operator in loops?
 ## <a name="q-3-4"></a> 3.4 How do you solve above problem?
 ## <a name="q-3-5"></a> 3.5 What are differences between String and StringBuffer?
+Basis | String | StringBuffer
+----|----|----
+Basic | The length of the String is fixed. | The length of the StringBuffer can be increased.
+Modification | String object is immutable. | StringBuffer object is mutable.
+Performance | It is slower during concatenation. | It is faster during concatenation.
+Memory | Consumes more memory. | Consumes less memory.
+Storage | String constant pool. (Inside of the Heap) | Heap memory.
+
 ## <a name="q-3-6"></a> 3.6 What are differences between StringBuilder and StringBuffer?
+`StringBuilder` is faster than `StringBuffer` because it's not `synchronized`.
+So if you are in a single threaded environment or don’' care about thread safety, you should use StringBuilder else use StringBuffer.
+
 ## <a name="q-3-7"></a> 3.7 Can you give examples of different utility methods in String class?
+Some important String methods:
+* `isEmpty()`: Checks if the String is empty.
+* `length()`: Returns the length of the String.
+* `charAt(index)`: Returns the char at a specific index.
+* `contains(sample)`: Checks if the String contains the sample.
+* `toLowerCase()`: Put's all characters of the String to lower case.
+* `toUpperCase()`: Put's all characters of the String to upper case.
 
 ## Object oriented programming basics
 ## <a name="q-4-1"></a> 4.1 What is a class?
+In object-oriented programming, a class is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods). In many languages, the class name is used as the name for the class (the template itself), the name for the default constructor of the class (a subroutine that creates objects), and as the type of objects generated by instantiating the class; these distinct concepts are easily conflated.
+
 ## <a name="q-4-2"></a> 4.2 What is an object?
+In the class-based object-oriented programming paradigm, object refers to a particular instance of a class, where the object can be a combination of variables, functions, and data structures.
+
 ## <a name="q-4-3"></a> 4.3 What is state of an object?
+The state of an object are the attributes.
+
 ## <a name="q-4-4"></a> 4.4 What is behavior of an object?
+The behaviour of an object are the methods.
+
 ## <a name="q-4-5"></a> 4.5 What is the super class of every class in Java?
+Every class in Java inherits from the java `Object`.
+
 ## <a name="q-4-6"></a> 4.6 Explain about toString method ?
+The `toString()` Methods gives a String representation of an object.
+
 ## <a name="q-4-7"></a> 4.7 What is the use of equals method in Java?
+the `equals()` Method compares two objects if they are the same,
+
 ## <a name="q-4-8"></a> 4.8 What are the important things to consider when implementing equals method?
 ## <a name="q-4-9"></a> 4.9 What is the Hashcode method used for in Java?
-## <a name="q-4-10"></a> 4.10 Explain inheritance with examples. 
+## <a name="q-4-10"></a> 4.10 Explain inheritance.
+In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
+* subclass (child) - the class that inherits from another class
+* superclass (parent) - the class being inherited from
+To inherit from a class, use the `extends` keyword.
+
 ## <a name="q-4-11"></a> 4.11 What is method overloading?
+Method overloading is when you code a method multiple times with different types and numbers of parameters.\
+Example:
+```java
+public calculate(int a, int b){
+    calculate((double)a, (double)b);
+}
+
+public calculate(double a, double b){
+    //do some calculation
+}
+```
+
 ## <a name="q-4-12"></a> 4.12 What is method overriding?
+Method overriding is when you write a method given from a parent class again in the child class with different functionality, mostly a more child specific functionality. It is considered good coding when you tag the method then with `@Override`.\
+Example:
+```java
+public class parent{
+
+    public void doSomeStuff(int a){
+        //Do something
+    }
+}
+
+public class child extends parent{
+    
+    @Override
+    public void soSomeStuff(int a){
+        //Do other more child specific stuff
+    }
+}
+```
 ## <a name="q-4-13"></a> 4.13 Can super class reference variable can hold an object of sub class?
 ## <a name="q-4-14"></a> 4.14 Is multiple inheritance allowed in Java?
+No multiple inheritance is not allowed in Java. Therefore you can make use of Interfaces.
+
 ## <a name="q-4-15"></a> 4.15 What is an interface?
+An `interface` is a completely "abstract class" that is used to group related methods with empty bodies.
+
 ## <a name="q-4-16"></a> 4.16 How do you define an interface?
+You can define an interface like a cluss but instead of the class keywod `class` you use the keword `interface` and without any modifier.\
+Example:
+```java
+interface MyInterface{
+    //...
+}
+```
+
 ## <a name="q-4-17"></a> 4.17 How do you implement an interface?
+You can implement an interface using the `implements` keword behind the class and the name of the Interface. If you want to implement multiple interfaces just write the names comma seperated. Then implement all the methods form the interface.\
+Example:
+```java
+public class test implements MyInterface{
+    //....
+}
+```
+
 ## <a name="q-4-18"></a> 4.18 Can you explain a few tricky things about interfaces?
 ## <a name="q-4-19"></a> 4.19 Can you extend an interface?
-## <a name="q-4-20"></a> 4.20 Can a class extend multiple interfaces?
+Yes an interface can extend another interface in ava. Therfore just use the `extends` keyword.
+
+## <a name="q-4-20"></a> 4.20 Can a class implement multiple interfaces?
+Yes a class can implement multiple interfaces therfore you just name the interfaces comma separated. You then have to implement all the methods of both interfaces in your class.
+
 ## <a name="q-4-21"></a> 4.21 What is an abstract class?
+A abstract class is a special class that can't be instantiated.
+
 ## <a name="q-4-22"></a> 4.22 When do you use an abstract class?
+If you want to group multiple classes but dont want to get an instance of this group element. For exmaple you got the classes Dog and Cat and wanna group them with a class Animal but the single instance of an animal would make less sense so you make the class Animal abstract.
+
 ## <a name="q-4-23"></a> 4.23 How do you define an abstract method?
+An abstract method needs to have an empty body and the subclasses have to implement and override this method.
+
 ## <a name="q-4-24"></a> 4.24 Compare abstract class vs interface?
+Difference between interface and abstract class:
+1. Main difference is methods of a Java interface are implicitly abstract and cannot have implementations. A Java abstract class can have instance methods that implements a default behavior.
+2. Variables declared in a Java interface is by default final. An  abstract class may contain non-final variables.
+3. Members of a Java interface are public by default. A Java abstract class can have the usual flavors of class members like private, protected, etc..
+4. Java interface should be implemented using keyword “implements”; A Java abstract class should be extended using keyword “extends”.
+5. An interface can extend another Java interface only, an abstract class can extend another Java class and implement multiple Java interfaces.
+6. A Java class can implement multiple interfaces but it can extend only one abstract class.
+7. Interface is absolutely abstract and cannot be instantiated; A Java abstract class also cannot be instantiated, but can be invoked if a main() exists.
+8. In comparison with java abstract classes, java interfaces are slow as it requires extra indirection.
+
 ## <a name="q-4-25"></a> 4.25 What is a constructor?
+The constructor is a special method that, by calling, creates a instance(object) of the class. The constructor also has always the same name as the class itself. A constructor can also be overriden by child classes or overloaded.
+
 ## <a name="q-4-26"></a> 4.26 What is a default constructor?
+The default cunstructor is called when you want to instantiate an object without any parameter. Every instantiable class has one defaut constructor.\
+Example:
+```java
+public class Test{
+
+    //This is the default constructor: (Normally you don't have to code this)
+    public Test(){}
+}
+```
+
 ## <a name="q-4-27"></a> 4.27 Will this code compile?
 ## <a name="q-4-28"></a> 4.28 How do you call a super class constructor from a constructor?
+To call the constructor of the parent class you siply call `super()`.\
+Example:
+```java
+public class parent{
+    public parent(){
+        //Initialize object
+    }
+}
+
+public class child extends parent{
+    public child(){
+        super();
+        //Initialize object
+    }
+}
+```
 ## <a name="q-4-29"></a> 4.29 Will this code compile?
 ## <a name="q-4-30"></a> 4.30 What is the use of this()?
+With `this()` you can call another constructor of the class.
+
 ## <a name="q-4-31"></a> 4.31 Can a constructor be called directly from a method?
 ## <a name="q-4-32"></a> 4.32 Is a super class constructor called even when there is no explicit call from a sub class constructor?
+Yes, if a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts a call to the no-argument constructor of the superclass. If the super class does not have a no-argument constructor, you will get a compile-time error. Object does have such a constructor, so if Object is the only superclass, there is no problem.
+
 ## <a name="q-4-33"></a> 4.33 Is it possible to call one constructor from another in Java?
 Yes, but one can only chain to **one** constructor - and it has to be the **first statement** in your constructor body. Keyword to call another constructor of the same class is `this()`.\
 Example:
@@ -340,11 +579,22 @@ public class Foo {
 ```
 ## Advanced object oriented concepts
 ## <a name="q-5-1"></a> 5.1 What is polymorphism?
+Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+
 ## <a name="q-5-2"></a> 5.2 What is the use of instanceof operator in Java?
+The `instanceof` operator checks if an object is an instance of a specific class.
+
 ## <a name="q-5-3"></a> 5.3 What is coupling?
+In object oriented design, Coupling refers to the degree of direct knowledge that one element has of another. In other words, how often do changes in class A force related changes in class B.
+
 ## <a name="q-5-4"></a> 5.4 What is cohesion?
+In object oriented design, cohesion refers all about how a single class is designed. Cohesion is the Object Oriented principle most closely associated with making sure that a class is designed with a single, well-focused purpose.
+The more focused a class is, the cohesiveness of that class is more. The advantages of high cohesion is that such classes are much easier to maintain (and less frequently changed) than classes with low cohesion. Another benefit of high cohesion is that classes with a well-focused purpose tend to be more reusable than other classes.
+
 ## <a name="q-5-5"></a> 5.5 What is encapsulation?
 ## <a name="q-5-6"></a> 5.6 What is an inner class?
+An inner class is a class that is defined within another class and can only be used inside of this class.
+
 ## <a name="q-5-7"></a> 5.7 What is a static inner class?
 ## <a name="q-5-8"></a> 5.8 Can you create an inner class inside a method?
 ## <a name="q-5-9"></a> 5.9 What is an anonymous class?
@@ -352,13 +602,26 @@ public class Foo {
 ## Modifiers
 ## <a name="q-6-1"></a> 6.1 What is default class modifier?
 ## <a name="q-6-2"></a> 6.2 What is private access modifier?
+Methods or attributes with the `private` modifier can only be called/seen by object itself.
+
 ## <a name="q-6-3"></a> 6.3 What is default or package access modifier?
 ## <a name="q-6-4"></a> 6.4 What is protected access modifier?
+
 ## <a name="q-6-5"></a> 6.5 What is public access modifier?
+Methods or attributes with the `public` modifier can be called/seen by any object of the project.
+
 ## <a name="q-6-6"></a> 6.6 What access types of variables can be accessed from a class in same package?
+`Package` and `public` attributes and methods of the other classes and all the attributes and methods of itseelf.
+
 ## <a name="q-6-7"></a> 6.7 What access types of variables can be accessed from a class in different package?
+Only the `public` attributes and methods and all the attributes and methods of itself.
+
 ## <a name="q-6-8"></a> 6.8 What access types of variables can be accessed from a sub class in same package?
+The same as the classes in the same package. But also all the attributes and methods of its super classes.
+
 ## <a name="q-6-9"></a> 6.9 What access types of variables can be accessed from a sub class in different package?
+The same as the classes in different packages. But also all the attributes and methods of its super classes.
+
 ## <a name="q-6-10"></a> 6.10 What is the use of a final modifier on a class?
 ## <a name="q-6-11"></a> 6.11 What is the use of a final modifier on a method?
 ## <a name="q-6-12"></a> 6.12 What is a final variable?
@@ -416,8 +679,7 @@ Done
 ## <a name="q-8-1"></a> 8.1 Why is exception handling important?
 ## <a name="q-8-2"></a> 8.2 What design pattern is used to implement exception handling features in most languages?
 ## <a name="q-8-3"></a> 8.3 What is the need for finally block?
-## <a name="q-8-4"></a> 8.4 In what scenarios is code in finally not executed?
-## <a name="q-8-5"></a> 8.5 Does `finally` always execute?
+## <a name="q-8-4"></a> 8.4 Does `finally` always execute?
 Yes, `finally` will be called after the execution of the `try` or `catch` code blocks.
 
 The only times `finally` won't be called are:
@@ -444,15 +706,65 @@ The only times `finally` won't be called are:
 
 ## Miscellaneous topics
 ## <a name="q-9-1"></a> 9.1 What are the default values in an array?
+Everything in a Java program not explicitly set to something by the programmer, is initialized to a zero value.
+* For references (anything that holds an object) that is null.
+* For int/short/byte/long that is a 0.
+* For float/double that is a 0.0
+* For booleans that is a false.
+* For char that is the null character '\u0000' (whose decimal equivalent is 0).
+
+When you create an array of something, all entries are also zeroed.
+
 ## <a name="q-9-2"></a> 9.2 How do you loop around an array using enhanced for loop?
 ## <a name="q-9-3"></a> 9.3 How do you print the content of an array?
 ## <a name="q-9-4"></a> 9.4 How do you compare two arrays?
 ## <a name="q-9-5"></a> 9.5 What is an enum?
+An enum(short: Enumeration) is a special "class" that represents a group of constants (unchangeable variables, like final variables).\
+To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma. Note that they should be in uppercase letters.\
+Example:
+```java
+enum Level{
+    LOW,
+    MEDIUM,
+    HIGH
+}
+
+Level l = Level.MEDIUM;
+```
+
+With enums you can also make some pretty advanced stuff like gibe them differend funktions etc. seen in some design patterns.
 ## <a name="q-9-6"></a> 9.6 Can you use a switch statement around an enum?
+Yes you can and should be used for good coding style.\
+Example:
+```java
+enum Level{
+    LOW,
+    MEDIUM,
+    HIGH
+}
+
+Level myVar = Level.MEDIUM; 
+
+    switch(myVar) {
+      case LOW:
+        System.out.println("Low level");
+        break;
+      case MEDIUM:
+         System.out.println("Medium level");
+        break;
+      case HIGH:
+        System.out.println("High level");
+        break;
+    }
+```
+
 ## <a name="q-9-7"></a> 9.7 What are variable arguments or varargs?
 ## <a name="q-9-8"></a> 9.8 What are asserts used for?
 ## <a name="q-9-9"></a> 9.9 When should asserts be used?
 ## <a name="q-9-10"></a> 9.10 What is garbage collection?
+In computer science, garbage collection (GC) is a form of automatic memory management. The garbage collector, or just collector, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program. Garbage collection was invented by John McCarthy around 1959 to simplify manual memory management in Lisp.\
+Garbage collection is essentially the opposite of manual memory management, which requires the programmer to specify which objects to deallocate and return to the memory system.
+
 ## <a name="q-9-11"></a> 9.11 Can you explain garbage collection with an example?
 ## <a name="q-9-12"></a> 9.12 When is garbage collection run?
 ## <a name="q-9-13"></a> 9.13 What are best practices on garbage collection?
@@ -596,10 +908,45 @@ There are several differences between `HashMap` and `Hashtable` in Java:
 ## <a name="q-14-3"></a> 14.3 What is a stream?
 ## <a name="q-14-4"></a> 14.4 Explain about streams with an example?
 ## <a name="q-14-5"></a> 14.5 What are intermediate operations in streams?
+Intermediate operations return another Stream which allows you to call multiple operations in a form of a query. Intermediate operations do not get executed until a terminal operation is invoked as there is a possibility they could be processed together when a terminal operation is executed.\
+Operations:
+* `filter`
+* `map`
+* `flatMap`
+* `peek`
+* `distinct`
+* `sorted`
+* `limit`
+
 ## <a name="q-14-6"></a> 14.6 What are terminal operations in streams?
+Terminal operations produces a non-stream, result such as primitive value, a collection or no value at all. Terminal operations are typically preceded by intermediate operations which return another Stream which allows operations to be connected in a form of a query.\
+Operations:
+* `forEach`
+* `toArray`
+* `reduce`
+* `collect`
+* `min`
+* `max`
+* `count`
+* `anyMatch`
+* `allMatch`
+* `noneMatch`
+* `findFirst`
+* `findAny`
+
+
 ## <a name="q-14-7"></a> 14.7 What are method references?
 ## <a name="q-14-8"></a> 14.8 What are lambda expressions?
+One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method, then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method, such as what action should be taken when someone clicks a button. Lambda expressions enable you to do this, to treat functionality as method argument, or code as data.
+
 ## <a name="q-14-9"></a> 14.9 Can you give an example of lambda expression?
+Example:
+```java
+List<String> upper = new ArrayList<>();
+List<String> list = new ArrayList<>();
+list.forEach(item -> upper.add(item.toUpperCase()));
+```
+
 ## <a name="q-14-10"></a> 14.10 Can you explain the relationship between lambda expression and functional interfaces?
 ## <a name="q-14-11"></a> 14.11 What is a predicate?
 ## <a name="q-14-12"></a> 14.12 What is the functional interface - function?
@@ -607,10 +954,52 @@ There are several differences between `HashMap` and `Hashtable` in Java:
 ## <a name="q-14-14"></a> 14.14 Can you give examples of functional interfaces with multiple arguments?
 
 ## New Features
-## <a name="q-15-1"></a> 15.1 What are the new features in Java 5?
+## <a name="q-15-1"></a> 15.1 What are the new features in Java 4/5?
+Features in Java SE 4/5
+* Assertions.
+* For-each loop.
+* Varargs.
+* Static import.
+* Autoboxing and Unboxing.
+* Enum Type.
+* Annotations.
+* Custom Annotation.
+* Generics.
+
 ## <a name="q-15-2"></a> 15.2 What are the new features in Java 6?
+Features in Java SE 6
+* Scripting Language Support
+* JDBC 4.0 API
+* Java Compiler API
+* Pluggable Annotations
+* Native PKI, Java GSS, Kerberos and LDAP support.
+* Integrated Web Services.
+* Lot more enhancements.
+
 ## <a name="q-15-3"></a> 15.3 What are the new features in Java 7?
+Features in Java SE 7
+* Strings in switch Statement
+* Type Inference for Generic Instance Creation
+* Multiple Exception Handling
+* Support for Dynamic Languages
+* Try with Resources
+* Java nio Package
+* Binary Literals, underscore in literals
+* Diamond Syntax
+* Automatic null Handling
+
 ## <a name="q-15-4"></a> 15.4 What are the new features in Java 8?
+Features in Java SE 8
+* Lambda Expressions
+* Pipelines and Streams
+* Date and Time API
+* Default Methods
+* Type Annotations
+* Nashhorn JavaScript Engine
+* Concurrent Accumulators
+* Parallel operations
+* PermGen Error Removed
+* TLS SNI
 
 ## Best Practices
 ## <a name="q-16-1"></a> 16.1 What are different techniques for avoiding != null statements (Not Null Check)?
@@ -693,7 +1082,6 @@ This code can be easily improved:
 String temp = "SELECT Item FROM Invoice WHERE id = '" + id + '\'';
 ```
 This way the last add to the `String` will not be handled as `String`.Instead It will be handled as `char` and is an primitive datatype from java. This improvement gives the code a slightly better performance because only one `char` needs to be attatched instead of a potential Array of `char`s (like a `String` would be). The pervormance improvement from `a + "b"` to ` a + 'b'` is round about 10% (measured by benchmarks).\
-Another performance point is the storage: A `char` can be stored in the moche faster Heap. A `String` will be normally stored in the slower Stack.
 
 Note:
 > Except some people always saying you should use a `StringBuilder` for such cases: Java automatically uses a `StringBuilder` for such cases in the background. Only in loops or if a lot gets appended a explicit StringBuilder is better in performance and best practice. Link: [Link](https://stackoverflow.com/questions/24859500/concatenate-char-literal-x-vs-single-char-string-literal-x/24860958#24860958)

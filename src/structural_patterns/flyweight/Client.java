@@ -2,9 +2,9 @@ package structural_patterns.flyweight;
 
 public class Client {
 
-    public static void main(String[] args){
-        SensorFabrik fabrik = new SensorFabrik();
-        Sensor sensor = fabrik.gibSensor("TE");
-        sensor.schreibe(309.5);
+    public static void main(String[] args) {
+        SensorFactory factory = new SensorFactory();
+        Sensor sensor = factory.getSensor("TE");
+        sensor.write(309.5);
     }
 }

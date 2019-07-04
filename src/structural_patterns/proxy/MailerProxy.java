@@ -4,12 +4,12 @@ public class MailerProxy implements MailerInterface {
 
     private Mailer mailer;
 
-    public MailerProxy(){
+    public MailerProxy() {
         mailer = new Mailer();
     }
 
     @Override
-    public void sendMail(String empfaenger, String absender, String subject, String body) {
-        mailer.sendMail(empfaenger, absender, subject, body);
+    public void sendMail(String target, String sender, String subject, String body) {
+        mailer.sendMail(target, sender, subject, body);
     }
 }

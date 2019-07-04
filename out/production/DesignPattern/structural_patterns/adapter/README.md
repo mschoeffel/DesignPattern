@@ -1,5 +1,5 @@
 # DesignPattern
-## Strukturmuster
-### Adapter
+## Structural Patterns
+### Adapter / Adapter
 
-Die Umsetzung eines Adapters zur Realisierung eines Workflow Systems.
+TODO

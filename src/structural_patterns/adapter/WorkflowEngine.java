@@ -4,24 +4,24 @@ import java.util.ArrayList;
 
 public class WorkflowEngine {
 
-    ArrayList<WorkflowObjekt> workflowObjekte;
+    ArrayList<WorkflowObject> workflowObjects;
 
-    public WorkflowEngine(){
-        workflowObjekte = new ArrayList<>();
+    public WorkflowEngine() {
+        workflowObjects = new ArrayList<>();
     }
 
-    public void addWorkflowObjekt(WorkflowObjekt workflowObjekt){
-        workflowObjekte.add(workflowObjekt);
+    public void addWorkflowObject(WorkflowObject workflowObject) {
+        workflowObjects.add(workflowObject);
     }
 
-    public WorkflowErgebnis alleWorkflowsAusfuehren(){
-        for(WorkflowObjekt workflowObjekt : workflowObjekte){
-            WorkflowErgebnis ergebnis = workflowObjekt.ausfuehren();
-            if(!ergebnis.isWarEfolgreich())
-                return ergebnis;
+    public WorkflowResult runAllWorkflowObjects() {
+        for (WorkflowObject workflowObject : workflowObjects) {
+            WorkflowResult result = workflowObject.run();
+            if (!result.isWasSuccesfull())
+                return result;
         }
-        WorkflowErgebnis gesamtErgebnis = new WorkflowErgebnis("engine");
-        gesamtErgebnis.setWarEfolgreich(true);
-        return gesamtErgebnis;
+        WorkflowResult finalResult = new WorkflowResult("engine");
+        finalResult.setWasSuccesfull(true);
+        return finalResult;
     }
 }

@@ -25,10 +25,10 @@ LINK | ENGLISH | DEUTSCH
 ----|----|----
 &nbsp; | &nbsp; | &nbsp;
 &nbsp; | **Creational Patterns** | **Erzeugungsmuster**
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factorymethod) | Factory Method | Fabrik Methode
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factorymethodmore) | Factory Method Advanced | Fabrik Methode Erweitert
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factorymethodstatic) | Factory Method Static | Fabrik Methode Statisch
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/abstractfactory) | Abstract Factory | Abstrakte Fabrik
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factory_method) | Factory Method | Fabrik Methode
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factory_method_more) | Factory Method Advanced | Fabrik Methode Erweitert
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/factory_method_static) | Factory Method Static | Fabrik Methode Statisch
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/abstract_factory) | Abstract Factory | Abstrakte Fabrik
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/singleton) | Singleton | Einzelstück
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/multiton) | Multiton | Multiton
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/creational_patterns/builder) | Builder | Erbauer

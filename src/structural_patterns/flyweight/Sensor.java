@@ -2,23 +2,23 @@ package structural_patterns.flyweight;
 
 public abstract class Sensor {
 
-    private double kalibrierFaktor;
+    private double calibrateFactor;
 
-    public Sensor(double kalibrierFaktor){
-        this.kalibrierFaktor = kalibrierFaktor;
+    public Sensor(double calibrateFactor) {
+        this.calibrateFactor = calibrateFactor;
     }
 
-    public void schreibe(double messwert){
-        double kalibrierterWert = messwert * kalibrierFaktor;
-        double umgerechneterWert = rechneUm(kalibrierterWert);
-        schreibeInDatenbank(umgerechneterWert);
+    public void write(double measuredValue) {
+        double calibratedValue = measuredValue * calibrateFactor;
+        double convertedValue = convert(calibratedValue);
+        writeToDatabase(convertedValue);
     }
 
-    protected double rechneUm(double messwert){
-        return messwert;
+    protected double convert(double measuredValue) {
+        return measuredValue;
     }
 
-    private void schreibeInDatenbank(double wert){
-        //In Datenbank schreiben
+    private void writeToDatabase(double value) {
+        //Write to database
     }
 }

@@ -1,5 +1,5 @@
 # DesignPattern
-## Strukturmuster
-### Fliegengewicht
+## Structural Patterns
+### Flyweight / Fliegengewicht
 
-Die Umsetzung eines Fliegengewichts.
+TODO

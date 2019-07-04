@@ -1,5 +1,5 @@
 # DesignPattern
-## Erzeugungsmuster
-### Prototype
+## Creational Patterns
+### Prototype / Prototyp
 
-Die Umsetzung eines Prototypes für das Management eines Dienstplans.
+TODO
