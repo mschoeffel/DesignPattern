@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Client {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String widgetHtmlCode = "Widget HTML Code";
         ArrayList<Widget> widgets = new ArrayList<>();
-        for(int i = 0; i < 5; i++){
+        for (int i = 0; i < 5; i++) {
             widgets.add(new Widget(widgetHtmlCode));
         }
         Layouter layouter = new Layouter(widgets);

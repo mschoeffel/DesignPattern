@@ -12,7 +12,7 @@ public abstract class LayoutManager {
 
     public abstract void render();
 
-    public LayoutManager(){
+    public LayoutManager() {
         htmlPage = new HtmlPage();
     }
 }

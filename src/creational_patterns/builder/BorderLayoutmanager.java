@@ -1,6 +1,6 @@
 package creational_patterns.builder;
 
-public class BorderLayoutmanager extends LayoutManager{
+public class BorderLayoutmanager extends LayoutManager {
     @Override
     public void addWidget(Widget widget) {
         getHtmlPage().getWidgets().add(widget);
@@ -11,7 +11,7 @@ public class BorderLayoutmanager extends LayoutManager{
         getHtmlPage().setHtmlCode(renderHtmlFromWidgets());
     }
 
-    private String renderHtmlFromWidgets(){
-        return "HTML-Code für das Border Layout";
+    private String renderHtmlFromWidgets() {
+        return "HTML-Code for the Border Layout";
     }
 }

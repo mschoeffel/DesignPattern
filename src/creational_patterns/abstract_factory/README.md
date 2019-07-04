@@ -1,5 +1,5 @@
 # DesignPattern
 ## Creational Patterns
-### Builder / Erbauer
+### Abstract Factory / Abstrakte Fabrik
 
 TODO

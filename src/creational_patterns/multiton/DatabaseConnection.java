@@ -4,10 +4,10 @@ public class DatabaseConnection {
 
 
     public DatabaseConnection(String connection){
-        //Datenbankverbindung initialisiernen
+        //Initialize database connection
     }
 
-    public void Open(){
-        //Verbindung herstellen
+    public void open(){
+        //Connect
     }
 }

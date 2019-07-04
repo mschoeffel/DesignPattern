@@ -2,10 +2,9 @@ package creational_patterns.prototype;
 
 public class Client {
 
-    public static void main(String[] args){
-        Dienstplan dienstplan = new Dienstplan();
+    public static void main(String[] args) {
+        Roster roster = new Roster();
 
-        Urlaub halberTagUrlaub = dienstplan.kloneUrlaubObjekt("halber_tag");
-        System.out.println("");
+        Holiday halfDayHoliday = roster.cloneHolidayObject("half_day");
     }
 }

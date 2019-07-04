@@ -1,5 +1,5 @@
 # DesignPattern
-## Erzeugungsmuster
-### Singleton
+## Creational Patterns
+### Singleton / Einzelstück
 
-Die Umsetzung eines Singleton zur Abfrage und Specherung einer Konfiguration.
+TODO

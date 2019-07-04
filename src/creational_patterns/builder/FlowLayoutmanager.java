@@ -1,6 +1,6 @@
 package creational_patterns.builder;
 
-public class FlowLayoutmanager extends LayoutManager{
+public class FlowLayoutmanager extends LayoutManager {
 
     @Override
     public void addWidget(Widget widget) {
@@ -12,7 +12,7 @@ public class FlowLayoutmanager extends LayoutManager{
         getHtmlPage().setHtmlCode(renderHtmlFromWidgets());
     }
 
-    private String renderHtmlFromWidgets(){
-        return "HTML-Code für das Flow Layout";
+    private String renderHtmlFromWidgets() {
+        return "HTML-Code for the Flow Layout";
     }
 }

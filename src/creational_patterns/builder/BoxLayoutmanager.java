@@ -1,6 +1,6 @@
 package creational_patterns.builder;
 
-public class BoxLayoutmanager extends LayoutManager{
+public class BoxLayoutmanager extends LayoutManager {
 
     @Override
     public void addWidget(Widget widget) {
@@ -12,7 +12,7 @@ public class BoxLayoutmanager extends LayoutManager{
         getHtmlPage().setHtmlCode(renderHtmlFromWidgets());
     }
 
-    private String renderHtmlFromWidgets(){
-        return "HTML-Code für das Box Layout";
+    private String renderHtmlFromWidgets() {
+        return "HTML-Code for the Box Layout";
     }
 }

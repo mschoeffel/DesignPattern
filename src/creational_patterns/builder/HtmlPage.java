@@ -7,15 +7,15 @@ public class HtmlPage {
     private ArrayList<Widget> widgets = new ArrayList<>();
     private String htmlCode;
 
-    public ArrayList<Widget> getWidgets(){
+    public ArrayList<Widget> getWidgets() {
         return widgets;
     }
 
-    public String getHtmlCode(){
+    public String getHtmlCode() {
         return htmlCode;
     }
 
-    public void setHtmlCode(String htmlCode){
+    public void setHtmlCode(String htmlCode) {
         this.htmlCode = htmlCode;
     }
 }
