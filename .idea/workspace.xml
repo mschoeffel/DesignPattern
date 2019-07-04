@@ -3,129 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/visitor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/visitor/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/HeimController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/HeimautomationFabrik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/HomebusFabrik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/HomebusJalousieAktor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/HomebusTemperaturSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/JalousieAktor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/ProbusFabrik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/ProbusJalousieAktor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/ProbusTemperaturSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/abstractfactory/TemperaturSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/builder/BorderLayoutmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/builder/BorderLayoutmanager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/builder/BoxLayoutmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/builder/BoxLayoutmanager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/builder/FlowLayoutmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/builder/FlowLayoutmanager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/builder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/builder/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethod/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethod/Dokument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethod/Fakturierer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethod/Gutschrift.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethod/GutschriftFakturierer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethod/Lieferschein.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethod/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethod/Rechnung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodmore/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodmore/Nachnahmerechnung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodmore/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodmore/RechnungFakturierer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodmore/RechnungFakturierer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodmore/Rechnungstyp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodmore/Teilzahlungsrechnung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodmore/Vorausrechnung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodstatic/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodstatic/MyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodstatic/MyObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factorymethodstatic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/multiton/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/multiton/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/multiton/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/multiton/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/multiton/DbPoolConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/multiton/DbPoolConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/multiton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/multiton/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/Arbeit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/Dienstplan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/DienstplanObjekt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/Krankheit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/Urlaub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/prototype/dienstplanobjekte.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/Konfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/script/JavaQuestions.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/script/JavaQuestions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/WorkflowAdapterAusgabeGross.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/WorkflowEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/WorkflowEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/WorkflowErgebnis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/WorkflowErgebnisB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/WorkflowObjekt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/WorkflowObjektAusgabe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/adapter/WorkflowObjektAusgabeGross.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Belegverarbeitung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Blob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Blob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Dokument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/FilesystemProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/FilesystemProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Gutschrift.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Lieferschein.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/Rechnung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowAdapterAusgabeGross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowAdapterOutputBig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowErgebnis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowErgebnisB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowResultB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObjekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObjektAusgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObjectOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObjektAusgabeGross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObjectOutputBig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/Belegverarbeitung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/DocumentWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/Blob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Blob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/FilesystemProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/FilesystemProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/Gutschrift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/Lieferschein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/DeliveryNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/Rechnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/bridge/StorageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/bridge/StorageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/composite/BPMEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/composite/BPMEmailBenachrichtigung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMEMailNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/composite/BPMKomponente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/composite/BPMKonsolenausgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMConsoleOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/composite/BPMSequenz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/BPMSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/composite/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/composite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/composite/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/FassadeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/FacadeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/FassadeSendungsVerfolgung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/FacadeShipmentTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/LieferFixEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/DeliveryFixEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/LieferFixSendungsverfolgung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/LieferFixShipmentTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/SnailMailSendungsverfolgung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/SnailMailShipmentTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/LuftdruckSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/AirPressureSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/SensorFabrik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/SensorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/TemperaturSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/TemperatureSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/WindgeschwindigkeitSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/WindSpeedSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/Mailer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/Mailer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/MailerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/MailerInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/MailerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/MailerProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/wrapper/AddonArchivierung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/AddonFiling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/wrapper/AddonVerschlüsselung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/AddonEncryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/wrapper/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/wrapper/KaufVertrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/BuyContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/wrapper/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/wrapper/Vertrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/wrapper/VertragAddon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/wrapper/ContractAddon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-138">
+              <first_editor relative-caret-position="483">
                 <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
               </first_editor>
               <second_editor />
@@ -149,21 +27,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Mailer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="138">
+                <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/img/FactoryMethod.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -171,7 +48,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="115">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -192,7 +69,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="69">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -203,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/AddonFiling.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -212,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/BuyContract.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -261,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowResultB.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/adapter/README.md" />
         <option value="$PROJECT_DIR$/src/structural_patterns/adapter/Client.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowAdapterOutputBig.java" />
@@ -312,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/structural_patterns/wrapper/Contract.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/wrapper/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory_method/README.md" />
       </list>
     </option>
   </component>
@@ -347,6 +224,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="creational_patterns" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creational_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="factory_method" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -357,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562263135379" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562266281576" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -529,12 +413,12 @@
       <workItem from="1562081006992" duration="3299000" />
       <workItem from="1562091781250" duration="25000" />
       <workItem from="1562168122411" duration="5423000" />
-      <workItem from="1562258421818" duration="4837000" />
+      <workItem from="1562258421818" duration="6029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55081000" />
+    <option name="totallyTimeSpent" value="56273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -587,20 +471,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowAdapterOutputBig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -908,7 +778,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="115">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor />
         </state>
@@ -931,14 +801,14 @@
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/BuyContract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/AddonFiling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -953,7 +823,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="69">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -962,12 +832,25 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-138">
+          <first_editor relative-caret-position="483">
             <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/img/FactoryMethod.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
