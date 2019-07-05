@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/Credit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/CreditInvoiceCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/DeliveryNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/ExplicitProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/Document.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/ExplicitFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/InvoiceCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/img/FactoryMethod.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/img/FactoryMethod.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method/img/FactoryMethod.vsdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/factory_method/img/FactoryMethod.vsdx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,12 +25,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="207">
-                <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <first_editor relative-caret-position="138">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -63,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="161">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -253,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562268002498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562268117664" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -425,12 +413,12 @@
       <workItem from="1562081006992" duration="3299000" />
       <workItem from="1562091781250" duration="25000" />
       <workItem from="1562168122411" duration="5423000" />
-      <workItem from="1562258421818" duration="7088000" />
+      <workItem from="1562258421818" duration="7922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57332000" />
+    <option name="totallyTimeSpent" value="58166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -445,7 +433,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32847425" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34791058" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34791058" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984451" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -819,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/ExplicitProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -851,6 +832,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -858,13 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
