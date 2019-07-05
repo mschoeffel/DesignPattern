@@ -1,5 +1,5 @@
 # DesignPattern
-## Strukturmuster
-### Dekorierer
+## Structural Patterns
+### Wrapper / Dekorierer
 
-Die Umsetzung eines Dekorierers.
+TODO

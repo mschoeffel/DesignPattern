@@ -1,5 +1,5 @@
 # DesignPattern
-## Strukturmuster
-### Proxy
+## Structural Patterns
+### Proxy / Proxy**
 
-Die Umsetzung eines Proxy.
+TODO

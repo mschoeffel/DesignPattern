@@ -92,6 +92,7 @@ NUMBER | QUESTION
 [6.13](#q-6-13) | What is a final argument?
 [6.14](#q-6-14) | What happens when a variable is marked as volatile?
 [6.15](#q-6-15) | What is a static variable?
+[6.16](#q-6-16) | What is the difference between volatile and synchronized?
 &nbsp; | &nbsp;
 &nbsp; | **Conditions & loops**
 [7.1](#q-7-1) | Why should you always use blocks around if statement?
@@ -617,17 +618,36 @@ Methods or attributes with the `public` modifier can be called/seen by any objec
 Only the `public` attributes and methods and all the attributes and methods of itself.
 
 ## <a name="q-6-8"></a> 6.8 What access types of variables can be accessed from a sub class in same package?
-The same as the classes in the same package. But also all the attributes and methods of its super classes.
+The same as the classes in the same package. But also all the attributes and methods of its super classes except private attributes and methods from superclass.
 
 ## <a name="q-6-9"></a> 6.9 What access types of variables can be accessed from a sub class in different package?
-The same as the classes in different packages. But also all the attributes and methods of its super classes.
+The same as the classes in different packages. But also all the attributes and methods of its super classes except private attributes and methods from superclass.
 
 ## <a name="q-6-10"></a> 6.10 What is the use of a final modifier on a class?
+The final keyword on a class prevents the class from inheritance.
+
 ## <a name="q-6-11"></a> 6.11 What is the use of a final modifier on a method?
+The final keyword on a method prevents the method from being overridden.
+
 ## <a name="q-6-12"></a> 6.12 What is a final variable?
+A final variable is a variable that can't be 'changed' while runtime. So a final variable is a `constant`. If a variable is declared `final` that holds a object the object can be modified but the reference of the variable to the object alway keeps the same.
+
 ## <a name="q-6-13"></a> 6.13 What is a final argument?
+A final parameter ensures that these won't accidentally be changed by the method.
+
 ## <a name="q-6-14"></a> 6.14 What happens when a variable is marked as volatile?
+Using volatile is yet another way (like synchronized, atomic wrapper) of making class thread safe. Thread safe means that a method or class instance can be used by multiple threads at the same time without any problem.
+
 ## <a name="q-6-15"></a> 6.15 What is a static variable?
+## <a name="q-6-16"></a> 6.16 What is the difference between volatile and synchronized?
+First two important definitions:
+1. Mutual Exclusion:\
+It means that only one thread or process can execute a block of code (critical section) at a time.
+2. Visibility:\
+It means that changes made by one thread to shared data are visible to other threads.
+Java’s synchronized keyword guarantees both mutual exclusion and visibility. If we make the blocks of threads that modifies the value of shared variable synchronized only one thread can enter the block and changes made by it will be reflected in the main memory. All other thread trying to enter the block at the same time will be blocked and put to sleep.
+
+In some cases we may only desire the visibility and not atomicity. Use of synchronized in such situation is an overkill and may cause scalability problems. Here volatile comes to the rescue. Volatile variables have the visibility features of synchronized but not the atomicity features. The values of volatile variable will never be cached and all writes and reads will be done to and from the main memory. However, use of volatile is limited to very restricted set of cases as most of the times atomicity is desired. For example a simple increment statement such as x = x + 1; or x++ seems to be a single operation but is s really a compound read-modify-write sequence of operations that must execute atomically.
 
 ## Conditions & loops
 ## <a name="q-7-1"></a> 7.1 Why should you always use blocks around if statement?
@@ -691,18 +711,69 @@ The only times `finally` won't be called are:
 6. If the `finall`y block is going to be executed by a daemon thread and all other non-daemon threads exit before `finally` is called
 
 ## <a name="q-8-6"></a> 8.6 Is try without a catch is allowed?
+Yes, we can have try without catch block by using finally block. You can use try with finally. As you know finally block always executes even if you have exception or return statement in try block.
+
 ## <a name="q-8-7"></a> 8.7 Is try without catch and finally allowed?
+Yes, you can make use of the `try-with-ressources` block. 
+Example:
+```java
+static String readFirstLineFromFile(String path) throws IOException {
+    try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+        return br.readLine();
+    }
+}
+```
+
 ## <a name="q-8-8"></a> 8.8 Can you explain the hierarchy of exception handling classes?
 ## <a name="q-8-9"></a> 8.9 What is the difference between error and exception?
+* **Error:**\
+An Error “indicates serious problems that a reasonable application should not try to catch.”
+Both Errors and Exceptions are the subclasses of java.lang.Throwable class. Errors are the conditions which cannot get recovered by any handling techniques. It surely cause termination of the program abnormally. Errors belong to unchecked type and mostly occur at runtime. Some of the examples of errors are Out of memory error or a System crash error.
+* **Exceptions:**\
+An Exception “indicates conditions that a reasonable application might want to catch.”
+Exceptions are the conditions that occur at runtime and may cause the termination of program. But they are recoverable using try, catch and throw keywords. Exceptions are divided into two catagories : checked and unchecked exceptions. Checked exceptions like IOException known to the compiler at compile time while unchecked exceptions like ArrayIndexOutOfBoundException known to the compiler at runtime. It is mostly caused by the program written by the programmer.
+
 ## <a name="q-8-10"></a> 8.10 What is the difference between checked exceptions and unchecked exceptions?
 ## <a name="q-8-11"></a> 8.11 How do you throw an exception from a method?
+Example:
+```java
+private void test(int i){
+    if(i < 0){
+        //Thorws an exception:
+        throw new IllegalArgumentException("Value must be positive");
+    }
+    //...
+}
+```
+
 ## <a name="q-8-12"></a> 8.12 What happens when you throw a checked exception from a method?
 ## <a name="q-8-13"></a> 8.13 What are the options you have to eliminate compilation errors when handling checked exceptions?
 ## <a name="q-8-14"></a> 8.14 How do you create a custom exception?
+You simply create an own class that extends the class `Exception`.
+Example:
+```java
+public class MyOwnException extends Exception{
+    //Constructor, methods ...
+}
+```
+
 ## <a name="q-8-15"></a> 8.15 How do you handle multiple exception types with same exception handling block?
+Separate the Exceptions wit the pipe character `|`.
+Example:
+```java
+private void doSomething(){
+    try{
+        checkConnection();
+    } catch(RemoteException | IllegalArgumentException | RuntimeException e){
+        e.printStackTrace();
+    }
+}
+```
+
 ## <a name="q-8-16"></a> 8.16 Can you explain about try with resources?
 ## <a name="q-8-17"></a> 8.17 How does try with resources work?
 ## <a name="q-8-18"></a> 8.18 Can you explain a few exception handling best practices?
+Only catch specific Exceptions and no `Errors` or `Throwable`, because `Errors` need to be thrown until the top to show that the application has some serious problems and shouldn't be caught so that the application stops running.
 
 ## Miscellaneous topics
 ## <a name="q-9-1"></a> 9.1 What are the default values in an array?
@@ -858,6 +929,12 @@ There are several differences between `HashMap` and `Hashtable` in Java:
 
 ## Advanced collections
 ## <a name="q-11-1"></a> 11.1 What is the difference between synchronized and concurrent collections in Java?
+Synchronize means acquiring a reentrant lock on an object. The lock is released when either end of synchronized block is reached or thread goes into waiting state. The lock is reentrant in the sense that the same thread can acquire the lock again and again but a different thread cannot. So synchronized keyword essentially guards a piece of code to be accessed by multiple threads simultaneously
+
+Concurrent collections are exactly opposite. They are called so because they allow multiple threads to concurrently access the same data. For example concurrent HashMap allows multiple threads to perform write operations in parallel as long as the writes are happening on different segments.
+
+Also concurrent collections doesn't allow `null` keys and `null` values, whereas synchronized collections may allow `null` keys and `null` values based on the original collectionclass being passed inside it.
+
 ## <a name="q-11-2"></a> 11.2 Explain about the new concurrent collections in Java?
 ## <a name="q-11-3"></a> 11.3 Explain about copyonwrite concurrent collections approach?
 ## <a name="q-11-4"></a> 11.4 What is compareandswap approach?
@@ -871,11 +948,50 @@ There are several differences between `HashMap` and `Hashtable` in Java:
 
 ## Generics
 ## <a name="q-12-1"></a> 12.1 What are Generics?
+Generics are a facility of generic programming that were added to the Java programming language in 2004 within version J2SE 5.0. They were designed to extend Java's type system to allow "a type or method to operate on objects of various types while providing compile-time type safety". The aspect compile-time type safety was not fully achieved, since it was shown in 2016 that it is not guaranteed in all cases.
+
 ## <a name="q-12-2"></a> 12.2 Why do we need Generics? Can you give an example of how Generics make a program more flexible?
 ## <a name="q-12-3"></a> 12.3 How do you declare a generic class?
+Example:
+```java
+public class Entry<T, U>{
+    private final T key;
+    private final U value;
+
+    public Entry(T key, U value){
+        this.key = key;
+        this.value = value;
+    }
+    //Getter, Stter, ToString...
+}
+```
+
 ## <a name="q-12-4"></a> 12.4 What are the restrictions in using generic type that is declared in a class declaration?
 ## <a name="q-12-5"></a> 12.5 How can we restrict Generics to a subclass of particular class?
+Example:
+```java
+public class Entry<? extends ParentClass>{
+    private final ParendClass key;
+
+    public Entry(ParentClass key){
+        this.key = key;
+    }
+    //Getter, Stter, ToString...
+}
+```
+
 ## <a name="q-12-6"></a> 12.6 How can we restrict Generics to a super class of particular class?
+Example:
+```java
+public class Entry<? super ChildClass>{
+    private final ParendClass key;
+
+    public Entry(ParentClass key){
+        this.key = key;
+    }
+    //Getter, Stter, ToString...
+}
+```
 
 ## Multi threading
 ## <a name="q-13-1"></a> 13.1 What is the need for threads in Java?

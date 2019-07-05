@@ -1,5 +1,5 @@
 # DesignPattern
-## Strukturmuster
-### Kompositum
+## Structural Patterns
+### Composite / Kompositum
 
-Die Umsetzung eines Kompositums.
+TODO

@@ -1,5 +1,5 @@
 # DesignPattern
-## Strukturmuster
-### Bridge
+## Structural Patterns
+### Bridge / Brücke
 
-Die Umsetzung einer Bridge.
+TODO

@@ -2,4 +2,9 @@
 ## Creational Patterns
 ### Singleton / Einzelstück
 
-TODO
+#### UML
+![SingletonUML](img/Singleton.png)
+
+#### Description
+
+#### Usecases
