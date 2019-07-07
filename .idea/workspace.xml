@@ -2,76 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/creational_patterns/multiton/Multiton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_patterns/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_patterns/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational_patterns/builder/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/Credit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/CreditInvoiceCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/DeliveryNote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/Document.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/Invoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/InvoiceCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method_more/AdvanceInvoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method_more/CashOnDeliveryInvoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method_more/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method_more/InvoiceCalculator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method_more/InvoiceCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method_more/InvoiceType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method_more/PartialPaymentInvoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/factory_method_more/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/Configuration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/creational_patterns/singleton/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/script/JavaQuestions.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/script/JavaQuestions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/bridge/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/BPMEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/BPMEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/BPMEmailBenachrichtigung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/BPMKomponente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/BPMKonsolenausgabe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/BPMSequenz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/composite/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/FassadeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/FassadeSendungsVerfolgung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/LieferFixEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/LieferFixSendungsverfolgung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/SnailMailSendungsverfolgung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/LuftdruckSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/Sensor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/SensorFabrik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/TemperaturSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/WindgeschwindigkeitSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/proxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/proxy/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/proxy/Mailer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/proxy/Mailer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/proxy/MailerProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/proxy/MailerProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/proxy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/proxy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/AddonArchivierung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/AddonVerschlüsselung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/KaufVertrag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/Vertrag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/VertragAddon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method_more/AdvanceInvoice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method_more/CashOnDeliveryInvoice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method_more/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method_more/InvoiceCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method_more/InvoiceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method_more/PartialPaymentInvoice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/factory_method_more/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/multiton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/multiton/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/multiton/DatabaseConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/multiton/DbPoolConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/multiton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/multiton/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/singleton/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/singleton/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational_patterns/singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/singleton/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/BorderLayoutmanager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/BoxLayoutmanager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/FlowLayoutmanager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/HtmlPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/LayoutManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/Layouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational_patterns/builder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/builder/Widget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/multiton/img/~$$Multiton.~vsdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational_patterns/singleton/img/~$$Singleton.~vsdx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,19 +28,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="27" column="136" selection-start-line="27" selection-start-column="136" selection-end-line="27" selection-end-column="136" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/README.md">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/multiton/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="92">
@@ -106,20 +39,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creational_patterns/singleton/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="161">
-                <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creational_patterns/multiton/README.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="161">
@@ -131,10 +52,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Director.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Builder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creational_patterns/multiton/Multiton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="184">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
@@ -144,14 +101,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creational_patterns/multiton/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,39 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creational_patterns/singleton/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="69">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -225,12 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/DeliveryNote.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Document.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/DocumentWorker.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Invoice.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/StorageProvider.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/README.md" />
         <option value="$PROJECT_DIR$/src/structural_patterns/composite/Client.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/composite/BPMSequence.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/composite/BPMEMailNotification.java" />
@@ -276,11 +194,18 @@
         <option value="$PROJECT_DIR$/src/creational_patterns/multiton/README.md" />
         <option value="$PROJECT_DIR$/src/creational_patterns/multiton/Multiton.java" />
         <option value="$PROJECT_DIR$/src/creational_patterns/multiton/Client.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/builder/README.md" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/builder/Product.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/builder/ExplicitBuilder.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/builder/Director.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/builder/Client.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/builder/Builder.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="652" />
+    <option name="y" value="-25" />
     <option name="width" value="974" />
     <option name="height" value="1167" />
   </component>
@@ -292,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -317,7 +241,7 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="creational_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="multiton" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -330,12 +254,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562346125261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562492625031" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -511,18 +436,19 @@
       <workItem from="1562091781250" duration="25000" />
       <workItem from="1562168122411" duration="5423000" />
       <workItem from="1562258421818" duration="7922000" />
-      <workItem from="1562340287682" duration="2122000" />
+      <workItem from="1562340287682" duration="4076000" />
+      <workItem from="1562490701612" duration="2153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60288000" />
+    <option name="totallyTimeSpent" value="64395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24840085" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -569,51 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/BPMSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/BPMEMailNotification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/BPMEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/BPMConsoleOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/BPMComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -878,20 +759,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method_more/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method_more/InvoiceCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method_more/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method_more/InvoiceCalculator.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -925,24 +794,17 @@
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/multiton/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <first_editor relative-caret-position="92">
+            <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/multiton/Multiton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="184">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
@@ -954,11 +816,63 @@
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/multiton/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
