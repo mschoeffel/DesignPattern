@@ -2,4 +2,9 @@
 ## Creational Patterns
 ### Multiton
 
-TODO
+#### UML
+![MultitonUML](img/Multiton.png)
+
+#### Description
+
+#### Usecases

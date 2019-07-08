@@ -2,4 +2,9 @@
 ## Structural Patterns
 ### Adapter / Adapter
 
-TODO
+#### UML
+![AdapterUML](img/Adapter.png)
+
+#### Description
+
+#### Usecases
