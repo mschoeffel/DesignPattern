@@ -3,10 +3,9 @@ package structural_patterns.bridge;
 public class Client {
 
     public static void main(String[] args) {
-        StorageProvider storageProvider = new FilesystemProvider("C:/temp");
-        Credit credit = new Credit(storageProvider, 1234, 456);
-        credit.save();
+        Implementer implementerA = new ExplicitImplementerA();
 
-        credit.load(1234);
+        Abstraction abstraction = new ExplicitAbstraction(implementerA);
+        abstraction.operation();
     }
 }

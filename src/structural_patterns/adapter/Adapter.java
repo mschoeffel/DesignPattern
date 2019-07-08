@@ -1,8 +1,8 @@
 package structural_patterns.adapter;
 
-public class Adapter extends Target{
+public class Adapter extends Target {
 
-    public void operationOfTheTarget(){
+    public void operationOfTheTarget() {
         AdaptedClass adaptedClass = new AdaptedClass();
         adaptedClass.operationOfAdaptedClass();
     }
