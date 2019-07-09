@@ -2,4 +2,9 @@
 ## Structural Patterns
 ### Wrapper / Dekorierer
 
-TODO
+#### UML
+![WrapperUML](img/Wrapper.png)
+
+#### Description
+
+#### Usecases
