@@ -2,4 +2,9 @@
 ## Structural Patterns
 ### Bridge / Brücke
 
-TODO
+#### UML
+![BridgeUML](img/Bridge.png)
+
+#### Description
+
+#### Usecases

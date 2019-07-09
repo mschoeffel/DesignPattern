@@ -3,16 +3,16 @@ package structural_patterns.wrapper;
 public class Client {
 
     public static void main(String[] args){
-        BuyContract kaufVertrag = new BuyContract();
-        kaufVertrag.release();
+        Component decorator1 = new ExplicitDecoratorA();
+        Component decorator2 = new ExplicitDecoratorB();
+        Component decorator3 = new ExplicitDecoratorA();
+        ((ExplicitDecoratorA) decorator1).addComponent(decorator2);
+        ((ExplicitDecoratorA) decorator1).addComponent(decorator3);
+        ((ExplicitDecoratorA) decorator1).addComponent(new ExplicitObject());
+        ((ExplicitDecoratorB) decorator2).addComponent(new ExplicitObject());
+        ((ExplicitDecoratorB) decorator2).addComponent(new ExplicitObject());
+        ((ExplicitDecoratorA) decorator3).addComponent(new ExplicitObject());
 
-        AddonFiling kaufVertragMitArchivierung = new AddonFiling(kaufVertrag);
-        kaufVertragMitArchivierung.release();
-        kaufVertragMitArchivierung.archive();
-
-        AddonEncryption kaufVertragMitBeidem = new AddonEncryption(kaufVertragMitArchivierung);
-        kaufVertragMitBeidem.encrypt();
-        kaufVertragMitBeidem.release();
-        ((AddonFiling)kaufVertragMitBeidem.getContract()).archive();
+        decorator1.operation();
     }
 }
