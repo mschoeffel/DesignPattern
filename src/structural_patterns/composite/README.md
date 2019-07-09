@@ -2,4 +2,9 @@
 ## Structural Patterns
 ### Composite / Kompositum
 
-TODO
+#### UML
+![CompositeUML](img/Composite.png)
+
+#### Description
+
+#### Usecases
