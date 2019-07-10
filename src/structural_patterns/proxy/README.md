@@ -2,4 +2,9 @@
 ## Structural Patterns
 ### Proxy / Proxy**
 
-TODO
+#### UML
+![ProxyUML](img/Proxy.png)
+
+#### Description
+
+#### Usecases
