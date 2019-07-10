@@ -2,4 +2,9 @@
 ## Structural Patterns
 ### Flyweight / Fliegengewicht
 
-TODO
+#### UML
+![FlyweightUML](img/Flyweight.png)
+
+#### Description
+
+#### Usecases

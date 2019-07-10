@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/facade/ClientB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/facade/Facade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/facade/SubsystemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural_patterns/facade/SubsystemB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/facade/ClientA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/DeliveryFixEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/FacadeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/FacadeShipmentTracking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/LieferFixShipmentTracking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/SnailMailEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/SnailMailShipmentTracking.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Flyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/facade/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/AirPressureSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/Sensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/SensorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/TemperatureSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/flyweight/WindSpeedSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/structural_patterns/wrapper/img/~$$Wrapper.~vsdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/facade/img/~$$Facade.~vsdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/AirPressureSensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/flyweight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/Sensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/SensorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/TemperatureSensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural_patterns/flyweight/WindSpeedSensor.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +34,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/README.md">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="92">
@@ -35,21 +45,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/README.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="161">
-                <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <first_editor relative-caret-position="138">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,44 +58,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/Decorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="460">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/ClientB.java">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Flyweight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="207">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/ClientA.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="253">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,12 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/SubsystemA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="92">
               <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,12 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/SubsystemB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="92">
               <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -160,13 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural_patterns/wrapper/BuyContract.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/wrapper/Contract.java" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/factory_method/ExplicitProduct.java" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/factory_method/ExplicitFactory.java" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/factory_method/Client.java" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/factory_method/Product.java" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/factory_method/Factory.java" />
         <option value="$PROJECT_DIR$/src/creational_patterns/factory_method/README.md" />
         <option value="$PROJECT_DIR$/src/creational_patterns/singleton/README.md" />
         <option value="$PROJECT_DIR$/src/creational_patterns/factory_method_more/Client.java" />
@@ -211,6 +220,13 @@
         <option value="$PROJECT_DIR$/src/structural_patterns/facade/Facade.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/facade/ClientB.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/facade/ClientA.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/facade/README.md" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/Flyweight.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightFactory.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightB.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightA.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/README.md" />
       </list>
     </option>
   </component>
@@ -228,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -266,25 +281,26 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="composite" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
+              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562690822043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562776057463" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -313,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientB">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural_patterns.bridge.Client" />
       <module name="DesignPattern" />
@@ -327,12 +343,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.adapter.Client" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_patterns.flyweight.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural_patterns.adapter.*" />
+          <option name="PATTERN" value="structural_patterns.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,19 +396,6 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.template_method.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behaviour_patterns.template_method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behaviour_patterns.visitor.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
@@ -407,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.ClientB" />
         <item itemvalue="Application.ClientA" />
         <item itemvalue="Application.Client (6)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -450,18 +453,19 @@
       <workItem from="1562340287682" duration="4076000" />
       <workItem from="1562490701612" duration="2838000" />
       <workItem from="1562598913520" duration="4218000" />
-      <workItem from="1562688042904" duration="2682000" />
+      <workItem from="1562688042904" duration="2957000" />
+      <workItem from="1562774451836" duration="1776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71980000" />
+    <option name="totallyTimeSpent" value="74031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2563966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25906184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,55 +500,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method_more/Client.java" />
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory_method_more/InvoiceCalculator.java" />
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/singleton/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/singleton/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/builder/Director.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -786,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -800,6 +748,13 @@
             <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -815,37 +770,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/Decorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="299">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/SubsystemB.java">
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/ClientB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/SubsystemA.java">
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/ClientA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-          </folding>
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -856,17 +801,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/ClientB.java">
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/SubsystemA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="92">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/ClientA.java">
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/SubsystemB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="92">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Flyweight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
