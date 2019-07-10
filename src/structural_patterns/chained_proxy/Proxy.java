@@ -1,10 +1,10 @@
-package structural_patterns.proxy;
+package structural_patterns.chained_proxy;
 
 public class Proxy extends Subject {
 
-    private ExplicitSubject subject;
+    private Subject subject;
 
-    public Proxy(ExplicitSubject subject){
+    public Proxy(Subject subject){
         this.subject = subject;
     }
 
