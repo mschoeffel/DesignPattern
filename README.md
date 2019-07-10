@@ -41,6 +41,7 @@ LINK | ENGLISH | DEUTSCH
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/facade) | Facade | Fassade
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/flyweight) | Flyweight | Fliegengewicht
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/proxy) | Proxy | Proxy
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/structural_patterns/chained_proxy) | Chained Proxy | Verketteter Proxy
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **Behaviour Patterns** | **Verhaltensmuster**
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/chain_of_responsibility) | Chain of Responsibility | Zuständigkeitskette

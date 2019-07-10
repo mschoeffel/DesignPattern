@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural_patterns/proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural_patterns/proxy/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/README.md">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
+              <first_editor relative-caret-position="184">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -27,7 +26,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/README.md">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/ExplicitSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="230">
@@ -39,11 +56,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/README.md">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/Subject.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="138">
-                <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <first_editor relative-caret-position="-910">
+                <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,32 +82,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Subject.java">
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="138">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/ExplicitSubject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="115">
+                <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -85,49 +106,13 @@
         <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
                 <element signature="e#190#191#0" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/FlyweightFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Flyweight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -158,10 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/creational_patterns/singleton/Client.java" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/multiton/README.md" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/multiton/Multiton.java" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/multiton/Client.java" />
         <option value="$PROJECT_DIR$/src/creational_patterns/builder/README.md" />
         <option value="$PROJECT_DIR$/src/creational_patterns/builder/Product.java" />
         <option value="$PROJECT_DIR$/src/creational_patterns/builder/ExplicitBuilder.java" />
@@ -204,11 +185,15 @@
         <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/ExplicitFlyweightA.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/Client.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/flyweight/README.md" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/proxy/README.md" />
         <option value="$PROJECT_DIR$/src/structural_patterns/proxy/ExplicitSubject.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/proxy/Subject.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/proxy/Proxy.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/proxy/Client.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/chained_proxy/Client.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/chained_proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/chained_proxy/README.md" />
+        <option value="$PROJECT_DIR$/src/structural_patterns/proxy/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -263,6 +248,13 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="chained_proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="structural_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="facade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562777140113" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562777427139" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -436,12 +428,12 @@
       <workItem from="1562490701612" duration="2838000" />
       <workItem from="1562598913520" duration="4218000" />
       <workItem from="1562688042904" duration="2957000" />
-      <workItem from="1562774451836" duration="2686000" />
+      <workItem from="1562774451836" duration="2969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74941000" />
+    <option name="totallyTimeSpent" value="75224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -482,36 +474,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="33" column="120" selection-start-line="33" selection-start-column="120" selection-end-line="33" selection-end-column="120" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/adapter/WorkflowEngine.java" />
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/multiton/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Document.java" />
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/StorageProvider.java" />
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Invoice.java" />
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/FilesystemProvider.java" />
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/Blob.java" />
@@ -819,16 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/ExplicitSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -847,7 +799,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/README.md">
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="115">
+            <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/facade/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="230">
@@ -857,10 +829,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="e#153#154#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
@@ -870,10 +852,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/proxy/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/ExplicitSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-910">
+            <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
