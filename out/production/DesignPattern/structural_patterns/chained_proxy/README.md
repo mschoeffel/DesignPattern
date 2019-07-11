@@ -1,9 +1,9 @@
 # DesignPattern
 ## Structural Patterns
-### Proxy / Proxy
+### Chained Proxy / Verketteter Proxy
 
 #### UML
-![ProxyUML](img/Proxy.png)
+![Chained_ProxyUML](img/Chained_Proxy.png)
 
 #### Description
 
