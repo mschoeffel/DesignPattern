@@ -2,4 +2,9 @@
 ## Behaviour Patterns
 ### Command / Kommando / Befehl
 
-TODO
+#### UML
+![CommandUML](img/Command.png)
+
+#### Description
+
+#### Usecases

@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Caller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/ExplicitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/ExplicitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Framework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/img/~$$Chain_of_responsibility.~vsdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/Chess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/Field.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/Move.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/Piece.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/Position.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/command/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/Rook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/Turn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/chain_of_responsibility/img/~$$Chain_of_responsibility.~vsdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/command/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/command/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/DecryptionInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/Dispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/Interceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/Interceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/OrderContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/behaviour_patterns/interceptor/OrderFramework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/command/img/~$$Command.~vsdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/DecryptionInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Dispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Interceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/OrderContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/OrderFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviour_patterns/interceptor/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,40 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Editor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-              <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural_patterns/chained_proxy/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -74,11 +46,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/README.md">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="161">
-                <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <first_editor relative-caret-position="138">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,56 +58,90 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Caller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/img/Command.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Receiver.java">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Context.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/Command.java">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Framework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="138">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/ExplicitCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Dispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="414">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Interceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/ExplicitInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -166,14 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/ExplicitImplementerB.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/ExplicitImplementerA.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/Abstraction.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/ExplicitAbstraction.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/adapter/AdaptedClass.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/adapter/Adapter.java" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/bridge/README.md" />
-        <option value="$PROJECT_DIR$/src/structural_patterns/composite/Component.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/composite/ExplicitObject.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/composite/Client.java" />
         <option value="$PROJECT_DIR$/src/structural_patterns/composite/Composite.java" />
@@ -217,6 +215,14 @@
         <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Client.java" />
         <option value="$PROJECT_DIR$/src/behaviour_patterns/command/Receiver.java" />
         <option value="$PROJECT_DIR$/src/behaviour_patterns/command/README.md" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Interceptor.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/ExplicitInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Dispatcher.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Framework.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Application.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Client.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/Context.java" />
+        <option value="$PROJECT_DIR$/src/behaviour_patterns/interceptor/README.md" />
       </list>
     </option>
   </component>
@@ -265,7 +271,7 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="behaviour_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -290,7 +296,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562865712334" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562867753011" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -319,7 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behaviour_patterns.chain_of_responsibility.Client" />
       <module name="DesignPattern" />
@@ -359,12 +365,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.proxy.Client" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviour_patterns.interceptor.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural_patterns.proxy.*" />
+          <option name="PATTERN" value="behaviour_patterns.interceptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,12 +378,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_patterns.facade.ClientB" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_patterns.proxy.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural_patterns.facade.*" />
+          <option name="PATTERN" value="structural_patterns.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,11 +406,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.ClientB" />
       </list>
     </recent_temporary>
   </component>
@@ -445,12 +451,12 @@
       <workItem from="1562598913520" duration="4218000" />
       <workItem from="1562688042904" duration="2957000" />
       <workItem from="1562774451836" duration="3043000" />
-      <workItem from="1562859928103" duration="2883000" />
+      <workItem from="1562859928103" duration="4958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78181000" />
+    <option name="totallyTimeSpent" value="80256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -491,79 +497,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/adapter/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/adapter/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/ExplicitImplementerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/ExplicitImplementerB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/Composite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/composite/ExplicitObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/bridge/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/ExplicitDecoratorB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural_patterns/wrapper/ExplicitDecoratorA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -913,6 +846,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="115">
+            <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/img/Command.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/ExplicitInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Framework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/chain_of_responsibility/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -923,11 +939,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/command/README.md">
+    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/interceptor/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <first_editor relative-caret-position="138">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
         </state>
