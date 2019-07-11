@@ -1,20 +1,17 @@
 package behaviour_patterns.interpreter;
 
-import java.util.HashMap;
-
 public class Context {
+    private String info;
 
-    private HashMap<String, String> variables;
-
-    public Context() {
-        variables = new HashMap<>();
+    public Context(String info){
+        this.info = info;
     }
 
-    public HashMap<String, String> getVariables() {
-        return variables;
+    public String getInfo() {
+        return info;
     }
 
-    public void setVariables(HashMap<String, String> variables) {
-        this.variables = variables;
+    public void setInfo(String info) {
+        this.info = info;
     }
 }
