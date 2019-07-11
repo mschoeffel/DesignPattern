@@ -3,9 +3,16 @@ package behaviour_patterns.command;
 public class Client {
 
     public static void main(String[] args) {
-        Chess chess = new Chess();
-        Rook t = new Rook(false, new Position((short) 1, (short) 2));
-        chess.pieceMove(t, new Position((short) 5, (short) 2));
-        chess.undo();
+        Command command1 = new ExplicitCommand();
+        Command command2 = new ExplicitCommand();
+        Command command3 = new ExplicitCommand();
+
+        Caller caller = new Caller();
+
+        caller.addCommand(command1);
+        caller.addCommand(command2);
+        caller.addCommand(command3);
+
+        caller.executeCommands();
     }
 }

@@ -2,4 +2,9 @@
 ## Behaviour Patterns
 ### Chain of Responsibility / Zuständigkeitkette
 
-TODO
+#### UML
+![ChainOfResponsibilityUML](img/Chain_of_responsibility.png)
+
+#### Description
+
+#### Usecases
