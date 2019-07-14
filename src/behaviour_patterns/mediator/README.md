@@ -2,4 +2,10 @@
 ## Behaviour Patterns
 ### Mediator / Vermittler
 
-TODO
+#### UML
+![MediatorUML](img/Mediator.png)
+
+#### Description
+
+#### Usecases
+

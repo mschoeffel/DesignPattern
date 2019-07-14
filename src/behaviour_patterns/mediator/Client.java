@@ -3,18 +3,14 @@ package behaviour_patterns.mediator;
 public class Client {
 
     public static void main(String[] args) {
-        Switch telephoneSystem = new TelephoneSystem();
-        Telephone telephone100 = new Telephone(telephoneSystem, 100);
-        Telephone telephone101 = new Telephone(telephoneSystem, 101);
-        Telephone telephone102 = new Telephone(telephoneSystem, 102);
 
-        telephone100.call(telephone101);
+        Mediator mediator = new ExplicitMediator();
 
-        telephone102.call(telephone101);
+        Colleague colleague1 = new ExplicitColleagueA(mediator, "SuperSecretData");
+        colleague1.operation();
 
-        telephone100.diconnectCurrentConnection();
-
-        telephone102.call(telephone101);
+        Colleague colleague2 = new ExplicitColleagueB(mediator, "SecondSuperSecretData");
+        colleague2.operation();
     }
 
 }
