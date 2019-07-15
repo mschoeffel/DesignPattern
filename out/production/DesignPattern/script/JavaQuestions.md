@@ -305,7 +305,7 @@ Polymorphism | Automatic, uses static and dynamic binding. | Explicit for method
 ## <a name="q-1-6"></a> 1.6 What is the role for a classloader in Java?
 Class loaders are responsible for loading Java classes during runtime dynamically to the JVM (Java Virtual Machine). Also, they are part of the JRE (Java Runtime Environment). Hence, the JVM doesn’t need to know about the underlying files or file systems in order to run Java programs thanks to class loaders.
 
-Also, these Java classes aren’t loaded into memory all at once, but when required by an application. This is where class loaders come into the picture. They are responsible for loading classes into memory.
+Also, these Java classes aren’t loaded into memory all at once, but when required by an context. This is where class loaders come into the picture. They are responsible for loading classes into memory.
 
 ## Wrapper Classes
 ## <a name="q-2-1"></a> 2.1 What are Wrapper classes?
@@ -727,10 +727,10 @@ static String readFirstLineFromFile(String path) throws IOException {
 ## <a name="q-8-8"></a> 8.8 Can you explain the hierarchy of exception handling classes?
 ## <a name="q-8-9"></a> 8.9 What is the difference between error and exception?
 * **Error:**\
-An Error “indicates serious problems that a reasonable application should not try to catch.”
+An Error “indicates serious problems that a reasonable context should not try to catch.”
 Both Errors and Exceptions are the subclasses of java.lang.Throwable class. Errors are the conditions which cannot get recovered by any handling techniques. It surely cause termination of the program abnormally. Errors belong to unchecked type and mostly occur at runtime. Some of the examples of errors are Out of memory error or a System crash error.
 * **Exceptions:**\
-An Exception “indicates conditions that a reasonable application might want to catch.”
+An Exception “indicates conditions that a reasonable context might want to catch.”
 Exceptions are the conditions that occur at runtime and may cause the termination of program. But they are recoverable using try, catch and throw keywords. Exceptions are divided into two catagories : checked and unchecked exceptions. Checked exceptions like IOException known to the compiler at compile time while unchecked exceptions like ArrayIndexOutOfBoundException known to the compiler at runtime. It is mostly caused by the program written by the programmer.
 
 ## <a name="q-8-10"></a> 8.10 What is the difference between checked exceptions and unchecked exceptions?
@@ -773,7 +773,7 @@ private void doSomething(){
 ## <a name="q-8-16"></a> 8.16 Can you explain about try with resources?
 ## <a name="q-8-17"></a> 8.17 How does try with resources work?
 ## <a name="q-8-18"></a> 8.18 Can you explain a few exception handling best practices?
-Only catch specific Exceptions and no `Errors` or `Throwable`, because `Errors` need to be thrown until the top to show that the application has some serious problems and shouldn't be caught so that the application stops running.
+Only catch specific Exceptions and no `Errors` or `Throwable`, because `Errors` need to be thrown until the top to show that the context has some serious problems and shouldn't be caught so that the context stops running.
 
 ## Miscellaneous topics
 ## <a name="q-9-1"></a> 9.1 What are the default values in an array?
@@ -857,7 +857,7 @@ Java is always "pass-by-value" but if you pass an `object`, java is passing the 
 ## <a name="q-9-27"></a> 9.27 How can you create a memory leak in Java?
 A good way to create a true memory leak (objects inaccessible by running code but still stored in memory) in pure Java:
 
-1. The application creates a long-running thread (or use a thread pool to leak even faster).
+1. The context creates a long-running thread (or use a thread pool to leak even faster).
 2. The thread loads a `class` via an (optionally custom) `ClassLoader`.
 3. The `class` allocates a large chunk of memory (e.g. `new byte[1000000]`), stores a strong reference to it in a static field, and then stores a reference to itself in a ThreadLocal. Allocating the extra memory is optional (leaking the Class instance is enough), but it will make the leak work that much faster.
 4. The thread clears all references to the custom class or the ClassLoader it was loaded from.
@@ -867,7 +867,7 @@ This works because the `ThreadLocal` keeps a reference to the `object`, which ke
 
 (It was worse in many JVM implementations, especially prior to Java 7, because Classes and ClassLoaders were allocated straight into permgen and were never GC'd at all. However, regardless of how the JVM handles class unloading, a ThreadLocal will still prevent a Class object from being reclaimed.)
 
-A variation on this pattern is why application containers (like Tomcat) can leak memory like a sieve if you frequently redeploy applications that happen to use `ThreadLocals` in any way. (Since the application container uses Threads as described, and each time you redeploy the application a new `ClassLoader` is used.)
+A variation on this pattern is why context containers (like Tomcat) can leak memory like a sieve if you frequently redeploy applications that happen to use `ThreadLocals` in any way. (Since the context container uses Threads as described, and each time you redeploy the context a new `ClassLoader` is used.)
 
 ## <a name="q-9-28"></a> 9.28 What is reflection and why is it useful?
 The name reflection is used to describe code which is able to inspect other code in the same system (or itself).

@@ -1,11 +1,11 @@
 package behaviour_patterns.state;
 
-public class Application {
+public class Context {
 
     private State state;
 
-    public Application() {
-        state = State.RECEIVED;
+    public Context() {
+        state = State.STATE_A;
     }
 
     public State getState() {
@@ -19,14 +19,9 @@ public class Application {
         }
     }
 
-    public void notice() {
-        state.object().notice();
+    public void operation() {
+        state.object().opertaion();
+        if (state == State.STATE_A)
+            setState(State.STATE_B);
     }
-
-    public void process() {
-        state.object().process();
-        if (state == State.RECEIVED)
-            setState(State.INVITED);
-    }
-
 }

@@ -1,8 +1,8 @@
 package behaviour_patterns.state;
 
 public enum State {
-    RECEIVED(new Received()),
-    INVITED(new Invited());
+    STATE_A(new ExplicitStateA()),
+    STATE_B(new ExplicitStateB());
 
     private StateInterface stateObj;
 

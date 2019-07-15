@@ -3,12 +3,9 @@ package behaviour_patterns.state;
 public class Client {
 
     public static void main(String[] args) {
-        Application application = new Application();
-        application.notice();
-        application.process();
-
-        application.notice();
-        application.process();
+        Context context = new Context();
+        context.operation();
+        context.operation();
     }
 
 }
