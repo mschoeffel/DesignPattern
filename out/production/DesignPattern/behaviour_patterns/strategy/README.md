@@ -2,4 +2,9 @@
 ## Behaviour Patterns
 ### Strategy / Strategie
 
-TODO
+#### UML
+![StrategyUML](img/Strategy.png)
+
+#### Description
+
+#### Usecases

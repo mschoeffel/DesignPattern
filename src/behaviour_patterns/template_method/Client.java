@@ -1,20 +1,20 @@
 package behaviour_patterns.template_method;
 
-import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Client {
 
     public static void main(String[] args) {
 
-        OutputStream outputStream = new MyOutputStream();
+        AbstractClass abstractClass = new ExplicitClass();
 
-        int data = 10;
+        List<String> data = new LinkedList<>();
+        data.add("One");
+        data.add("Two");
+        data.add("Three");
 
-        try {
-            outputStream.write(data);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        abstractClass.templateMethod(data);
 
     }
 
