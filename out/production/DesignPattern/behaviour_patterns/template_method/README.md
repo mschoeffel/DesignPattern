@@ -2,4 +2,9 @@
 ## Verhaltensmuster
 ### Schablonenmethode / Template Method
 
-Die Umsetzung einer Schablonenmethode.
+#### UML
+![TemplateMethodUML](img/TemplateMethod.png)
+
+#### Description
+
+#### Usecases

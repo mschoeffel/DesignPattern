@@ -4,13 +4,16 @@ public class Client {
 
     public static void main(String[] args) {
 
-        Chart chart = new Chart();
-        chart.add(new Book(2, 5, "Super Book"));
-        chart.add(new Book(1, 15, "Story"));
-        chart.add(new Book(5, 2, "Time"));
+        ObjectStructure objectStructure = new ObjectStructure();
+        objectStructure.add(new ExplicitElementA("the super A data"));
+        objectStructure.add(new ExplicitElementB("second data"));
+        objectStructure.add(new ExplicitElementA("third super A data"));
+        objectStructure.add(new ExplicitElementB("fourth data"));
+        objectStructure.add(new ExplicitElementB("fifth data"));
+        objectStructure.add(new ExplicitElementA("sixth super A data"));
 
-        System.out.println("Price: " + chart.calculatePrice());
-        System.out.println("HTML: " + chart.showHtml());
+        System.out.println("Result A: " + objectStructure.getResultA());
+        System.out.println("Result B: " + objectStructure.getResultB());
 
     }
 

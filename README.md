@@ -2,17 +2,15 @@
 
 Ich hatte Zeit und wollte hier einfach einmal alle Entwurfsmuster nachprogrammieren, lernen und  trainieren.
 
-Somit sind hier alle bisherigen Entwurfsmuster aufgelistet und implementiert anhand von mehr oder weiger praxisrelevanten Beispielen, die mir eingefallen sind.
-
-Die primärsprache des Codes ist aktuell deutsch ggf. wird das noch auf englisch geändert.
+Somit sind hier alle bisherigen Entwurfsmuster aufgelistet und implementiert.
+Ich habe versucht die Implementierungen so nahe am Muster zu halten wie möglich, damit diese einfacher zu verstehen sind ohne das man sich in ein Beispiel einlesen muss, welches das Muster anwendet.
 
 ---
 
 I had some sparetime and just wanted to program, learn and train all the different design patterns.
 
-So here the list of all design patterns already done based on more or less practical relevant examples that came to my mind.
-
-The main language of the code is german maybe this will be changed to english.
+So here the list of all design patterns already done. 
+I tried to keep them as close to the pattern as possible so that understanding the pattern is easier as if you first have to get a example that implements that specific pattern.
 
 ----
 
