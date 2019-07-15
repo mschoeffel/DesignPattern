@@ -2,11 +2,8 @@ package behaviour_patterns.memento;
 
 public class Originator {
 
-    /** Current state */
-    private String state;
 
-    // The class could also contain additional data that is not part of the
-    // state saved in the memento.
+    private String state;
 
     public void set(String state) {
         System.out.println("Originator: Setting state to " + state);
