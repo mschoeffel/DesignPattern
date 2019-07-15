@@ -2,4 +2,9 @@
 ## Behaviour Patterns
 ### State / Zustand
 
-TODO
+#### UML
+![StateUML](img/State.png)
+
+#### Description
+
+#### Usecases
