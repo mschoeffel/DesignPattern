@@ -107,8 +107,8 @@
         <entry file="file://$PROJECT_DIR$/src/script/JavaQuestions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="543">
-                <caret line="1089" column="67" lean-forward="true" selection-start-line="1089" selection-start-column="67" selection-end-line="1089" selection-end-column="67" />
+              <first_editor relative-caret-position="681">
+                <caret line="1816" column="96" selection-start-line="1816" selection-start-column="96" selection-end-line="1816" selection-end-column="96" />
                 <folding>
                   <element signature="e#55#56#0" expanded="true" />
                   <element signature="e#149#150#0" expanded="true" />
@@ -422,12 +422,12 @@
       <workItem from="1563181070316" duration="3206000" />
       <workItem from="1563186612286" duration="3562000" />
       <workItem from="1563196226464" duration="3649000" />
-      <workItem from="1563283351404" duration="1159000" />
+      <workItem from="1563283351404" duration="4864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99815000" />
+    <option name="totallyTimeSpent" value="103520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
@@ -883,8 +883,8 @@
     <entry file="file://$PROJECT_DIR$/src/script/JavaQuestions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="543">
-            <caret line="1089" column="67" lean-forward="true" selection-start-line="1089" selection-start-column="67" selection-end-line="1089" selection-end-column="67" />
+          <first_editor relative-caret-position="681">
+            <caret line="1816" column="96" selection-start-line="1816" selection-start-column="96" selection-end-line="1816" selection-end-column="96" />
             <folding>
               <element signature="e#55#56#0" expanded="true" />
               <element signature="e#149#150#0" expanded="true" />

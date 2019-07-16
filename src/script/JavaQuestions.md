@@ -206,6 +206,7 @@ NUMBER | QUESTION
 [12.4](#q-12-4) | What are the restrictions in using generic type that is declared in a class declaration?
 [12.5](#q-12-5) | How can we restrict Generics to a subclass of particular class?
 [12.6](#q-12-6) | How can we restrict Generics to a super class of particular class?
+[12.7](#q-12-7) | Can you give an example of a Generic Method?
 &nbsp; | &nbsp;
 &nbsp; | **Multi threading**
 [13.1](#q-13-1) | What is the need for threads in Java?
@@ -1130,20 +1131,146 @@ In computer science, garbage collection (GC) is a form of automatic memory manag
 Garbage collection is essentially the opposite of manual memory management, which requires the programmer to specify which objects to deallocate and return to the memory system.
 
 ## <a name="q-9-11"></a> 9.11 Can you explain garbage collection with an example?
+Let’s say the below method is called from a function.
+```java
+void method(){
+    Calendar calendar = new GregorianCalendar(2000,10,30);
+    System.out.println(calendar);
+}
+```
+An object of the class GregorianCalendar is created on the heap by the first line of the function with one
+reference variable calendar.
+After the function ends execution, the reference variable calendar is no longer valid. Hence, there are no
+references to the object created in the method.
+JVM recognizes this and removes the object from the heap. This is called Garbage Collection.
+
 ## <a name="q-9-12"></a> 9.12 When is garbage collection run?
+Garbage Collection runs at the whims and fancies of the JVM (it isn't as bad as that). Possible situations
+when Garbage Collection might run are
+- when available memory on the heap is low
+- when cpu is free
+
 ## <a name="q-9-13"></a> 9.13 What are best practices on garbage collection?
+Programmatically, we can request (remember it’s just a request - Not an order) JVM to run Garbage
+Collection by calling System.gc() method.
+JVM might throw an OutOfMemoryException when memory is full and no objects on the heap are eligible
+for garbage collection.
+finalize() method on the objected is run before the object is removed from the heap from the garbage
+collector. It's recommended not to write any code in finalize().
+
 ## <a name="q-9-14"></a> 9.14 What are initialization blocks?
+Initialization Blocks - Code which runs when an object is created or a class is loaded
+There are two types of Initialization Blocks:
+- Static Initializer: Code that runs when a class is loaded.
+- Instance Initializer: Code that runs when a new object is created.
+
 ## <a name="q-9-15"></a> 9.15 What is a static initializer?
+Example:
+```java
+public class test{
+    static{
+        //This is a static initializer
+        System.out.println("init");
+    }
+}
+```
+Code within `static{}` is called a static initializer. This is run only when class is first loaded. Only static
+variables can be accessed in a static initializer.
+
 ## <a name="q-9-16"></a> 9.16 What is an instance initializer block?
+Example:
+```java
+public class test{
+    {
+        //This is an instance initializer
+        System.out.println("init");
+    }
+}
+```
+Code within instance initializer is run every time an instance of the class is created.
+
 ## <a name="q-9-17"></a> 9.17 What is tokenizing?
+Tokenizing means splitting a string into several sub strings based on delimiters. For example, delimiter ;
+splits the string ac;bd;def;e into four sub strings ac, bd, def and e.
+Delimiter can in itself be any of the regular expression(s) we looked at earlier.
+String.split(regex) function takes regex as an argument.
+
 ## <a name="q-9-18"></a> 9.18 Can you give an example of tokenizing?
+Example:
+```java
+private static void tokenize(String string,String regex) {
+    String[] tokens = string.split(regex);
+    System.out.println(Arrays.toString(tokens));
+}
+
+tokenize("ac;bd;def;e",";");//[ac, bd, def, e]
+```
+
 ## <a name="q-9-19"></a> 9.19 What is serialization?
+Serialization helps us to save and retrieve the state of an object.
+- Serialization => Convert object state to some internal object representation.
+- De-Serialization => The reverse. Convert internal representation to object.
+
+Two important methods
+- ObjectOutputStream.writeObject() // serialize and write to file
+- ObjectInputStream.readObject() // read from file and deserialize
+
 ## <a name="q-9-20"></a> 9.20 How do you serialize an object using serializable interface?
+To serialize an object it should implement Serializable interface.\
+Example:
+```java
+class Rectangle implements Serializable {
+    int length;
+    int breadth;
+    int area;
+    
+    public Rectangle(int length, int breadth) {
+        this.length = length;
+        this.breadth = breadth;
+        area = length * breadth;
+    }
+}
+
+FileOutputStream fileStream = new FileOutputStream("Rectangle.ser");
+ObjectOutputStream objectStream = new ObjectOutputStream(fileStream);
+objectStream.writeObject(new Rectangle(5, 6)); //Here happens the serialization
+objectStream.close();
+```
+
 ## <a name="q-9-21"></a> 9.21 How do you de-serialize in Java?
+Example with the same object as from the question before:
+```java 
+FileInputStream fileInputStream = new FileInputStream("Rectangle.ser");
+ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+Rectangle rectangle = (Rectangle) objectInputStream.readObject(); //Here happens the deserialization
+objectInputStream.close();
+System.out.println(rectangle.length);// 5
+System.out.println(rectangle.breadth);// 6
+System.out.println(rectangle.area);// 30
+```
+
 ## <a name="q-9-22"></a> 9.22 What do you do if only parts of the object have to be serialized?
+We mark all the properties of the object which should not be serialized as `transient`. Transient attributes in
+an object are not serialized.\
+Example:
+```java
+public class Rectangle implements Serializable{
+    transient int nonSerializedInt;
+}
+```
+
 ## <a name="q-9-23"></a> 9.23 How do you serialize a hierarchy of objects?
+Objects of one class might contain objects of other classes. When serializing and de-serializing, we might
+need to serialize and de-serialize entire object chain. All classes that need to be serialized have to
+implement the Serializable interface. Otherwise, an exception is thrown. Otherwise you can also mark the dependent inner objects as `transient`.
+
 ## <a name="q-9-24"></a> 9.24 Are the constructors in an object invoked when it is de-serialized?
+No. When a class is De-serialized, initialization (constructor’s, initializer’s) does not take place. The state
+of the object is retained as it is.
+
 ## <a name="q-9-25"></a> 9.25 Are the values of static variables stored when an object is serialized?
+Static Variables are not part of the object. They are not serialized.
+
 ## <a name="q-9-26"></a> 9.26 Is Java "pass-by-reference" or "pass-by-value"?
 Java is always "pass-by-value" but if you pass an `object`, java is passing the value of the address(reference).
 
@@ -1182,38 +1309,328 @@ Note:
 
 ## Collections
 ## <a name="q-10-1"></a> 10.1 Why do we need collections in Java?
+Arrays are not dynamic. Once an array of a particular size is declared, the size cannot be modified. To
+add a new element to the array, a new array has to be created with bigger size and all the elements
+from the old array copied to new array.
+
+Collections are used in situations where data is dynamic. Collections allow adding an element, deleting
+an element and host of other operations. There are a number of Collections in Java allowing to choose
+the right Collection for the right context.
+
 ## <a name="q-10-2"></a> 10.2 What are the important interfaces in the collection hierarchy?
+Example:
+```java
+interface Collection<E> extends Iterable<E> {
+}
+// Unique things only - Does not allow duplication.
+// If obj1.equals(obj2) then only one of them can be in the Set.
+interface Set<E> extends Collection<E> {
+}
+// LIST OF THINGS
+// Cares about which position each object is in
+// Elements can be added in by specifying position - where should it be added in
+// If element is added without specifying position - it is added at the end
+interface List<E> extends Collection<E> {
+}
+// Arranged in order of processing - A to-do list for example
+// Queue interface extends Collection. So, it supports all Collection Methods.
+interface Queue<E> extends Collection<E> {
+}
+// A,C,A,C,E,C,M,D,H,A => {("A",5),("C",2)}
+// Key - Value Pair {["key1",value1],["key2",value2],["key3",value3]}
+// Things with unique identifier
+interface Map<K, V> {
+}
+```
+
 ## <a name="q-10-3"></a> 10.3 What are the important methods that are declared in the collection interface?
+Some of the most important methods:
+- add: Add an element to the collection
+- remove: Remove an element from the collection
+- size: Return the size of the collection (number of objects stored in the collection)
+- isEmpty: Returns if nothing is stored in the collection
+- clear: Removes all the elements from the collection
+- contains: Checks if a element is already stored inside of a collection
+
 ## <a name="q-10-4"></a> 10.4 Can you explain briefly about the List interface?
+List interface extends Collection interface. So, it contains all methods defined in the Collection interface.\
+In addition, List interface allows operation specifying the position of the element in the Collection.
+
+Most important thing to remember about a List interface - any implementation of the List interface
+would maintain the insertion order. When an element A is inserted into a List (without specifying
+position) and then another element B is inserted, A is stored before B in the List.
+When a new element is inserted without specifying a position, it is inserted at the end of the list of
+elements.
+
+However, We can also use the void add(int position, E paramE); method to insert an element at a
+specific position.
+
 ## <a name="q-10-5"></a> 10.5 Explain about ArrayList with an example?
+ArrayList implements the list interface. So, ArrayList stores the elements in insertion order (by default).
+Element’s can be inserted into and removed from ArrayList based on their position.\
+Example:
+```java
+List<Integer> integers = new ArrayList<Integer>();
+```
+
 ## <a name="q-10-6"></a> 10.6 Can an ArrayList have duplicate elements?
+ArrayList can have duplicates (since List can have duplicates).
+
 ## <a name="q-10-7"></a> 10.7 How do you iterate around an ArrayList using iterator?
+Example:
+```java
+Iterator<String> arraylistIterator = arraylist.iterator();
+while (arraylistIterator.hasNext()) {
+    String str = arraylistIterator.next();
+    System.out.println(str);
+}
+```
+
 ## <a name="q-10-8"></a> 10.8 How do you sort an ArrayList?
+You can make use of the `Collections.sort([LIST])` method to sort a list.
+
 ## <a name="q-10-9"></a> 10.9 How do you sort elements in an ArrayList using comparable interface?
+First you have to implement the `Compareable` interface and override the `compareTo()` method this method returns -1, 0 or 1 depending on the comparison to the other object.\
+With this comparison the `Collections.sort([LIST])` method will sort the list.
+
 ## <a name="q-10-10"></a> 10.10 How do you sort elements in an ArrayList using comparator interface?
+With the implementation of the `Comparator` interface to a sorting class you have to override the `compare` method that gets 2 objects and returns like the `compareTo` method 1, -1 or 0.\
+This allows you now to call `Collections.sort([LIST], new [YOUR_SORT_CLASS])` and sort your list by the sorting class you created.
+
 ## <a name="q-10-11"></a> 10.11 What is vector class? How is it different from an ArrayList?
+Vector has the same operations as an ArrayList. However, all methods in Vector are synchronized. So,
+we can use Vector if we share a list between two threads and we would want to them synchronized.
+
 ## <a name="q-10-12"></a> 10.12 What is linkedList? What interfaces does it implement? How is it different from an ArrayList?
+Linked List extends List and Queue. Other than operations exposed by the Queue interface, LinkedList
+has the same operations as an ArrayList. However, the underlying implementation of Linked List is
+different from that of an ArrayList.
+
+ArrayList uses an Array kind of structure to store elements. So, inserting and deleting from an ArrayList
+are expensive operations. However, search of an ArrayList is faster than LinkedList.
+
+LinkedList uses a linked representation. Each object holds a link to the next element. Hence, insertion
+and deletion are faster than ArrayList. But searching is slower.
+
 ## <a name="q-10-13"></a> 10.13 Can you briefly explain about the Set interface?
+There are hardly any new methods in the Set interface other than those in the Collection interface. The
+major difference is that Set interface does not allow duplication. Set interface represents a collection
+that contains no duplicate elements.
+
 ## <a name="q-10-14"></a> 10.14 What are the important interfaces related to the Set interface?
+Some important sets:
+```java
+// Unique things only - Does not allow duplication.
+// If obj1.equals(obj2) then only one of them can be in the Set.
+interface Set<E> extends Collection<E> {}
+
+//Main difference between Set and SortedSet is - an implementation of
+//SortedSet interface maintains its elements in a sorted order. Set
+//interface does not guarantee any Order.
+interface SortedSet<E> extends Set<E> {
+    SortedSet<E> subSet(E fromElement, E toElement);
+    SortedSet<E> headSet(E toElement);
+    SortedSet<E> tailSet(E fromElement);
+    E first();
+    E last();
+}
+
+//A SortedSet extended with navigation methods reporting closest matches for
+//given search targets.
+interface NavigableSet<E> extends SortedSet<E> {
+    E lower(E e);
+    E floor(E e);
+    E ceiling(E e);
+    E higher(E e);
+    E pollFirst();
+    E pollLast();
+}
+
+```
+
 ## <a name="q-10-15"></a> 10.15 What is the difference between Set and sortedSet interfaces?
+SortedSet Interface extends the Set Interface. Both Set and SortedSet do not allow duplicate elements.
+
+Main difference between Set and SortedSet is - an implementation of SortedSet interface maintains its
+elements in a sorted order. Set interface does not guarantee any Order. For example, If elements 4,5,3
+are inserted into an implementation of Set interface, it might store the elements in any order. However,
+if we use SortedSet, the elements are sorted. The SortedSet implementation would give an output
+3,4,5.
+
 ## <a name="q-10-16"></a> 10.16 Can you give examples of classes that implement the Set interface?
+Some examples might be: 
+- `HashSet`:  unordered, unsorted - iterates in random order; uses hashCode()
+- `LinkedHashSet`: ordered - iterates in order of insertion; unsorted; uses hashCode()
+- `TreeSet`: sorted - natural order; implements NavigableSet
+
 ## <a name="q-10-17"></a> 10.17 What is a HashSet?
+HashSet implements set interface. So, HashSet does not allow duplicates. However, HashSet does not
+support ordering. The order in which elements are inserted is not maintained.
+
 ## <a name="q-10-18"></a> 10.18 What is a linkedHashSet? How is different from a HashSet?
+LinkedHashSet implements set interface and exposes similar operations to a HashSet. Difference is that
+LinkedHashSet maintains insertion order. When we iterate a LinkedHashSet, we would get the elements
+back in the order in which they were inserted.
+
 ## <a name="q-10-19"></a> 10.19 What is a TreeSet? How is different from a HashSet?
+TreeSet implements Set, SortedSet and NavigableSet interfaces.TreeSet is similar to HashSet except that
+it stores element’s in Sorted Order.
+
 ## <a name="q-10-20"></a> 10.20 Can you give examples of implementations of navigableSet?
+**REMOVE**
+
 ## <a name="q-10-21"></a> 10.21 Explain briefly about Queue interface?
+Queue Interface extends Collection interface. Queue Interface is typically used for implementation
+holding elements in order for some processing.
+
+Queue interface offers methods `peek()` and `poll()` which get the element at head of the queue. The
+difference is that `poll()` method removes the head from queue also. `peek()` would keep head of the
+queue unchanged.
+
 ## <a name="q-10-22"></a> 10.22 What are the important interfaces related to the Queue interface?
+Two important interfaces are `Deque` and `BlockingQueue`.
+
 ## <a name="q-10-23"></a> 10.23 Explain about the Deque interface?
+Example:
+```java
+//A linear collection that supports element insertion and removal at both ends
+interface Deque<E> extends Queue<E> {
+    void addFirst(E e);
+    void addLast(E e);
+    boolean offerFirst(E e);
+    boolean offerLast(E e);
+    E removeFirst();
+    E removeLast();
+    E pollFirst();
+    E pollLast();
+    E getFirst();
+    E getLast();
+    E peekFirst();
+    E peekLast();
+    boolean removeFirstOccurrence(Object o);
+    boolean removeLastOccurrence(Object o);
+}
+```
+
 ## <a name="q-10-24"></a> 10.24 Explain the BlockingQueue interface?
-## <a name="q-10-25"></a> 10.25 What is a priorityQueue?
+Example:
+```java
+//A Queue that additionally supports operations that wait for
+//the queue to become non-empty when retrieving an
+//element, and wait for space to become available in the queue when
+//storing an element.
+interface BlockingQueue<E> extends Queue<E> {
+    
+    //Same as in Queue Interface
+    //Inserts the specified element into queue IMMEDIATELY
+    //Throws exception in case of failure
+    boolean add(E e);
+    
+    //Same as in Queue Interface
+    //Inserts the specified element into queue IMMEDIATELY
+    //Returns false in case of failure
+    boolean offer(E e); //Same as in Queue Interface
+    
+    //Inserts the specified element into this queue, waiting
+    //if necessary for space to become available.
+    void put(E e) throws InterruptedException;
+    
+    //waiting up to the specified wait time
+    boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException;
+    
+    //waits until element becomes available
+    E take() throws InterruptedException;
+    
+    //waits for specified time and returns null if time expires
+    E poll(long timeout, TimeUnit unit) throws InterruptedException;
+    int remainingCapacity();
+    boolean remove(Object o);
+    public boolean contains(Object o);
+    int drainTo(Collection<? super E> c);
+    int drainTo(Collection<? super E> c, int maxElements);
+}
+```
+
+## <a name="q-10-25"></a> 10.25 What is a `PriorityQueue`?
+`PriorityQueue` implements the `Queue` interface.
+The elements of the priority queue are ordered according to their natural ordering.
+
 ## <a name="q-10-26"></a> 10.26 Can you give example implementations of the BlockingQueue interface?
+Two examples:
+- `ArrayBlockingQueue`: uses Array - optionally-bounded
+- `LinkedBlockingQueue`: uses Linked List - optionally-bounded; Linked queues typically have higher throughput than array-based queues but less predictable performance in most concurrent applications.
+
 ## <a name="q-10-27"></a> 10.27 Can you briefly explain about the Map interface?
+First and foremost, Map interface does not extend Collection interface. So, it does not inherit any of the
+methods from the Collection interface.
+
+A Map interface supports Collections that use a key value pair. A key-value pair is a set of linked data
+items: a key, which is a unique identifier for some item of data, and the value, which is either the data or
+a pointer to the data. Key-value pairs are used in lookup tables, hash tables and configuration files. A key
+value pair in a Map interface is called an Entry.
+
+Put method allows to add a key, value pair to the Map.
+`V put(K paramK, V paramV);`
+Get method allows to get a value from the Map based on the key.
+`V get(Object paramObject);`
+Other important methods in Map Inteface are shown below:
+
+```java
+interface Map<K, V>
+{
+    int size();
+    boolean isEmpty();
+    boolean containsKey(Object paramObject);
+    boolean containsValue(Object paramObject);
+    V get(Object paramObject);
+    V put(K paramK, V paramV);
+    V remove(Object paramObject);
+    void putAll(Map<? extends K, ? extends V> paramMap);
+    void clear();
+    Set<K> keySet();
+    Collection<V> values();
+    Set<Entry<K, V>> entrySet();
+    boolean equals(Object paramObject);
+    int hashCode();
+    public static abstract interface Entry<K, V>
+    {
+        K getKey();
+        V getValue();
+        V setValue(V paramV);
+        boolean equals(Object paramObject);
+        int hashCode();
+    }
+}
+```
+
 ## <a name="q-10-28"></a> 10.28 What is difference between Map and sortedMap?
+SortedMap interface extends the Map interface. In addition, an implementation of SortedMap interface
+maintains keys in a sorted order.
+
 ## <a name="q-10-29"></a> 10.29 What is a HashMap?
+HashMap implements Map interface – there by supporting key value pairs.
+
 ## <a name="q-10-30"></a> 10.30 What are the different methods in a Hash Map?
+
+
 ## <a name="q-10-31"></a> 10.31 What is a TreeMap? How is different from a HashMap?
+TreeMap is similar to HashMap except that it stores keys in sorted order. It implements NavigableMap
+interface and SortedMap interfaces along with the Map interface.
+
 ## <a name="q-10-32"></a> 10.32 Can you give an example of implementation of navigableMap interface?
+TreeMap
+
 ## <a name="q-10-33"></a> 10.33 What are the static methods present in the collections class?
+- static int binarySearch(List, key)
+- - Can be used only on sorted list
+- static int binarySearch(List, key, Comparator)
+- static void reverse(List)
+- - Reverse the order of elements in a List.
+- static Comparator reverseOrder();
+- - Return a Comparator that sorts the reverse of the collection current sort sequence.
+- static void sort(List)
+- static void sort(List, Comparator)
+
 ## <a name="q-10-34"></a> 10.34 What are two differences between a HashMap and a Hashtable?
 There are several differences between `HashMap` and `Hashtable` in Java:
 1. `Hashtable` is synchronized, whereas `HashMap` is not. This makes `HashMa`p better for non-threaded applications, as unsynchronized Objects typically perform better than synchronized ones.
@@ -1229,21 +1646,129 @@ Concurrent collections are exactly opposite. They are called so because they all
 Also concurrent collections doesn't allow `null` keys and `null` values, whereas synchronized collections may allow `null` keys and `null` values based on the original collectionclass being passed inside it.
 
 ## <a name="q-11-2"></a> 11.2 Explain about the new concurrent collections in Java?
+Post Java 5, collections using new approaches to synchronization are available in Java. These are called
+concurrent collections. Examples of new approaches are :
+- Copy on Write
+- Compare and Swap
+- Locks
+These new approaches to concurrency provide better performance in specific context’s.
+
 ## <a name="q-11-3"></a> 11.3 Explain about copyonwrite concurrent collections approach?
+Important points about Copy on Write approach
+- All values in collection are stored in an internal immutable (not-changeable) array. A new array
+is created if there is any modification to the collection.
+- Read operations are not synchronized. Only write operations are synchronized.
+Copy on Write approach is used in scenarios where reads greatly out number write’s on a collection.
+CopyOnWriteArrayList & CopyOnWriteArraySet are implementations of this approach. Copy on Write
+collections are typically used in Subject – Observer scenarios, where the observers very rarely change.
+Most frequent operations would be iterating around the observers and notifying them.
+
 ## <a name="q-11-4"></a> 11.4 What is compareandswap approach?
+Compare and Swap is one of the new approaches (Java 5) introduced in java to handle synchronization.
+In traditional approach, a method which modifies a member variable used by multiple threads is
+completely synchronized – to prevent other threads accessing stale value.
+
+In compare and swap approach, instead of synchronizing entire method, the value of the member
+variable before calculation is cached. After the calculation, the cached value is compared with the current value of member variable. 
+If the value is not modified, the calculated result is stored into the
+member variable. If another thread has modified the value, then the calculation can be performed
+again. Or skipped – as the need might be.\
+ConcurrentLinkedQueue uses this approach.
+
 ## <a name="q-11-5"></a> 11.5 What is a lock? How is it different from using synchronized approach?
+CopyOnWriteArrayList : final ReentrantLock lock = this.lock;
+
+When 10 methods are declared as synchronized, only one of them is executed by any of the threads at
+any point in time. This has severe performance impact.
+
+Another new approach introduced in Java 5 is to use lock and unlock methods. Lock and unlock methods
+are used to divide methods into different blocks and help enhance concurrency. The 10 methods can be
+divided into different blocks, which can be synchronized based on different variables.
+
 ## <a name="q-11-6"></a> 11.6 What is initial capacity of a Java collection?
+Extract from the reference : http://docs.oracle.com/javase/6/docs/api/java/util/HashMap.html. An
+instance of HashMap has two parameters that affect its performance: initial capacity and load factor.
+The capacity is the number of buckets in the hash table, and the initial capacity is simply the capacity at
+the time the hash table is created. The load factor is a measure of how full the hash table is allowed to
+get before its capacity is automatically increased.
+
+When the number of entries in the hash table exceeds the product of the load factor and the current
+capacity, the hash table is rehashed (that is, internal data structures are rebuilt) so that the hash table
+has approximately twice the number of buckets.
+
+As a general rule, the default load factor (.75) offers a good tradeoff between time and space costs.
+Higher values decrease the space overhead but increase the lookup cost (reflected in most of the
+operations of the HashMap class, including get and put).
+
+The expected number of entries in the map and its load factor should be taken into account when
+setting its initial capacity, so as to minimize the number of rehash operations.
+
 ## <a name="q-11-7"></a> 11.7 What is load factor?
+Refer answer to Initial Capacity above.
+
 ## <a name="q-11-8"></a> 11.8 When does a Java collection throw UnsupportedOperationException?
+All Java Collections extend Collection interface. So, they have to implement all the methods in the
+Collection interface. However, certain Java collections are optimized to be used in specific conditions
+and do not support all the Collection operations (methods). When an unsupported operation is called
+on a Collection, the Collection Implementation would throw an UnsupportedOperationException.
+
 ## <a name="q-11-9"></a> 11.9 What is difference between fail-safe and fail-fast iterators?
+Fail Fast Iterators throw a ConcurrentModificationException if there is a modification to the underlying
+collection is modified. This was the default behavior of the synchronized collections of pre Java 5 age.
+
+Fail Safe Iterators do not throw exceptions even when there are changes in the collection. This is the
+default behavior of the concurrent collections, introduced since Java 5.
+
+Fail Safe Iterator makes copy of the internal data structure (object array) and iterates over the copied
+data structure.
+
+Fail Safe is efficient when traversal operations vastly outnumber mutations
+
 ## <a name="q-11-10"></a> 11.10 What are atomic operations in Java?
+Atomic Access Java Tutorial states “In programming, an atomic action is one that effectively happens all
+at once. An atomic action cannot stop in the middle: it either happens completely, or it doesn't happen
+at all. No side effects of an atomic action are visible until the action is complete”.
+
+Let’s assume we are writing a multi threaded program. Let’s create an int variable i. Even a small
+operation, like i++ (increment), is not thread safe. i++ operation involves three steps.
+1. Read the value which is currently stored in i
+2. Add one to it (atomic operation).
+3. Store it in i
+In a multi-threaded environment, there can be unexpected results. For example, if thread1 is reading
+the value (step 1) and immediately after thread2 stores the value (step 3).
+
+To prevent these, Java provides atomic operations. Atomic operations are performed as a single unit
+without interference from other threads ensuring data consistency.
+
+A good example is AtomicInteger. To increment a value of AtomicInteger, we use the
+incrementAndGet() method. Java ensures this operation is Atomic.
+
 ## <a name="q-11-11"></a> 11.11 What is BlockingQueue in Java?
+BlockingQueue interface is introduced in Java specifically to address specific needs of some Producer
+Consumer scenarios. BlockedQueue allows the consumer to wait (for a specified time or infinitely) for an
+element to become available.
 
 ## Generics
 ## <a name="q-12-1"></a> 12.1 What are Generics?
 Generics are a facility of generic programming that were added to the Java programming language in 2004 within version J2SE 5.0. They were designed to extend Java's type system to allow "a type or method to operate on objects of various types while providing compile-time type safety". The aspect compile-time type safety was not fully achieved, since it was shown in 2016 that it is not guaranteed in all cases.
 
 ## <a name="q-12-2"></a> 12.2 Why do we need Generics? Can you give an example of how Generics make a program more flexible?
+Generics help to keep a class as flexible as possible. The example below shows a very flexible class that can store any Object as a self coded list structure:
+```java 
+class MyListGeneric<T> {
+    private List<T> values;
+    void add(T value) {
+        values.add(value);
+    }
+    void remove(T value) {
+        values.remove(value);
+    }
+    T get(int index) {
+        return values.get(index);
+    }
+}
+```
+
 ## <a name="q-12-3"></a> 12.3 How do you declare a generic class?
 Example:
 ```java
@@ -1260,6 +1785,10 @@ public class Entry<T, U>{
 ```
 
 ## <a name="q-12-4"></a> 12.4 What are the restrictions in using generic type that is declared in a class declaration?
+If a generic is declared as part of class declaration, it can be used any where a type can be used in a class
+- method (return type or argument), member variable etc. For Example: See how T is used as a
+parameter and return type in the class MyListGeneric.
+
 ## <a name="q-12-5"></a> 12.5 How can we restrict Generics to a subclass of particular class?
 Example:
 ```java
@@ -1285,6 +1814,19 @@ public class Entry<? super ChildClass>{
     //Getter, Stter, ToString...
 }
 ```
+
+## <a name="q-12-7"></a> 12.7 Can you give an example of a Generic Method?
+A generic type can be declared as part of method declaration as well. Then the generic type can be used
+anywhere in the method (return type, parameter type, local or block variable type).\
+Example:
+```java
+static <X extends Number> X doSomething(X number){
+    X result = number;
+    //do something with result
+    return result;
+}
+```
+The method can now be called with any Class type extend Number.
 
 ## Multi threading
 ## <a name="q-13-1"></a> 13.1 What is the need for threads in Java?
