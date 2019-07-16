@@ -335,8 +335,37 @@ Integer o = new Integer(i);
 ```
 
 ## <a name="q-2-4"></a> 2.4 What are differences in the two ways of creating Wrapper classes?
+The difference is that using the Constructor you will always create a new object, while using `valueOf()` static method, it may return you a cached value with-in a range. 
+
 ## <a name="q-2-5"></a> 2.5 What is auto boxing?
+Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes. For example, converting an int to an Integer, a double to a Double, and so on. If the conversion goes the other way, this is called unboxing.\
+Example:
+```java
+Integer test = 9;
+
+/** OR */
+
+Integer test2 = new Integer(10);
+test2++; 
+```
+
 ## <a name="q-2-6"></a> 2.6 What are the advantages of auto boxing?
+Auto Boxing helps in saving memory by reusing already created Wrapper objects. Auto Boxing uses the static valueOf methods. However wrapper classes created using new are not reused.\
+Example:
+```java
+/** Two wrapper objects created using new are not same object. */
+Integer testA = new Integer(9);
+Integer testB = new Integer(9);
+System.out.println(testA == testB); //false
+System.out.println(testA.equals(testB)); //true
+
+/** Two wrapper objects created using boxing are same object. */
+Integer testC = 9;
+Integer testD = 9;
+System.out.println(testC == testD); //true
+System.out.println(testC.equals(testD)); //true
+```
+
 ## <a name="q-2-7"></a> 2.7 What is casting?
 Type Casting in Java is nothing but converting a primitive or interface or class in Java into other type. There is a rule in Java Language that classes or interface which shares the same type hierrachy only can be typecasted. If there is no relationship between then Java will throw ClassCastException.\
 Type casting are of two types they are:
@@ -385,7 +414,19 @@ All `String` are immutable in Java. An immutable class is simply a class whose i
 All the `String` objects will be stored in the heap.
 
 ## <a name="q-3-3"></a> 3.3 Why should you be careful about String concatenation(+) operator in loops?
+Whenever you concat two strings two String objects are created in the memory consider this example:
+```java
+String s1 = "value1";
+String s2 = "value2";
+for(int i = 0; i < 10000; i++){
+    s2 = s1 + s2;
+}
+```
+With the above code 10000 String objects will be created. This will have a huge impact on the performance.
+
 ## <a name="q-3-4"></a> 3.4 How do you solve above problem?
+You can easily solve this problem by using a `StringBuilder` or `StringBuffer`.
+
 ## <a name="q-3-5"></a> 3.5 What are differences between String and StringBuffer?
 Basis | String | StringBuffer
 ----|----|----
@@ -431,7 +472,58 @@ The `toString()` Methods gives a String representation of an object.
 the `equals()` Method compares two objects if they are the same,
 
 ## <a name="q-4-8"></a> 4.8 What are the important things to consider when implementing equals method?
+Any equals implementation should satisfy these properties:
+1. Reflexive. For any reference value x, x.equals(x) returns true.
+2. Symmetric. For any reference values x and y, x.equals(y) should return true if and only if
+y.equals(x) returns true.
+3. Transitive. For any reference values x, y, and z, if x.equals(y) returns true and y.equals(z) returns
+true, then x.equals(z) must return true.
+4. Consistent. For any reference values x and y, multiple invocations of x.equals(y) consistently
+return true or consistently return false, if no information used in equals is modified.
+5. For any non-null reference value x, x.equals(null) should return false.
+
+Example:
+```java
+//Client class
+@Override
+public boolean equals(Object obj) {
+    if (this == obj)
+        return true;
+    if (obj == null)
+        return false;
+    if (getClass() != obj.getClass())
+        return false;
+    Client other = (Client) obj;
+    if (id != other.id)
+        return false;
+    return true;
+}
+```
+
 ## <a name="q-4-9"></a> 4.9 What is the Hashcode method used for in Java?
+HashCode's are used in hashing to decide which group (or bucket) an object should be placed into. A
+group of object's might share the same hashcode.
+The implementation of hash code decides effectiveness of Hashing. A good hashing function evenly
+distributes object's into different groups (or buckets).
+A good hashCode method should have the following properties:
+- If obj1.equals(obj2) is true, then obj1.hashCode() should be equal to obj2.hashCode()
+- obj.hashCode() should return the same value when run multiple times, if values of obj used in
+equals() have not changed.
+- If obj1.equals(obj2) is false, it is NOT required that obj1.hashCode() is not equal to
+obj2.hashCode(). Two unequal objects MIGHT have the same hashCode.
+
+A sample hashcode implementation of Client class which meets above constraints is given below:
+```java
+//Client class
+@Override
+public int hashCode() {
+    final int prime = 31;
+    int result = 1;
+    result = prime * result + id;
+    return result;
+}
+```
+
 ## <a name="q-4-10"></a> 4.10 Explain inheritance.
 In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
 * subclass (child) - the class that inherits from another class
@@ -471,6 +563,10 @@ public class child extends parent{
 }
 ```
 ## <a name="q-4-13"></a> 4.13 Can super class reference variable can hold an object of sub class?
+Yes.\
+Since object is super class of all classes, an Object reference variable can also hold an instance of any
+class for example.
+
 ## <a name="q-4-14"></a> 4.14 Is multiple inheritance allowed in Java?
 No multiple inheritance is not allowed in Java. Therefore you can make use of Interfaces.
 
@@ -496,11 +592,16 @@ public class test implements MyInterface{
 ```
 
 ## <a name="q-4-18"></a> 4.18 Can you explain a few tricky things about interfaces?
+Some tricky stuff:
+- Variables in an interface are always public, static, final.
+- Variables in an interface cannot be declared private.
+- Interface methods are by default public and abstract.
+
 ## <a name="q-4-19"></a> 4.19 Can you extend an interface?
-Yes an interface can extend another interface in ava. Therfore just use the `extends` keyword.
+Yes an interface can extend another interface in Java. Therefore just use the `extends` keyword.
 
 ## <a name="q-4-20"></a> 4.20 Can a class implement multiple interfaces?
-Yes a class can implement multiple interfaces therfore you just name the interfaces comma separated. You then have to implement all the methods of both interfaces in your class.
+Yes a class can implement multiple interfaces therefore you just name the interfaces comma separated. You then have to implement all the methods of both interfaces in your class.
 
 ## <a name="q-4-21"></a> 4.21 What is an abstract class?
 A abstract class is a special class that can't be instantiated.
@@ -537,6 +638,8 @@ public class Test{
 ```
 
 ## <a name="q-4-27"></a> 4.27 Will this code compile?
+**Remove**
+
 ## <a name="q-4-28"></a> 4.28 How do you call a super class constructor from a constructor?
 To call the constructor of the parent class you siply call `super()`.\
 Example:
@@ -555,10 +658,14 @@ public class child extends parent{
 }
 ```
 ## <a name="q-4-29"></a> 4.29 Will this code compile?
+**Remove**
+
 ## <a name="q-4-30"></a> 4.30 What is the use of this()?
 With `this()` you can call another constructor of the class.
 
 ## <a name="q-4-31"></a> 4.31 Can a constructor be called directly from a method?
+A constructor cannot be explicitly called from any method except another constructor.
+
 ## <a name="q-4-32"></a> 4.32 Is a super class constructor called even when there is no explicit call from a sub class constructor?
 Yes, if a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts a call to the no-argument constructor of the superclass. If the super class does not have a no-argument constructor, you will get a compile-time error. Object does have such a constructor, so if Object is the only superclass, there is no problem.
 
@@ -593,23 +700,52 @@ In object oriented design, cohesion refers all about how a single class is desig
 The more focused a class is, the cohesiveness of that class is more. The advantages of high cohesion is that such classes are much easier to maintain (and less frequently changed) than classes with low cohesion. Another benefit of high cohesion is that classes with a well-focused purpose tend to be more reusable than other classes.
 
 ## <a name="q-5-5"></a> 5.5 What is encapsulation?
+Encapsulation is “hiding the implementation of a Class behind a well defined interface”. Encapsulation
+helps us to change implementation of a class without breaking other code
+
 ## <a name="q-5-6"></a> 5.6 What is an inner class?
 An inner class is a class that is defined within another class and can only be used inside of this class.
 
 ## <a name="q-5-7"></a> 5.7 What is a static inner class?
+A class declared directly inside another class and declared as static. In  the example above, class name StaticNestedClass is a static inner class.
+
 ## <a name="q-5-8"></a> 5.8 Can you create an inner class inside a method?
+Yes. An inner class can be declared directly inside a method.\
+Example:
+```java
+class OuterClass{
+    public void exampleMethod(){
+        class MethodInnerClass{
+            
+        };
+    }
+}
+```
+
 ## <a name="q-5-9"></a> 5.9 What is an anonymous class?
+An anonymous class is a class that doesn't have a name.
 
 ## Modifiers
 ## <a name="q-6-1"></a> 6.1 What is default class modifier?
+- A class is called a Default Class is when there is no access modifier specified on a class.
+- Default classes are visible inside the same package only.
+- Default access is also called Package access.
+
 ## <a name="q-6-2"></a> 6.2 What is private access modifier?
-Methods or attributes with the `private` modifier can only be called/seen by object itself.
+- Private variables and methods can be accessed only in the class they are declared.
+- Private variables and methods from SuperClass are NOT available in SubClass.
 
 ## <a name="q-6-3"></a> 6.3 What is default or package access modifier?
+- Default variables and methods can be accessed in the same package Classes.
+- Default variables and methods from SuperClass are available only to SubClasses in same package.
+
 ## <a name="q-6-4"></a> 6.4 What is protected access modifier?
+- Protected variables and methods can be accessed in the same package Classes.
+- Protected variables and methods from SuperClass are available to SubClass in any package
 
 ## <a name="q-6-5"></a> 6.5 What is public access modifier?
-Methods or attributes with the `public` modifier can be called/seen by any object of the project.
+- Public variables and methods can be accessed from every other Java classes.
+- Public variables and methods from SuperClass are all available directly in the SubClass
 
 ## <a name="q-6-6"></a> 6.6 What access types of variables can be accessed from a class in same package?
 `Package` and `public` attributes and methods of the other classes and all the attributes and methods of itseelf.
@@ -651,9 +787,26 @@ In some cases we may only desire the visibility and not atomicity. Use of synchr
 
 ## Conditions & loops
 ## <a name="q-7-1"></a> 7.1 Why should you always use blocks around if statement?
+For clearer reading purposes its considered good practice to use brackets with an if Statement if the statement is longer than one line.
+
 ## <a name="q-7-2"></a> 7.2 Should default be the last case in a switch statement?
+The default case doesn't need to be the last case it also can be the first or any other case inside a switch Statement.
+But it's considered good practice to put the default case always as last case.
+
 ## <a name="q-7-3"></a> 7.3 Can a switch statement be used around a String
+Yes since Java 7 it's possible to use String in a switch Statement.
+
 ## <a name="q-7-4"></a> 7.4 What is an enhanced for loop?
+Enhanced for loop can be used to loop around array’s or List’s.\
+Example:
+```java
+int[] test = {1, 2, 3, 4 ,5, 6};
+
+for(int number : test){
+    System.out.println(number);
+}
+```
+
 ## <a name="q-7-5"></a> 7.5 Is it possible to break out of nested loops in Java?
 If you get to this point I'd definitely prefer to put the loops in a different method, at which point you can just return to stop iterating completely. This answer just shows how the requirements in the question can be met.\
 You can use `break` with a label for the outer loop. For example:
