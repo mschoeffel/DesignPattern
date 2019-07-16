@@ -1830,34 +1830,300 @@ The method can now be called with any Class type extend Number.
 
 ## Multi threading
 ## <a name="q-13-1"></a> 13.1 What is the need for threads in Java?
+Threads allow Java code to run in parallel. So we can do multiple independent things at once. This allows us to get a better performance.
+
 ## <a name="q-13-2"></a> 13.2 How do you create a thread?
+Creating a Thread class in Java can be done in two ways. Extending Thread class and implementing
+Runnable interface.
+
 ## <a name="q-13-3"></a> 13.3 How do you create a thread by extending thread class?
+Thread class can be created by extending Thread class and implementing the public void run() method.\
+Example:
+```java
+class Test extends Thread {
+    //run method without parameters
+    public void run() {
+        for (int i = 0; i < 1000; i++)
+            System.out.println("Running Batting Statistics Thread " + i);
+    }
+}
+```
+
 ## <a name="q-13-4"></a> 13.4 How do you create a thread by implementing runnable interface?
+Thread class can also be created by implementing Runnable interface and implementing the method
+declared in Runnable interface `public void run()`.\
+Example:
+```java
+class Test implements Runnable {
+    //run method without parameters
+    public void run() {
+        for (int i = 0; i < 1000; i++)
+            System.out.println("Running Bowling Statistics Thread " + i);
+    }
+}
+```
+
 ## <a name="q-13-5"></a> 13.5 How do you run a thread in Java?
+Running a Thread in Java is slightly different based on the approach used to create the thread.
+- Thread created Extending Thread class\
+When using inheritance, An object of the thread needs be created and `start()` method on the thread 
+needs to be called. Remember that the method that needs to be called is not `run()` but it is `start()`.
+Example:
+```java
+Test test = new Test();
+test.start();
+```
+- Thread created implementing RunnableInterface.\
+Three steps involved.
+  - Create an object of the BowlingStatisticsThread(class implementing Runnable).
+  - Create a Thread object with the earlier object as constructor argument.
+  - Call the start method on the thread.\
+Example:
+```java
+Test test = new Test();
+Thread thread = nw Thread(test);
+thread.start();
+```
+
 ## <a name="q-13-6"></a> 13.6 What are the different states of a thread?
+Different states that a thread can be in are defined the class State.
+- NEW
+- RUNNABLE
+- RUNNING
+- BLOCKED / WAITING
+- TERMINATED / DEAD
+
 ## <a name="q-13-7"></a> 13.7 What is priority of a thread? How do you change the priority of a thread?
+Scheduler can be requested to allot more CPU to a thread by increasing the threads priority. Each thread
+in Java is assigned a default Priority 5. This priority can be increased or decreased (Range 1 to 10).
+
+If two threads are waiting, the scheduler picks the thread with highest priority to be run. If all threads
+have equal priority, the scheduler then picks one of them randomly. Design programs so that they don't
+depend on priority.
+
+You can set the priority of a thread by using the `[THREAD_OBJECT].setPriority([NUMBER_1-10])` method.\
+Java also provides predefined constants Thread.MAX_PRIORITY(10), Thread.MIN_PRIORITY(1),
+Thread.NORM_PRIORITY(5) which can be used to assign priority to a thread.
+
 ## <a name="q-13-8"></a> 13.8 What is executorservice?
+The java.util.concurrent.ExecutorService interface is a new way of executing tasks asynchronously in the
+background. An ExecutorService is very similar to a thread pool.
+
 ## <a name="q-13-9"></a> 13.9 Can you give an example for executorservice?
-## <a name="q-13-10"></a> 13.10 Explain different ways of creating executor services. 
+Example:
+```java
+ExecutorService executorService = Executors.newSingleThreadExecutor();
+executorService.execute(new Runnable() {
+                            public void run() {
+                                System.out .println("From ExecutorService");
+                            }
+                        });
+System.out .println("End of Main");
+executorService.shutdown();
+```
+
+## <a name="q-13-10"></a> 13.10 Explain different ways of creating executor services.
+There are three ways of creating executor services. Below example shows the three different ways.
+executorService1 can execute one task at a time. executorService2 can execute 10 tasks at a time.
+executorService3 can execute tasks after certain delay or periodically.
+```java
+// Creates an Executor that uses a single worker thread operating off an
+// unbounded queue.
+ExecutorService executorService1 = Executors.newSingleThreadExecutor();
+
+// Creates a thread pool that reuses a fixed number of threads
+// operating off a shared unbounded queue. At any point, the parameter
+// specifies the most threads that will be active processing tasks.
+ExecutorService executorService2 = Executors.newFixedThreadPool(10);
+
+// Creates a thread pool that can schedule commands to run after a
+// given delay, or to execute periodically.
+ExecutorService executorService3 = Executors.newScheduledThreadPool(10);
+```
+
 ## <a name="q-13-11"></a> 13.11 How do you check whether an executionservice task executed successfully?
+We can use a Future to check the return value. Future get method would return null if the task finished successfully.
+Example:
+```java
+Future future = executorService1.submit(new Runnable() {
+                                            public void run() {
+                                                System.out .println("From executorService1");
+                                            }
+                                        });
+future.get(); // returns null if the task has finished correctly.
+```
+
 ## <a name="q-13-12"></a> 13.12 What is callable? How do you execute a callable from executionservice?
+Runnable interface's run method has a return type void. So, it cannot return any result from executing a
+task. However, a Callable interface's call method has a return type. If you have multiple return values
+possible from a task, we can use the Callable interface.\
+Example:
+```java
+Future futureFromCallable = executorService1.submit(new Callable() {
+                                                        public String call() throws Exception {
+                                                            return "RESULT";
+                                                        }
+                                                    });
+System.out .println("futureFromCallable.get() = " + futureFromCallable.get());
+```
+
 ## <a name="q-13-13"></a> 13.13 What is synchronization of threads?
+Since Threads run in parallel, a new problem arises. What if thread1 modifies data which is being
+accessed by thread2? How do we ensure that different threads don’t leave the system in an inconsistent
+state? This problem is usually called synchronization problem.
+
+The way you can prevent multiple threads from executing the same method is by using the synchronized
+keyword on the method. If a method is marked synchronized, a different thread gets access to the
+method only when there is no other thread currently executing the method.\
+Example:
+```java
+public synchronized void calculate(){
+    //Do thread critical stuff
+}
+```
+
 ## <a name="q-13-14"></a> 13.14 Can you give an example of a synchronized block?
+All code which goes into the block is synchronized on the current object.\
+Example:
+```java
+void test() {
+    synchronized (this){
+        //Thread safe code
+    }
+}
+```
+
 ## <a name="q-13-15"></a> 13.15 Can a static method be synchronized?
+Yes.
+
 ## <a name="q-13-16"></a> 13.16 What is the use of join method in threads?
+Join method is an instance method on the Thread class. Let's see a small example to understand what
+join method does.
+Let’s consider the thread's declared below: thread2, thread3, thread4
+```java 
+ThreadExample thread2 = new ThreadExample();
+ThreadExample thread3 = new ThreadExample();
+ThreadExample thread4 = new ThreadExample();
+```
+Let’s say we would want to run thread2 and thread3 in parallel but thread4 can only run when thread3
+is finished. This can be achieved using join method.
+
+- Join method example:
+```java
+thread3.start();
+thread2.start();
+thread3.join();//wait for thread 3 to complete
+System.out.println("Thread3 is completed.");
+thread4.start();
+```
+thread3.join() method call force the execution of main method to stop until thread3 completes
+execution. After that, thread4.start() method is invoked, putting thread4 into a Runnable State.
+- Overloaded Join Method:\
+Join method also has an overloaded method accepting time in milliseconds as a parameter.\
+`thread4.join(2000);`
+In above example, main method thread would wait for 2000 ms or the end of execution of thread4,
+whichever is minimum.
+
 ## <a name="q-13-17"></a> 13.17 Describe a few other important methods in threads?
+- Thread yield method:\
+Yield is a static method in the Thread class. It is like a thread saying " I have enough time in the limelight.
+Can some other thread run next?".\
+A call to yield method changes the state of thread from RUNNING to RUNNABLE. However, the
+scheduler might pick up the same thread to run again, especially if it is the thread with highest priority.\
+Summary is yield method is a request from a thread to go to Runnable state. However, the scheduler
+can immediately put the thread back to RUNNING state.
+- Thread sleep method:\
+sleep is a static method in Thread class. sleep method can throw a InterruptedException. sleep method
+causes the thread in execution to go to sleep for specified number of milliseconds.
+
 ## <a name="q-13-18"></a> 13.18 What is a deadlock?
+Let’s consider a situation where thread1 is waiting for thread2 ( thread1 needs an object whose
+synchronized code is being executed by thread1) and thread2 is waiting for thread1. This situation is
+called a Deadlock. In a Deadlock situation, both these threads would wait for one another for ever.
+
 ## <a name="q-13-19"></a> 13.19 What are the important methods in Java for inter-thread communication?
+Important methods are: 
+- wait
+- notify
+- notifyAll
+
 ## <a name="q-13-20"></a> 13.20 What is the use of wait method?
+wait method is defined in the Object class. This causes the thread to wait until it is notified.\
+Example:
+```java
+synchronized(thread){
+    thread.start();
+    thread.wait();
+}
+```
+
 ## <a name="q-13-21"></a> 13.21 What is the use of notify method?
+notify method is defined in the Object class. This causes the object to notify other waiting threads.\
+Example:
+```java
+synchronized (this) {0
+    doSomeStuff();
+    notify();
+}
+```
 ## <a name="q-13-22"></a> 13.22 What is the use of notifyall method?
+If more than one thread is waiting for an object, we can notify all the threads by using notifyAll method.\
+Example:
+```java
+synchronized (this) {0
+    doSomeStuff();
+    notifyAll();
+}
+```
+
 ## <a name="q-13-23"></a> 13.23 Can you write a synchronized program with wait and notify methods?
+**REMOVE**
 
 ## Functional Programming - Lamdba expressions and Streams
 ## <a name="q-14-1"></a> 14.1 What is functional programming?
+Functional programming is a programming paradigm — a style of building the structure and elements of
+computer programs — that treats computation as the evaluation of mathematical functions and avoids
+changing-state and mutable data.
+
 ## <a name="q-14-2"></a> 14.2 Can you give an example of functional programming?
+**REMOVE**
+
 ## <a name="q-14-3"></a> 14.3 What is a stream?
+A Stream is a source of objects. In the above example, we created a stream from List.
+
+Streams have Intermediate Operations and Terminal Operations. In the example above, we used filter as
+intermediate operation and reduce as a terminal operation.
+
 ## <a name="q-14-4"></a> 14.4 Explain about streams with an example?
+Streams are introduced in Java 8. In combination with Lambda expressions, they attempt to bring some
+of the important functional programming concepts to Java.
+
+A stream is a sequence of elements supporting sequential and parallel aggregate operations. Consider
+the example code below. Following steps are done:
+- Step I : Creating an array as a stream
+- Step II : Use Lambda Expression to create a filter
+- Step III : Use map function to invoke a String function
+- Step IV : Use sorted function to sort the array
+- Step V : Print the array using forEach
+
+Example:
+```java
+Arrays.stream(new String[] {"Ram", "Robert", "Rahim"})
+      .filter(s - > s.startsWith("Ro"))
+      .map(String::toLowerCase)
+      .sorted()
+      .forEach(System.out::println);
+```
+
+In general any use of streams involves
+- Source - Creation or use of existing stream : Step I above
+- Intermediate Operations - Step II, III and IV above. Intermediate Operations return a new stream
+- Terminal Operation – Step V. Consume the stream. Print it to output or produce a result (sum,min,max etc).
+
+Intermediate Operations are of two kinds
+- Stateful : Elements need to be compared against one another (sort, distinct etc)
+- Stateless : No need for comparing with other elements (map, filter etc)
+
 ## <a name="q-14-5"></a> 14.5 What are intermediate operations in streams?
 Intermediate operations return another Stream which allows you to call multiple operations in a form of a query. Intermediate operations do not get executed until a terminal operation is invoked as there is a possibility they could be processed together when a terminal operation is executed.\
 Operations:
@@ -1887,9 +2153,12 @@ Operations:
 
 
 ## <a name="q-14-7"></a> 14.7 What are method references?
-## <a name="q-14-8"></a> 14.8 What are lambda expressions?
-One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method, then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method, such as what action should be taken when someone clicks a button. Lambda expressions enable you to do this, to treat functionality as method argument, or code as data.
+Integer::sum, System.out::print in the above examples are method references. These two are simple
+static methods which are used instead of Lambda Expressions.
 
+## <a name="q-14-8"></a> 14.8 What are lambda expressions?
+One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method, then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method, such as what action should be taken when someone clicks a button. Lambda expressions enable you to do this, to treat functionality as method argument, or code as data.\
+Syntax : Parameters -> Executed code
 ## <a name="q-14-9"></a> 14.9 Can you give an example of lambda expression?
 Example:
 ```java
@@ -1899,10 +2168,49 @@ list.forEach(item -> upper.add(item.toUpperCase()));
 ```
 
 ## <a name="q-14-10"></a> 14.10 Can you explain the relationship between lambda expression and functional interfaces?
+When ever we create a Lambda Expression, we are defining a function which implements a predefined/
+custom defined Functional Interface.
+
 ## <a name="q-14-11"></a> 14.11 What is a predicate?
+```java
+@FunctionalInterface
+public interface Predicate<T> {
+    boolean test(T t);
+}
+
+public void lambdaExpression_predicate() {
+    List<Integer> numbers = Arrays.asList(1, 3, 4, 6, 2, 7);
+    numbers.stream().filter((number) -> (number % 2 != 0)).forEach(
+        number -> System.out.print(number));
+}
+```
+(number) -> (number % 2 != 0) is a Predicate. Takes an argument and returns true of false.
+
+Signature of filter function : Stream<T> java.util.stream.Stream.filter(Predicate<? super T> predicate).
+filter returns a stream consisting of the elements of this stream that match the given predicate.
+
 ## <a name="q-14-12"></a> 14.12 What is the functional interface - function?
+```java
+@FunctionalInterface
+public interface Function<T, R> {
+    R apply(T t);
+}
+```
+
 ## <a name="q-14-13"></a> 14.13 What is a consumer?
+```java
+public interface Consumer<T> {
+    void accept(T t);
+}
+```
+
 ## <a name="q-14-14"></a> 14.14 Can you give examples of functional interfaces with multiple arguments?
+```java
+@FunctionalInterface
+public interface BiFunction<T, U, R> {
+    R apply(T t, U u);
+}
+```
 
 ## New Features
 ## <a name="q-15-1"></a> 15.1 What are the new features in Java 4/5?

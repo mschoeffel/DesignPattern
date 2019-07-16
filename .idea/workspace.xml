@@ -14,18 +14,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/visitor/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="115">
-                <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/visitor/ObjectStructure.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="736">
@@ -107,8 +95,8 @@
         <entry file="file://$PROJECT_DIR$/src/script/JavaQuestions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="681">
-                <caret line="1816" column="96" selection-start-line="1816" selection-start-column="96" selection-end-line="1816" selection-end-column="96" />
+              <first_editor relative-caret-position="750">
+                <caret line="2201" lean-forward="true" selection-start-line="2201" selection-end-line="2201" />
                 <folding>
                   <element signature="e#55#56#0" expanded="true" />
                   <element signature="e#149#150#0" expanded="true" />
@@ -116,6 +104,7 @@
                   <element signature="e#199#200#0" expanded="true" />
                   <element signature="e#111#112#0" expanded="true" />
                   <element signature="e#141#142#0" expanded="true" />
+                  <element signature="e#0#164#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -422,12 +411,12 @@
       <workItem from="1563181070316" duration="3206000" />
       <workItem from="1563186612286" duration="3562000" />
       <workItem from="1563196226464" duration="3649000" />
-      <workItem from="1563283351404" duration="4864000" />
+      <workItem from="1563283351404" duration="7395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103520000" />
+    <option name="totallyTimeSpent" value="106051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
@@ -468,17 +457,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/iterator/ExplicitAggregate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/mediator/Mediator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -880,11 +858,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/script/JavaQuestions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="681">
-            <caret line="1816" column="96" selection-start-line="1816" selection-start-column="96" selection-end-line="1816" selection-end-column="96" />
+          <first_editor relative-caret-position="750">
+            <caret line="2201" lean-forward="true" selection-start-line="2201" selection-end-line="2201" />
             <folding>
               <element signature="e#55#56#0" expanded="true" />
               <element signature="e#149#150#0" expanded="true" />
@@ -892,6 +877,7 @@
               <element signature="e#199#200#0" expanded="true" />
               <element signature="e#111#112#0" expanded="true" />
               <element signature="e#141#142#0" expanded="true" />
+              <element signature="e#0#164#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
