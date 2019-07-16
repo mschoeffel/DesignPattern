@@ -775,6 +775,10 @@ A final parameter ensures that these won't accidentally be changed by the method
 Using volatile is yet another way (like synchronized, atomic wrapper) of making class thread safe. Thread safe means that a method or class instance can be used by multiple threads at the same time without any problem.
 
 ## <a name="q-6-15"></a> 6.15 What is a static variable?
+Static variables and methods are class level variables and methods. There is only one copy of the static
+variable for the entire Class. Each instance of the Class (object) will not have a unique copy of a static
+variable.
+
 ## <a name="q-6-16"></a> 6.16 What is the difference between volatile and synchronized?
 First two important definitions:
 1. Mutual Exclusion:\
@@ -850,8 +854,29 @@ Done
 
 ## Exception handling
 ## <a name="q-8-1"></a> 8.1 Why is exception handling important?
+Most applications are large and complex. I’ve not seen an application without defects. 
+It is not that bad programmers create defects. Even good programmers write code that has
+defects and throws exceptions. There are two things that are important when exceptions are thrown.
+- A friendly message to the user:\
+You do not want a windows blue screen. When something goes
+wrong and an exception occurs, it would be great to let the user know that something went
+wrong and tech support has been notified. Additional thing we can do is to give the user a
+unique exception identifier and information on how to reach the tech support.
+- Enough Information for the Support Team/Support Developer to debug the problem:\
+When writing code, always think about what information would I need to debug a problem in this
+piece of code. Make sure that information is made available, mostly in the logs, if there are
+exceptions. It would be great to tie the information with the unique exception identifier given to
+the user.
+
 ## <a name="q-8-2"></a> 8.2 What design pattern is used to implement exception handling features in most languages?
+When an exception is thrown from a method with no exception handling, it is thrown to the calling
+method. If there is no exception handling in that method too, it is further thrown up to its calling
+method and so on. This happens until an appropriate exception handler is found.This is an example of
+Chain of Responsibility Pattern defined as “a way of passing a request between a chain of objects”.
+
 ## <a name="q-8-3"></a> 8.3 What is the need for finally block?
+A finally block is needed if you use resources that needs to be closed even is an error or exception occurs. Or to prevent a dead lock in a exception or error state.
+
 ## <a name="q-8-4"></a> 8.4 Does `finally` always execute?
 Yes, `finally` will be called after the execution of the `try` or `catch` code blocks.
 
@@ -878,6 +903,10 @@ static String readFirstLineFromFile(String path) throws IOException {
 ```
 
 ## <a name="q-8-8"></a> 8.8 Can you explain the hierarchy of exception handling classes?
+`Throwable` is the highest level of Error Handling classes.\
+Below are `Error` then `Exception` and then all the more specific exceptions like `RuntimeException`.\
+Underneath these exceptions you can create your own exceptions.
+
 ## <a name="q-8-9"></a> 8.9 What is the difference between error and exception?
 * **Error:**\
 An Error “indicates serious problems that a reasonable context should not try to catch.”
@@ -887,6 +916,12 @@ An Exception “indicates conditions that a reasonable context might want to cat
 Exceptions are the conditions that occur at runtime and may cause the termination of program. But they are recoverable using try, catch and throw keywords. Exceptions are divided into two catagories : checked and unchecked exceptions. Checked exceptions like IOException known to the compiler at compile time while unchecked exceptions like ArrayIndexOutOfBoundException known to the compiler at runtime. It is mostly caused by the program written by the programmer.
 
 ## <a name="q-8-10"></a> 8.10 What is the difference between checked exceptions and unchecked exceptions?
+- Un-Checked Exception\
+RuntimeException and classes that extend RuntimeException are called unchecked exceptions.
+- Checked Exception\
+Other Exception Classes (which don’t fit the earlier definition). These are also called Checked Exceptions.
+They are subclasses of Exception which are not subclasses of RuntimeException.
+
 ## <a name="q-8-11"></a> 8.11 How do you throw an exception from a method?
 Example:
 ```java
@@ -900,7 +935,24 @@ private void test(int i){
 ```
 
 ## <a name="q-8-12"></a> 8.12 What happens when you throw a checked exception from a method?
+You will get a compilation error, because you try to throw a unhandled exception type.
+
 ## <a name="q-8-13"></a> 8.13 What are the options you have to eliminate compilation errors when handling checked exceptions?
+All classes that are not RuntimeException or subclasses of RuntimeException but extend Exception are
+called CheckedExceptions. The rule for CheckedExceptions is that they should either be handled or
+thrown. Handled means it should be completed handled - i.e. not throw out of the method. Thrown
+means the method should declare that it throws the exception
+
+1. Declaring that a method would throw an exception:
+```java
+public int test(int input) throws Exception{
+    if(input == null)
+        throw new Exception("Input invalid")
+    return input++;
+}
+```
+2. Handling the checked exception with a try catch block
+
 ## <a name="q-8-14"></a> 8.14 How do you create a custom exception?
 You simply create an own class that extends the class `Exception`.
 Example:
@@ -924,7 +976,23 @@ private void doSomething(){
 ```
 
 ## <a name="q-8-16"></a> 8.16 Can you explain about try with resources?
+Consider the example below. When the try block ends the resources are automatically released. We do
+not need to create a separate finally block.
+```java
+try (BufferedReader br = new BufferedReader(new FileReader("FILE_PATH"))) {
+    String line;
+    while ((line = br.readLine()) != null) {
+        System.out.println(line);
+    }
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
 ## <a name="q-8-17"></a> 8.17 How does try with resources work?
+try-with-resources is available to any class that implements the AutoCloseable interface. In the above
+example BufferedReader implements AutoCloseable interface.
+
 ## <a name="q-8-18"></a> 8.18 Can you explain a few exception handling best practices?
 Only catch specific Exceptions and no `Errors` or `Throwable`, because `Errors` need to be thrown until the top to show that the context has some serious problems and shouldn't be caught so that the context stops running.
 
@@ -940,8 +1008,44 @@ Everything in a Java program not explicitly set to something by the programmer, 
 When you create an array of something, all entries are also zeroed.
 
 ## <a name="q-9-2"></a> 9.2 How do you loop around an array using enhanced for loop?
+Name of the variable is unit and the array we want to loop around is units.
+```java
+for (int unit : units) {
+    System.out.println(unit);
+}
+```
+
+
 ## <a name="q-9-3"></a> 9.3 How do you print the content of an array?
+- 1D Array:\
+Example:
+```java
+int array[] = { 25, 30, 50, 10, 5 };
+System.out.println(array); //[I@6db3f829
+System.out.println(Arrays.toString(array));//[25, 30, 50, 10, 5]
+```
+- 2D Array:\
+Example:
+```java
+int[][] array = { { 1, 2, 3 }, { 4, 5, 6 } };
+System.out.println(array); //[[I@1d5a0305
+System.out.println(Arrays.toString(array)); //[[I@6db3f829, [I@42698403]
+System.out.println(Arrays.deepToString(array)); //[[1, 2, 3], [4, 5, 6]]
+```
+
 ## <a name="q-9-4"></a> 9.4 How do you compare two arrays?
+Arrays can be compared using static method equals defined in Arrays class. Two arrays are equal only if
+they have the same numbers in all positions and have the same size.
+Example:
+```java
+int[] array1 = { 1, 2, 3 };
+int[] array2 = { 4, 5, 6 };
+System.out.println(Arrays.equals(array1, array2)); //false
+
+int[] array3 = { 1, 2, 3 };
+System.out.println(Arrays.equals(array1, array3)); //true
+```
+
 ## <a name="q-9-5"></a> 9.5 What is an enum?
 An enum(short: Enumeration) is a special "class" that represents a group of constants (unchangeable variables, like final variables).\
 To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma. Note that they should be in uppercase letters.\
@@ -957,6 +1061,7 @@ Level l = Level.MEDIUM;
 ```
 
 With enums you can also make some pretty advanced stuff like gibe them differend funktions etc. seen in some design patterns.
+
 ## <a name="q-9-6"></a> 9.6 Can you use a switch statement around an enum?
 Yes you can and should be used for good coding style.\
 Example:
@@ -983,8 +1088,43 @@ Level myVar = Level.MEDIUM;
 ```
 
 ## <a name="q-9-7"></a> 9.7 What are variable arguments or varargs?
+Variable Arguments allow calling a method with different number of parameters. Consider the example
+method sum below. This sum method can be called with 1 int parameter or 2 int parameters or more int
+parameters.
+```java
+//int(type) followed ... (three dot's) is syntax of a variable argument.
+public int sum(int... numbers) {
+    //inside the method a variable argument is similar to an array.
+    //number can be treated as if it is declared as int[] numbers;
+    int sum = 0;
+    for (int number: numbers) {
+        sum += number;
+    }
+    return sum;
+}
+```
+Now you can call the method any number of `int` parameter you want:
+```java
+System.out.println(sum(1,2,3,4));
+System.out.println(sum(1,2,3,4,5,6,7));
+```
+
 ## <a name="q-9-8"></a> 9.8 What are asserts used for?
+Assertions are introduced in Java 1.4. They enable you to validate assumptions. If an assert fails (i.e.
+returns false), AssertionError is thrown (if assertions are enabled). Basic assert is shown in the example
+below:
+```java
+private int test(int number){
+    assert(number>0);
+    return 100;
+}
+```
+
 ## <a name="q-9-9"></a> 9.9 When should asserts be used?
+Assertions should not be used to validate input data to a public method or command line argument.
+IllegalArgumentException would be a better option. In public method, only use assertions to check for
+cases which are never supposed to happen.
+
 ## <a name="q-9-10"></a> 9.10 What is garbage collection?
 In computer science, garbage collection (GC) is a form of automatic memory management. The garbage collector, or just collector, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program. Garbage collection was invented by John McCarthy around 1959 to simplify manual memory management in Lisp.\
 Garbage collection is essentially the opposite of manual memory management, which requires the programmer to specify which objects to deallocate and return to the memory system.
