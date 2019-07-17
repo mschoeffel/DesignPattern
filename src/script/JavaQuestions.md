@@ -57,13 +57,11 @@ NUMBER | QUESTION
 [4.24](#q-4-24) | Compare abstract class vs interface?
 [4.25](#q-4-25) | What is a constructor?
 [4.26](#q-4-26) | What is a default constructor?
-[4.27](#q-4-27) | Will this code compile?
-[4.28](#q-4-28) | How do you call a super class constructor from a constructor?
-[4.29](#q-4-29) | Will this code compile?
-[4.30](#q-4-30) | What is the use of this()?
-[4.31](#q-4-31) | Can a constructor be called directly from a method?
-[4.32](#q-4-32) | Is a super class constructor called even when there is no explicit call from a sub class constructor?
-[4.33](#q-4-33) | Is it possible to call one constructor from another in Java?
+[4.27](#q-4-27) | How do you call a super class constructor from a constructor?
+[4.28](#q-4-28) | What is the use of this()?
+[4.29](#q-4-29) | Can a constructor be called directly from a method?
+[4.30](#q-4-30) | Is a super class constructor called even when there is no explicit call from a sub class constructor?
+[4.31](#q-4-31) | Is it possible to call one constructor from another in Java?
 &nbsp; | &nbsp;
 &nbsp; | **Advanced object oriented concepts**
 [5.1](#q-5-1) | What is polymorphism?
@@ -170,21 +168,20 @@ NUMBER | QUESTION
 [10.17](#q-10-17) | What is a HashSet?
 [10.18](#q-10-18) | What is a linkedHashSet? How is different from a HashSet?
 [10.19](#q-10-19) | What is a TreeSet? How is different from a HashSet?
-[10.20](#q-10-20) | Can you give examples of implementations of navigableSet?
-[10.21](#q-10-21) | Explain briefly about Queue interface?
-[10.22](#q-10-22) | What are the important interfaces related to the Queue interface?
-[10.23](#q-10-23) | Explain about the Deque interface?
-[10.24](#q-10-24) | Explain the BlockingQueue interface?
-[10.25](#q-10-25) | What is a priorityQueue?
-[10.26](#q-10-26) | Can you give example implementations of the BlockingQueue interface?
-[10.27](#q-10-27) | Can you briefly explain about the Map interface?
-[10.28](#q-10-28) | What is difference between Map and sortedMap?
-[10.29](#q-10-29) | What is a HashMap?
-[10.30](#q-10-30) | What are the different methods in a Hash Map?
-[10.31](#q-10-31) | What is a TreeMap? How is different from a HashMap?
-[10.32](#q-10-32) | Can you give an example of implementation of navigableMap interface?
-[10.33](#q-10-33) | What are the static methods present in the collections class?
-[10.34](#q-10-34) | What are two differences between a HashMap and a Hashtable?
+[10.20](#q-10-22) | Explain briefly about Queue interface?
+[10.21](#q-10-21) | What are the important interfaces related to the Queue interface?
+[10.22](#q-10-22) | Explain about the Deque interface?
+[10.23](#q-10-23) | Explain the BlockingQueue interface?
+[10.24](#q-10-24) | What is a priorityQueue?
+[10.25](#q-10-25) | Can you give example implementations of the BlockingQueue interface?
+[10.26](#q-10-26) | Can you briefly explain about the Map interface?
+[10.27](#q-10-27) | What is difference between Map and sortedMap?
+[10.28](#q-10-28) | What is a HashMap?
+[10.29](#q-10-29) | What are the different methods in a Hash Map?
+[10.30](#q-10-30) | What is a TreeMap? How is different from a HashMap?
+[10.31](#q-10-31) | Can you give an example of implementation of navigableMap interface?
+[10.32](#q-10-32) | What are the static methods present in the collections class?
+[10.33](#q-10-33) | What are two differences between a HashMap and a Hashtable?
 &nbsp; | &nbsp;
 &nbsp; | **Advanced collections**
 [11.1](#q-11-1) | What is the difference between synchronized and concurrent collections in Java?
@@ -231,23 +228,21 @@ NUMBER | QUESTION
 [13.20](#q-13-20) | What is the use of wait method?
 [13.21](#q-13-21) | What is the use of notify method?
 [13.22](#q-13-22) | What is the use of notifyall method?
-[13.23](#q-13-23) | Can you write a synchronized program with wait and notify methods?
 &nbsp; | &nbsp;
 &nbsp; | **Functional Programming - Lamdba expressions and Streams**
 [14.1](#q-14-1) | What is functional programming?
-[14.2](#q-14-2) | Can you give an example of functional programming?
-[14.3](#q-14-3) | What is a stream?
-[14.4](#q-14-4) | Explain about streams with an example?
-[14.5](#q-14-5) | What are intermediate operations in streams?
-[14.6](#q-14-6) | What are terminal operations in streams?
-[14.7](#q-14-7) | What are method references?
-[14.8](#q-14-8) | What are lambda expressions?
-[14.9](#q-14-9) | Can you give an example of lambda expression?
-[14.10](#q-14-10) | Can you explain the relationship between lambda expression and functional interfaces?
-[14.11](#q-14-11) | What is a predicate?
-[14.12](#q-14-12) | What is the functional interface - function?
-[14.13](#q-14-13) | What is a consumer?
-[14.14](#q-14-14) | Can you give examples of functional interfaces with multiple arguments?
+[14.2](#q-14-2) | What is a stream?
+[14.3](#q-14-3) | Explain about streams with an example?
+[14.4](#q-14-4) | What are intermediate operations in streams?
+[14.5](#q-14-5) | What are terminal operations in streams?
+[14.6](#q-14-6) | What are method references?
+[14.7](#q-14-7) | What are lambda expressions?
+[14.8](#q-14-8) | Can you give an example of lambda expression?
+[14.9](#q-14-9) | Can you explain the relationship between lambda expression and functional interfaces?
+[14.10](#q-14-10) | What is a predicate?
+[14.11](#q-14-11) | What is the functional interface - function?
+[14.12](#q-14-12) | What is a consumer?
+[14.13](#q-14-13) | Can you give examples of functional interfaces with multiple arguments?
 &nbsp; | &nbsp;
 &nbsp; | **New Features**
 [15.1](#q-15-1) | What are the new features in Java 4/5?
@@ -638,10 +633,7 @@ public class Test{
 }
 ```
 
-## <a name="q-4-27"></a> 4.27 Will this code compile?
-**Remove**
-
-## <a name="q-4-28"></a> 4.28 How do you call a super class constructor from a constructor?
+## <a name="q-4-27"></a> 4.27 How do you call a super class constructor from a constructor?
 To call the constructor of the parent class you siply call `super()`.\
 Example:
 ```java
@@ -658,19 +650,17 @@ public class child extends parent{
     }
 }
 ```
-## <a name="q-4-29"></a> 4.29 Will this code compile?
-**Remove**
 
-## <a name="q-4-30"></a> 4.30 What is the use of this()?
+## <a name="q-4-28"></a> 4.28 What is the use of this()?
 With `this()` you can call another constructor of the class.
 
-## <a name="q-4-31"></a> 4.31 Can a constructor be called directly from a method?
+## <a name="q-4-29"></a> 4.29 Can a constructor be called directly from a method?
 A constructor cannot be explicitly called from any method except another constructor.
 
-## <a name="q-4-32"></a> 4.32 Is a super class constructor called even when there is no explicit call from a sub class constructor?
+## <a name="q-4-30"></a> 4.30 Is a super class constructor called even when there is no explicit call from a sub class constructor?
 Yes, if a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts a call to the no-argument constructor of the superclass. If the super class does not have a no-argument constructor, you will get a compile-time error. Object does have such a constructor, so if Object is the only superclass, there is no problem.
 
-## <a name="q-4-33"></a> 4.33 Is it possible to call one constructor from another in Java?
+## <a name="q-4-31"></a> 4.31 Is it possible to call one constructor from another in Java?
 Yes, but one can only chain to **one** constructor - and it has to be the **first statement** in your constructor body. Keyword to call another constructor of the same class is `this()`.\
 Example:
 ```java
@@ -1476,10 +1466,7 @@ back in the order in which they were inserted.
 TreeSet implements Set, SortedSet and NavigableSet interfaces.TreeSet is similar to HashSet except that
 it stores element’s in Sorted Order.
 
-## <a name="q-10-20"></a> 10.20 Can you give examples of implementations of navigableSet?
-**REMOVE**
-
-## <a name="q-10-21"></a> 10.21 Explain briefly about Queue interface?
+## <a name="q-10-20"></a> 10.20 Explain briefly about Queue interface?
 Queue Interface extends Collection interface. Queue Interface is typically used for implementation
 holding elements in order for some processing.
 
@@ -1487,10 +1474,10 @@ Queue interface offers methods `peek()` and `poll()` which get the element at he
 difference is that `poll()` method removes the head from queue also. `peek()` would keep head of the
 queue unchanged.
 
-## <a name="q-10-22"></a> 10.22 What are the important interfaces related to the Queue interface?
+## <a name="q-10-21"></a> 10.21 What are the important interfaces related to the Queue interface?
 Two important interfaces are `Deque` and `BlockingQueue`.
 
-## <a name="q-10-23"></a> 10.23 Explain about the Deque interface?
+## <a name="q-10-22"></a> 10.22 Explain about the Deque interface?
 Example:
 ```java
 //A linear collection that supports element insertion and removal at both ends
@@ -1512,7 +1499,7 @@ interface Deque<E> extends Queue<E> {
 }
 ```
 
-## <a name="q-10-24"></a> 10.24 Explain the BlockingQueue interface?
+## <a name="q-10-23"></a> 10.23 Explain the BlockingQueue interface?
 Example:
 ```java
 //A Queue that additionally supports operations that wait for
@@ -1551,16 +1538,16 @@ interface BlockingQueue<E> extends Queue<E> {
 }
 ```
 
-## <a name="q-10-25"></a> 10.25 What is a `PriorityQueue`?
+## <a name="q-10-24"></a> 10.24 What is a `PriorityQueue`?
 `PriorityQueue` implements the `Queue` interface.
 The elements of the priority queue are ordered according to their natural ordering.
 
-## <a name="q-10-26"></a> 10.26 Can you give example implementations of the BlockingQueue interface?
+## <a name="q-10-25"></a> 10.25 Can you give example implementations of the BlockingQueue interface?
 Two examples:
 - `ArrayBlockingQueue`: uses Array - optionally-bounded
 - `LinkedBlockingQueue`: uses Linked List - optionally-bounded; Linked queues typically have higher throughput than array-based queues but less predictable performance in most concurrent applications.
 
-## <a name="q-10-27"></a> 10.27 Can you briefly explain about the Map interface?
+## <a name="q-10-26"></a> 10.26 Can you briefly explain about the Map interface?
 First and foremost, Map interface does not extend Collection interface. So, it does not inherit any of the
 methods from the Collection interface.
 
@@ -1603,24 +1590,24 @@ interface Map<K, V>
 }
 ```
 
-## <a name="q-10-28"></a> 10.28 What is difference between Map and sortedMap?
+## <a name="q-10-27"></a> 10.27 What is difference between Map and sortedMap?
 SortedMap interface extends the Map interface. In addition, an implementation of SortedMap interface
 maintains keys in a sorted order.
 
-## <a name="q-10-29"></a> 10.29 What is a HashMap?
+## <a name="q-10-28"></a> 10.28 What is a HashMap?
 HashMap implements Map interface – there by supporting key value pairs.
 
-## <a name="q-10-30"></a> 10.30 What are the different methods in a Hash Map?
+## <a name="q-10-29"></a> 10.29 What are the different methods in a Hash Map?
 
 
-## <a name="q-10-31"></a> 10.31 What is a TreeMap? How is different from a HashMap?
+## <a name="q-10-30"></a> 10.30 What is a TreeMap? How is different from a HashMap?
 TreeMap is similar to HashMap except that it stores keys in sorted order. It implements NavigableMap
 interface and SortedMap interfaces along with the Map interface.
 
-## <a name="q-10-32"></a> 10.32 Can you give an example of implementation of navigableMap interface?
-TreeMap
+## <a name="q-10-31"></a> 10.31 Can you give an example of implementation of navigableMap interface?
+TreeMap.
 
-## <a name="q-10-33"></a> 10.33 What are the static methods present in the collections class?
+## <a name="q-10-32"></a> 10.32 What are the static methods present in the collections class?
 - static int binarySearch(List, key)
 - - Can be used only on sorted list
 - static int binarySearch(List, key, Comparator)
@@ -1631,7 +1618,7 @@ TreeMap
 - static void sort(List)
 - static void sort(List, Comparator)
 
-## <a name="q-10-34"></a> 10.34 What are two differences between a HashMap and a Hashtable?
+## <a name="q-10-33"></a> 10.33 What are two differences between a HashMap and a Hashtable?
 There are several differences between `HashMap` and `Hashtable` in Java:
 1. `Hashtable` is synchronized, whereas `HashMap` is not. This makes `HashMa`p better for non-threaded applications, as unsynchronized Objects typically perform better than synchronized ones.
 2. `Hashtable` does not allow `null` keys or values. `HashMap` allows one `null` key and any number of `null` values.
@@ -2076,25 +2063,19 @@ synchronized (this) {0
 }
 ```
 
-## <a name="q-13-23"></a> 13.23 Can you write a synchronized program with wait and notify methods?
-**REMOVE**
-
 ## Functional Programming - Lamdba expressions and Streams
 ## <a name="q-14-1"></a> 14.1 What is functional programming?
 Functional programming is a programming paradigm — a style of building the structure and elements of
 computer programs — that treats computation as the evaluation of mathematical functions and avoids
 changing-state and mutable data.
 
-## <a name="q-14-2"></a> 14.2 Can you give an example of functional programming?
-**REMOVE**
-
-## <a name="q-14-3"></a> 14.3 What is a stream?
+## <a name="q-14-2"></a> 14.2 What is a stream?
 A Stream is a source of objects. In the above example, we created a stream from List.
 
 Streams have Intermediate Operations and Terminal Operations. In the example above, we used filter as
 intermediate operation and reduce as a terminal operation.
 
-## <a name="q-14-4"></a> 14.4 Explain about streams with an example?
+## <a name="q-14-3"></a> 14.3 Explain about streams with an example?
 Streams are introduced in Java 8. In combination with Lambda expressions, they attempt to bring some
 of the important functional programming concepts to Java.
 
@@ -2124,7 +2105,7 @@ Intermediate Operations are of two kinds
 - Stateful : Elements need to be compared against one another (sort, distinct etc)
 - Stateless : No need for comparing with other elements (map, filter etc)
 
-## <a name="q-14-5"></a> 14.5 What are intermediate operations in streams?
+## <a name="q-14-4"></a> 14.4 What are intermediate operations in streams?
 Intermediate operations return another Stream which allows you to call multiple operations in a form of a query. Intermediate operations do not get executed until a terminal operation is invoked as there is a possibility they could be processed together when a terminal operation is executed.\
 Operations:
 * `filter`
@@ -2135,7 +2116,7 @@ Operations:
 * `sorted`
 * `limit`
 
-## <a name="q-14-6"></a> 14.6 What are terminal operations in streams?
+## <a name="q-14-5"></a> 14.5 What are terminal operations in streams?
 Terminal operations produces a non-stream, result such as primitive value, a collection or no value at all. Terminal operations are typically preceded by intermediate operations which return another Stream which allows operations to be connected in a form of a query.\
 Operations:
 * `forEach`
@@ -2152,14 +2133,14 @@ Operations:
 * `findAny`
 
 
-## <a name="q-14-7"></a> 14.7 What are method references?
+## <a name="q-14-6"></a> 14.6 What are method references?
 Integer::sum, System.out::print in the above examples are method references. These two are simple
 static methods which are used instead of Lambda Expressions.
 
-## <a name="q-14-8"></a> 14.8 What are lambda expressions?
+## <a name="q-14-7"></a> 14.7 What are lambda expressions?
 One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method, then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method, such as what action should be taken when someone clicks a button. Lambda expressions enable you to do this, to treat functionality as method argument, or code as data.\
 Syntax : Parameters -> Executed code
-## <a name="q-14-9"></a> 14.9 Can you give an example of lambda expression?
+## <a name="q-14-8"></a> 14.8 Can you give an example of lambda expression?
 Example:
 ```java
 List<String> upper = new ArrayList<>();
@@ -2167,11 +2148,11 @@ List<String> list = new ArrayList<>();
 list.forEach(item -> upper.add(item.toUpperCase()));
 ```
 
-## <a name="q-14-10"></a> 14.10 Can you explain the relationship between lambda expression and functional interfaces?
+## <a name="q-14-9"></a> 14.9 Can you explain the relationship between lambda expression and functional interfaces?
 When ever we create a Lambda Expression, we are defining a function which implements a predefined/
 custom defined Functional Interface.
 
-## <a name="q-14-11"></a> 14.11 What is a predicate?
+## <a name="q-14-10"></a> 14.10 What is a predicate?
 ```java
 @FunctionalInterface
 public interface Predicate<T> {
@@ -2189,7 +2170,7 @@ public void lambdaExpression_predicate() {
 Signature of filter function : Stream<T> java.util.stream.Stream.filter(Predicate<? super T> predicate).
 filter returns a stream consisting of the elements of this stream that match the given predicate.
 
-## <a name="q-14-12"></a> 14.12 What is the functional interface - function?
+## <a name="q-14-11"></a> 14.11 What is the functional interface - function?
 ```java
 @FunctionalInterface
 public interface Function<T, R> {
@@ -2197,14 +2178,14 @@ public interface Function<T, R> {
 }
 ```
 
-## <a name="q-14-13"></a> 14.13 What is a consumer?
+## <a name="q-14-12"></a> 14.12 What is a consumer?
 ```java
 public interface Consumer<T> {
     void accept(T t);
 }
 ```
 
-## <a name="q-14-14"></a> 14.14 Can you give examples of functional interfaces with multiple arguments?
+## <a name="q-14-13"></a> 14.13 Can you give examples of functional interfaces with multiple arguments?
 ```java
 @FunctionalInterface
 public interface BiFunction<T, U, R> {

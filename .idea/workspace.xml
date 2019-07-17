@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/script/JavaQuestions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/JavaQuestions.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,8 +96,8 @@
         <entry file="file://$PROJECT_DIR$/src/script/JavaQuestions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="750">
-                <caret line="2201" lean-forward="true" selection-start-line="2201" selection-end-line="2201" />
+              <first_editor relative-caret-position="202">
+                <caret line="225" column="39" lean-forward="true" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
                 <folding>
                   <element signature="e#55#56#0" expanded="true" />
                   <element signature="e#149#150#0" expanded="true" />
@@ -104,7 +105,7 @@
                   <element signature="e#199#200#0" expanded="true" />
                   <element signature="e#111#112#0" expanded="true" />
                   <element signature="e#141#142#0" expanded="true" />
-                  <element signature="e#0#164#0" expanded="true" />
+                  <element signature="e#0#619#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -131,7 +132,10 @@
       <find>template</find>
       <find>erzeugungsmuster</find>
       <find />
-      <find />
+      <find>remove</find>
+      <find>q-4-31</find>
+      <find>10-20</find>
+      <find>**re</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1167" />
@@ -411,15 +415,16 @@
       <workItem from="1563181070316" duration="3206000" />
       <workItem from="1563186612286" duration="3562000" />
       <workItem from="1563196226464" duration="3649000" />
-      <workItem from="1563283351404" duration="7395000" />
+      <workItem from="1563283351404" duration="8024000" />
+      <workItem from="1563355945192" duration="510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106051000" />
+    <option name="totallyTimeSpent" value="107190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.32713348" />
@@ -796,6 +801,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/visitor/ObjectStructure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -858,18 +870,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/script/JavaQuestions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="750">
-            <caret line="2201" lean-forward="true" selection-start-line="2201" selection-end-line="2201" />
+          <first_editor relative-caret-position="202">
+            <caret line="225" column="39" lean-forward="true" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
             <folding>
               <element signature="e#55#56#0" expanded="true" />
               <element signature="e#149#150#0" expanded="true" />
@@ -877,7 +882,7 @@
               <element signature="e#199#200#0" expanded="true" />
               <element signature="e#111#112#0" expanded="true" />
               <element signature="e#141#142#0" expanded="true" />
-              <element signature="e#0#164#0" expanded="true" />
+              <element signature="e#0#619#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
