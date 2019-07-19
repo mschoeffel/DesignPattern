@@ -57,13 +57,11 @@ NUMBER | QUESTION
 [4.24](#q-4-24) | Compare abstract class vs interface?
 [4.25](#q-4-25) | What is a constructor?
 [4.26](#q-4-26) | What is a default constructor?
-[4.27](#q-4-27) | Will this code compile?
-[4.28](#q-4-28) | How do you call a super class constructor from a constructor?
-[4.29](#q-4-29) | Will this code compile?
-[4.30](#q-4-30) | What is the use of this()?
-[4.31](#q-4-31) | Can a constructor be called directly from a method?
-[4.32](#q-4-32) | Is a super class constructor called even when there is no explicit call from a sub class constructor?
-[4.33](#q-4-33) | Is it possible to call one constructor from another in Java?
+[4.27](#q-4-27) | How do you call a super class constructor from a constructor?
+[4.28](#q-4-28) | What is the use of this()?
+[4.29](#q-4-29) | Can a constructor be called directly from a method?
+[4.30](#q-4-30) | Is a super class constructor called even when there is no explicit call from a sub class constructor?
+[4.31](#q-4-31) | Is it possible to call one constructor from another in Java?
 &nbsp; | &nbsp;
 &nbsp; | **Advanced object oriented concepts**
 [5.1](#q-5-1) | What is polymorphism?
@@ -170,21 +168,20 @@ NUMBER | QUESTION
 [10.17](#q-10-17) | What is a HashSet?
 [10.18](#q-10-18) | What is a linkedHashSet? How is different from a HashSet?
 [10.19](#q-10-19) | What is a TreeSet? How is different from a HashSet?
-[10.20](#q-10-20) | Can you give examples of implementations of navigableSet?
-[10.21](#q-10-21) | Explain briefly about Queue interface?
-[10.22](#q-10-22) | What are the important interfaces related to the Queue interface?
-[10.23](#q-10-23) | Explain about the Deque interface?
-[10.24](#q-10-24) | Explain the BlockingQueue interface?
-[10.25](#q-10-25) | What is a priorityQueue?
-[10.26](#q-10-26) | Can you give example implementations of the BlockingQueue interface?
-[10.27](#q-10-27) | Can you briefly explain about the Map interface?
-[10.28](#q-10-28) | What is difference between Map and sortedMap?
-[10.29](#q-10-29) | What is a HashMap?
-[10.30](#q-10-30) | What are the different methods in a Hash Map?
-[10.31](#q-10-31) | What is a TreeMap? How is different from a HashMap?
-[10.32](#q-10-32) | Can you give an example of implementation of navigableMap interface?
-[10.33](#q-10-33) | What are the static methods present in the collections class?
-[10.34](#q-10-34) | What are two differences between a HashMap and a Hashtable?
+[10.20](#q-10-22) | Explain briefly about Queue interface?
+[10.21](#q-10-21) | What are the important interfaces related to the Queue interface?
+[10.22](#q-10-22) | Explain about the Deque interface?
+[10.23](#q-10-23) | Explain the BlockingQueue interface?
+[10.24](#q-10-24) | What is a priorityQueue?
+[10.25](#q-10-25) | Can you give example implementations of the BlockingQueue interface?
+[10.26](#q-10-26) | Can you briefly explain about the Map interface?
+[10.27](#q-10-27) | What is difference between Map and sortedMap?
+[10.28](#q-10-28) | What is a HashMap?
+[10.29](#q-10-29) | What are the different methods in a Hash Map?
+[10.30](#q-10-30) | What is a TreeMap? How is different from a HashMap?
+[10.31](#q-10-31) | Can you give an example of implementation of navigableMap interface?
+[10.32](#q-10-32) | What are the static methods present in the collections class?
+[10.33](#q-10-33) | What are two differences between a HashMap and a Hashtable?
 &nbsp; | &nbsp;
 &nbsp; | **Advanced collections**
 [11.1](#q-11-1) | What is the difference between synchronized and concurrent collections in Java?
@@ -206,6 +203,7 @@ NUMBER | QUESTION
 [12.4](#q-12-4) | What are the restrictions in using generic type that is declared in a class declaration?
 [12.5](#q-12-5) | How can we restrict Generics to a subclass of particular class?
 [12.6](#q-12-6) | How can we restrict Generics to a super class of particular class?
+[12.7](#q-12-7) | Can you give an example of a Generic Method?
 &nbsp; | &nbsp;
 &nbsp; | **Multi threading**
 [13.1](#q-13-1) | What is the need for threads in Java?
@@ -230,23 +228,21 @@ NUMBER | QUESTION
 [13.20](#q-13-20) | What is the use of wait method?
 [13.21](#q-13-21) | What is the use of notify method?
 [13.22](#q-13-22) | What is the use of notifyall method?
-[13.23](#q-13-23) | Can you write a synchronized program with wait and notify methods?
 &nbsp; | &nbsp;
 &nbsp; | **Functional Programming - Lamdba expressions and Streams**
 [14.1](#q-14-1) | What is functional programming?
-[14.2](#q-14-2) | Can you give an example of functional programming?
-[14.3](#q-14-3) | What is a stream?
-[14.4](#q-14-4) | Explain about streams with an example?
-[14.5](#q-14-5) | What are intermediate operations in streams?
-[14.6](#q-14-6) | What are terminal operations in streams?
-[14.7](#q-14-7) | What are method references?
-[14.8](#q-14-8) | What are lambda expressions?
-[14.9](#q-14-9) | Can you give an example of lambda expression?
-[14.10](#q-14-10) | Can you explain the relationship between lambda expression and functional interfaces?
-[14.11](#q-14-11) | What is a predicate?
-[14.12](#q-14-12) | What is the functional interface - function?
-[14.13](#q-14-13) | What is a consumer?
-[14.14](#q-14-14) | Can you give examples of functional interfaces with multiple arguments?
+[14.2](#q-14-2) | What is a stream?
+[14.3](#q-14-3) | Explain about streams with an example?
+[14.4](#q-14-4) | What are intermediate operations in streams?
+[14.5](#q-14-5) | What are terminal operations in streams?
+[14.6](#q-14-6) | What are method references?
+[14.7](#q-14-7) | What are lambda expressions?
+[14.8](#q-14-8) | Can you give an example of lambda expression?
+[14.9](#q-14-9) | Can you explain the relationship between lambda expression and functional interfaces?
+[14.10](#q-14-10) | What is a predicate?
+[14.11](#q-14-11) | What is the functional interface - function?
+[14.12](#q-14-12) | What is a consumer?
+[14.13](#q-14-13) | Can you give examples of functional interfaces with multiple arguments?
 &nbsp; | &nbsp;
 &nbsp; | **New Features**
 [15.1](#q-15-1) | What are the new features in Java 4/5?
@@ -335,8 +331,37 @@ Integer o = new Integer(i);
 ```
 
 ## <a name="q-2-4"></a> 2.4 What are differences in the two ways of creating Wrapper classes?
+The difference is that using the Constructor you will always create a new object, while using `valueOf()` static method, it may return you a cached value with-in a range. 
+
 ## <a name="q-2-5"></a> 2.5 What is auto boxing?
+Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes. For example, converting an int to an Integer, a double to a Double, and so on. If the conversion goes the other way, this is called unboxing.\
+Example:
+```java
+Integer test = 9;
+
+/** OR */
+
+Integer test2 = new Integer(10);
+test2++; 
+```
+
 ## <a name="q-2-6"></a> 2.6 What are the advantages of auto boxing?
+Auto Boxing helps in saving memory by reusing already created Wrapper objects. Auto Boxing uses the static valueOf methods. However wrapper classes created using new are not reused.\
+Example:
+```java
+/** Two wrapper objects created using new are not same object. */
+Integer testA = new Integer(9);
+Integer testB = new Integer(9);
+System.out.println(testA == testB); //false
+System.out.println(testA.equals(testB)); //true
+
+/** Two wrapper objects created using boxing are same object. */
+Integer testC = 9;
+Integer testD = 9;
+System.out.println(testC == testD); //true
+System.out.println(testC.equals(testD)); //true
+```
+
 ## <a name="q-2-7"></a> 2.7 What is casting?
 Type Casting in Java is nothing but converting a primitive or interface or class in Java into other type. There is a rule in Java Language that classes or interface which shares the same type hierrachy only can be typecasted. If there is no relationship between then Java will throw ClassCastException.\
 Type casting are of two types they are:
@@ -385,7 +410,19 @@ All `String` are immutable in Java. An immutable class is simply a class whose i
 All the `String` objects will be stored in the heap.
 
 ## <a name="q-3-3"></a> 3.3 Why should you be careful about String concatenation(+) operator in loops?
+Whenever you concat two strings two String objects are created in the memory consider this example:
+```java
+String s1 = "value1";
+String s2 = "value2";
+for(int i = 0; i < 10000; i++){
+    s2 = s1 + s2;
+}
+```
+With the above code 10000 String objects will be created. This will have a huge impact on the performance.
+
 ## <a name="q-3-4"></a> 3.4 How do you solve above problem?
+You can easily solve this problem by using a `StringBuilder` or `StringBuffer`.
+
 ## <a name="q-3-5"></a> 3.5 What are differences between String and StringBuffer?
 Basis | String | StringBuffer
 ----|----|----
@@ -431,7 +468,58 @@ The `toString()` Methods gives a String representation of an object.
 the `equals()` Method compares two objects if they are the same,
 
 ## <a name="q-4-8"></a> 4.8 What are the important things to consider when implementing equals method?
+Any equals implementation should satisfy these properties:
+1. Reflexive. For any reference value x, x.equals(x) returns true.
+2. Symmetric. For any reference values x and y, x.equals(y) should return true if and only if
+y.equals(x) returns true.
+3. Transitive. For any reference values x, y, and z, if x.equals(y) returns true and y.equals(z) returns
+true, then x.equals(z) must return true.
+4. Consistent. For any reference values x and y, multiple invocations of x.equals(y) consistently
+return true or consistently return false, if no information used in equals is modified.
+5. For any non-null reference value x, x.equals(null) should return false.
+
+Example:
+```java
+//Client class
+@Override
+public boolean equals(Object obj) {
+    if (this == obj)
+        return true;
+    if (obj == null)
+        return false;
+    if (getClass() != obj.getClass())
+        return false;
+    Client other = (Client) obj;
+    if (id != other.id)
+        return false;
+    return true;
+}
+```
+
 ## <a name="q-4-9"></a> 4.9 What is the Hashcode method used for in Java?
+HashCode's are used in hashing to decide which group (or bucket) an object should be placed into. A
+group of object's might share the same hashcode.
+The implementation of hash code decides effectiveness of Hashing. A good hashing function evenly
+distributes object's into different groups (or buckets).
+A good hashCode method should have the following properties:
+- If obj1.equals(obj2) is true, then obj1.hashCode() should be equal to obj2.hashCode()
+- obj.hashCode() should return the same value when run multiple times, if values of obj used in
+equals() have not changed.
+- If obj1.equals(obj2) is false, it is NOT required that obj1.hashCode() is not equal to
+obj2.hashCode(). Two unequal objects MIGHT have the same hashCode.
+
+A sample hashcode implementation of Client class which meets above constraints is given below:
+```java
+//Client class
+@Override
+public int hashCode() {
+    final int prime = 31;
+    int result = 1;
+    result = prime * result + id;
+    return result;
+}
+```
+
 ## <a name="q-4-10"></a> 4.10 Explain inheritance.
 In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
 * subclass (child) - the class that inherits from another class
@@ -471,6 +559,10 @@ public class child extends parent{
 }
 ```
 ## <a name="q-4-13"></a> 4.13 Can super class reference variable can hold an object of sub class?
+Yes.\
+Since object is super class of all classes, an Object reference variable can also hold an instance of any
+class for example.
+
 ## <a name="q-4-14"></a> 4.14 Is multiple inheritance allowed in Java?
 No multiple inheritance is not allowed in Java. Therefore you can make use of Interfaces.
 
@@ -496,11 +588,16 @@ public class test implements MyInterface{
 ```
 
 ## <a name="q-4-18"></a> 4.18 Can you explain a few tricky things about interfaces?
+Some tricky stuff:
+- Variables in an interface are always public, static, final.
+- Variables in an interface cannot be declared private.
+- Interface methods are by default public and abstract.
+
 ## <a name="q-4-19"></a> 4.19 Can you extend an interface?
-Yes an interface can extend another interface in ava. Therfore just use the `extends` keyword.
+Yes an interface can extend another interface in Java. Therefore just use the `extends` keyword.
 
 ## <a name="q-4-20"></a> 4.20 Can a class implement multiple interfaces?
-Yes a class can implement multiple interfaces therfore you just name the interfaces comma separated. You then have to implement all the methods of both interfaces in your class.
+Yes a class can implement multiple interfaces therefore you just name the interfaces comma separated. You then have to implement all the methods of both interfaces in your class.
 
 ## <a name="q-4-21"></a> 4.21 What is an abstract class?
 A abstract class is a special class that can't be instantiated.
@@ -536,8 +633,7 @@ public class Test{
 }
 ```
 
-## <a name="q-4-27"></a> 4.27 Will this code compile?
-## <a name="q-4-28"></a> 4.28 How do you call a super class constructor from a constructor?
+## <a name="q-4-27"></a> 4.27 How do you call a super class constructor from a constructor?
 To call the constructor of the parent class you siply call `super()`.\
 Example:
 ```java
@@ -554,15 +650,17 @@ public class child extends parent{
     }
 }
 ```
-## <a name="q-4-29"></a> 4.29 Will this code compile?
-## <a name="q-4-30"></a> 4.30 What is the use of this()?
+
+## <a name="q-4-28"></a> 4.28 What is the use of this()?
 With `this()` you can call another constructor of the class.
 
-## <a name="q-4-31"></a> 4.31 Can a constructor be called directly from a method?
-## <a name="q-4-32"></a> 4.32 Is a super class constructor called even when there is no explicit call from a sub class constructor?
+## <a name="q-4-29"></a> 4.29 Can a constructor be called directly from a method?
+A constructor cannot be explicitly called from any method except another constructor.
+
+## <a name="q-4-30"></a> 4.30 Is a super class constructor called even when there is no explicit call from a sub class constructor?
 Yes, if a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts a call to the no-argument constructor of the superclass. If the super class does not have a no-argument constructor, you will get a compile-time error. Object does have such a constructor, so if Object is the only superclass, there is no problem.
 
-## <a name="q-4-33"></a> 4.33 Is it possible to call one constructor from another in Java?
+## <a name="q-4-31"></a> 4.31 Is it possible to call one constructor from another in Java?
 Yes, but one can only chain to **one** constructor - and it has to be the **first statement** in your constructor body. Keyword to call another constructor of the same class is `this()`.\
 Example:
 ```java
@@ -593,23 +691,52 @@ In object oriented design, cohesion refers all about how a single class is desig
 The more focused a class is, the cohesiveness of that class is more. The advantages of high cohesion is that such classes are much easier to maintain (and less frequently changed) than classes with low cohesion. Another benefit of high cohesion is that classes with a well-focused purpose tend to be more reusable than other classes.
 
 ## <a name="q-5-5"></a> 5.5 What is encapsulation?
+Encapsulation is “hiding the implementation of a Class behind a well defined interface”. Encapsulation
+helps us to change implementation of a class without breaking other code
+
 ## <a name="q-5-6"></a> 5.6 What is an inner class?
 An inner class is a class that is defined within another class and can only be used inside of this class.
 
 ## <a name="q-5-7"></a> 5.7 What is a static inner class?
+A class declared directly inside another class and declared as static. In  the example above, class name StaticNestedClass is a static inner class.
+
 ## <a name="q-5-8"></a> 5.8 Can you create an inner class inside a method?
+Yes. An inner class can be declared directly inside a method.\
+Example:
+```java
+class OuterClass{
+    public void exampleMethod(){
+        class MethodInnerClass{
+            
+        };
+    }
+}
+```
+
 ## <a name="q-5-9"></a> 5.9 What is an anonymous class?
+An anonymous class is a class that doesn't have a name.
 
 ## Modifiers
 ## <a name="q-6-1"></a> 6.1 What is default class modifier?
+- A class is called a Default Class is when there is no access modifier specified on a class.
+- Default classes are visible inside the same package only.
+- Default access is also called Package access.
+
 ## <a name="q-6-2"></a> 6.2 What is private access modifier?
-Methods or attributes with the `private` modifier can only be called/seen by object itself.
+- Private variables and methods can be accessed only in the class they are declared.
+- Private variables and methods from SuperClass are NOT available in SubClass.
 
 ## <a name="q-6-3"></a> 6.3 What is default or package access modifier?
+- Default variables and methods can be accessed in the same package Classes.
+- Default variables and methods from SuperClass are available only to SubClasses in same package.
+
 ## <a name="q-6-4"></a> 6.4 What is protected access modifier?
+- Protected variables and methods can be accessed in the same package Classes.
+- Protected variables and methods from SuperClass are available to SubClass in any package
 
 ## <a name="q-6-5"></a> 6.5 What is public access modifier?
-Methods or attributes with the `public` modifier can be called/seen by any object of the project.
+- Public variables and methods can be accessed from every other Java classes.
+- Public variables and methods from SuperClass are all available directly in the SubClass
 
 ## <a name="q-6-6"></a> 6.6 What access types of variables can be accessed from a class in same package?
 `Package` and `public` attributes and methods of the other classes and all the attributes and methods of itseelf.
@@ -639,6 +766,10 @@ A final parameter ensures that these won't accidentally be changed by the method
 Using volatile is yet another way (like synchronized, atomic wrapper) of making class thread safe. Thread safe means that a method or class instance can be used by multiple threads at the same time without any problem.
 
 ## <a name="q-6-15"></a> 6.15 What is a static variable?
+Static variables and methods are class level variables and methods. There is only one copy of the static
+variable for the entire Class. Each instance of the Class (object) will not have a unique copy of a static
+variable.
+
 ## <a name="q-6-16"></a> 6.16 What is the difference between volatile and synchronized?
 First two important definitions:
 1. Mutual Exclusion:\
@@ -651,9 +782,26 @@ In some cases we may only desire the visibility and not atomicity. Use of synchr
 
 ## Conditions & loops
 ## <a name="q-7-1"></a> 7.1 Why should you always use blocks around if statement?
+For clearer reading purposes its considered good practice to use brackets with an if Statement if the statement is longer than one line.
+
 ## <a name="q-7-2"></a> 7.2 Should default be the last case in a switch statement?
+The default case doesn't need to be the last case it also can be the first or any other case inside a switch Statement.
+But it's considered good practice to put the default case always as last case.
+
 ## <a name="q-7-3"></a> 7.3 Can a switch statement be used around a String
+Yes since Java 7 it's possible to use String in a switch Statement.
+
 ## <a name="q-7-4"></a> 7.4 What is an enhanced for loop?
+Enhanced for loop can be used to loop around array’s or List’s.\
+Example:
+```java
+int[] test = {1, 2, 3, 4 ,5, 6};
+
+for(int number : test){
+    System.out.println(number);
+}
+```
+
 ## <a name="q-7-5"></a> 7.5 Is it possible to break out of nested loops in Java?
 If you get to this point I'd definitely prefer to put the loops in a different method, at which point you can just return to stop iterating completely. This answer just shows how the requirements in the question can be met.\
 You can use `break` with a label for the outer loop. For example:
@@ -697,8 +845,29 @@ Done
 
 ## Exception handling
 ## <a name="q-8-1"></a> 8.1 Why is exception handling important?
+Most applications are large and complex. I’ve not seen an application without defects. 
+It is not that bad programmers create defects. Even good programmers write code that has
+defects and throws exceptions. There are two things that are important when exceptions are thrown.
+- A friendly message to the user:\
+You do not want a windows blue screen. When something goes
+wrong and an exception occurs, it would be great to let the user know that something went
+wrong and tech support has been notified. Additional thing we can do is to give the user a
+unique exception identifier and information on how to reach the tech support.
+- Enough Information for the Support Team/Support Developer to debug the problem:\
+When writing code, always think about what information would I need to debug a problem in this
+piece of code. Make sure that information is made available, mostly in the logs, if there are
+exceptions. It would be great to tie the information with the unique exception identifier given to
+the user.
+
 ## <a name="q-8-2"></a> 8.2 What design pattern is used to implement exception handling features in most languages?
+When an exception is thrown from a method with no exception handling, it is thrown to the calling
+method. If there is no exception handling in that method too, it is further thrown up to its calling
+method and so on. This happens until an appropriate exception handler is found.This is an example of
+Chain of Responsibility Pattern defined as “a way of passing a request between a chain of objects”.
+
 ## <a name="q-8-3"></a> 8.3 What is the need for finally block?
+A finally block is needed if you use resources that needs to be closed even is an error or exception occurs. Or to prevent a dead lock in a exception or error state.
+
 ## <a name="q-8-4"></a> 8.4 Does `finally` always execute?
 Yes, `finally` will be called after the execution of the `try` or `catch` code blocks.
 
@@ -725,6 +894,10 @@ static String readFirstLineFromFile(String path) throws IOException {
 ```
 
 ## <a name="q-8-8"></a> 8.8 Can you explain the hierarchy of exception handling classes?
+`Throwable` is the highest level of Error Handling classes.\
+Below are `Error` then `Exception` and then all the more specific exceptions like `RuntimeException`.\
+Underneath these exceptions you can create your own exceptions.
+
 ## <a name="q-8-9"></a> 8.9 What is the difference between error and exception?
 * **Error:**\
 An Error “indicates serious problems that a reasonable context should not try to catch.”
@@ -734,6 +907,12 @@ An Exception “indicates conditions that a reasonable context might want to cat
 Exceptions are the conditions that occur at runtime and may cause the termination of program. But they are recoverable using try, catch and throw keywords. Exceptions are divided into two catagories : checked and unchecked exceptions. Checked exceptions like IOException known to the compiler at compile time while unchecked exceptions like ArrayIndexOutOfBoundException known to the compiler at runtime. It is mostly caused by the program written by the programmer.
 
 ## <a name="q-8-10"></a> 8.10 What is the difference between checked exceptions and unchecked exceptions?
+- Un-Checked Exception\
+RuntimeException and classes that extend RuntimeException are called unchecked exceptions.
+- Checked Exception\
+Other Exception Classes (which don’t fit the earlier definition). These are also called Checked Exceptions.
+They are subclasses of Exception which are not subclasses of RuntimeException.
+
 ## <a name="q-8-11"></a> 8.11 How do you throw an exception from a method?
 Example:
 ```java
@@ -747,7 +926,24 @@ private void test(int i){
 ```
 
 ## <a name="q-8-12"></a> 8.12 What happens when you throw a checked exception from a method?
+You will get a compilation error, because you try to throw a unhandled exception type.
+
 ## <a name="q-8-13"></a> 8.13 What are the options you have to eliminate compilation errors when handling checked exceptions?
+All classes that are not RuntimeException or subclasses of RuntimeException but extend Exception are
+called CheckedExceptions. The rule for CheckedExceptions is that they should either be handled or
+thrown. Handled means it should be completed handled - i.e. not throw out of the method. Thrown
+means the method should declare that it throws the exception
+
+1. Declaring that a method would throw an exception:
+```java
+public int test(int input) throws Exception{
+    if(input == null)
+        throw new Exception("Input invalid")
+    return input++;
+}
+```
+2. Handling the checked exception with a try catch block
+
 ## <a name="q-8-14"></a> 8.14 How do you create a custom exception?
 You simply create an own class that extends the class `Exception`.
 Example:
@@ -771,7 +967,23 @@ private void doSomething(){
 ```
 
 ## <a name="q-8-16"></a> 8.16 Can you explain about try with resources?
+Consider the example below. When the try block ends the resources are automatically released. We do
+not need to create a separate finally block.
+```java
+try (BufferedReader br = new BufferedReader(new FileReader("FILE_PATH"))) {
+    String line;
+    while ((line = br.readLine()) != null) {
+        System.out.println(line);
+    }
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
 ## <a name="q-8-17"></a> 8.17 How does try with resources work?
+try-with-resources is available to any class that implements the AutoCloseable interface. In the above
+example BufferedReader implements AutoCloseable interface.
+
 ## <a name="q-8-18"></a> 8.18 Can you explain a few exception handling best practices?
 Only catch specific Exceptions and no `Errors` or `Throwable`, because `Errors` need to be thrown until the top to show that the context has some serious problems and shouldn't be caught so that the context stops running.
 
@@ -787,8 +999,44 @@ Everything in a Java program not explicitly set to something by the programmer, 
 When you create an array of something, all entries are also zeroed.
 
 ## <a name="q-9-2"></a> 9.2 How do you loop around an array using enhanced for loop?
+Name of the variable is unit and the array we want to loop around is units.
+```java
+for (int unit : units) {
+    System.out.println(unit);
+}
+```
+
+
 ## <a name="q-9-3"></a> 9.3 How do you print the content of an array?
+- 1D Array:\
+Example:
+```java
+int array[] = { 25, 30, 50, 10, 5 };
+System.out.println(array); //[I@6db3f829
+System.out.println(Arrays.toString(array));//[25, 30, 50, 10, 5]
+```
+- 2D Array:\
+Example:
+```java
+int[][] array = { { 1, 2, 3 }, { 4, 5, 6 } };
+System.out.println(array); //[[I@1d5a0305
+System.out.println(Arrays.toString(array)); //[[I@6db3f829, [I@42698403]
+System.out.println(Arrays.deepToString(array)); //[[1, 2, 3], [4, 5, 6]]
+```
+
 ## <a name="q-9-4"></a> 9.4 How do you compare two arrays?
+Arrays can be compared using static method equals defined in Arrays class. Two arrays are equal only if
+they have the same numbers in all positions and have the same size.
+Example:
+```java
+int[] array1 = { 1, 2, 3 };
+int[] array2 = { 4, 5, 6 };
+System.out.println(Arrays.equals(array1, array2)); //false
+
+int[] array3 = { 1, 2, 3 };
+System.out.println(Arrays.equals(array1, array3)); //true
+```
+
 ## <a name="q-9-5"></a> 9.5 What is an enum?
 An enum(short: Enumeration) is a special "class" that represents a group of constants (unchangeable variables, like final variables).\
 To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma. Note that they should be in uppercase letters.\
@@ -804,6 +1052,7 @@ Level l = Level.MEDIUM;
 ```
 
 With enums you can also make some pretty advanced stuff like gibe them differend funktions etc. seen in some design patterns.
+
 ## <a name="q-9-6"></a> 9.6 Can you use a switch statement around an enum?
 Yes you can and should be used for good coding style.\
 Example:
@@ -830,27 +1079,188 @@ Level myVar = Level.MEDIUM;
 ```
 
 ## <a name="q-9-7"></a> 9.7 What are variable arguments or varargs?
+Variable Arguments allow calling a method with different number of parameters. Consider the example
+method sum below. This sum method can be called with 1 int parameter or 2 int parameters or more int
+parameters.
+```java
+//int(type) followed ... (three dot's) is syntax of a variable argument.
+public int sum(int... numbers) {
+    //inside the method a variable argument is similar to an array.
+    //number can be treated as if it is declared as int[] numbers;
+    int sum = 0;
+    for (int number: numbers) {
+        sum += number;
+    }
+    return sum;
+}
+```
+Now you can call the method any number of `int` parameter you want:
+```java
+System.out.println(sum(1,2,3,4));
+System.out.println(sum(1,2,3,4,5,6,7));
+```
+
 ## <a name="q-9-8"></a> 9.8 What are asserts used for?
+Assertions are introduced in Java 1.4. They enable you to validate assumptions. If an assert fails (i.e.
+returns false), AssertionError is thrown (if assertions are enabled). Basic assert is shown in the example
+below:
+```java
+private int test(int number){
+    assert(number>0);
+    return 100;
+}
+```
+
 ## <a name="q-9-9"></a> 9.9 When should asserts be used?
+Assertions should not be used to validate input data to a public method or command line argument.
+IllegalArgumentException would be a better option. In public method, only use assertions to check for
+cases which are never supposed to happen.
+
 ## <a name="q-9-10"></a> 9.10 What is garbage collection?
 In computer science, garbage collection (GC) is a form of automatic memory management. The garbage collector, or just collector, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program. Garbage collection was invented by John McCarthy around 1959 to simplify manual memory management in Lisp.\
 Garbage collection is essentially the opposite of manual memory management, which requires the programmer to specify which objects to deallocate and return to the memory system.
 
 ## <a name="q-9-11"></a> 9.11 Can you explain garbage collection with an example?
+Let’s say the below method is called from a function.
+```java
+void method(){
+    Calendar calendar = new GregorianCalendar(2000,10,30);
+    System.out.println(calendar);
+}
+```
+An object of the class GregorianCalendar is created on the heap by the first line of the function with one
+reference variable calendar.
+After the function ends execution, the reference variable calendar is no longer valid. Hence, there are no
+references to the object created in the method.
+JVM recognizes this and removes the object from the heap. This is called Garbage Collection.
+
 ## <a name="q-9-12"></a> 9.12 When is garbage collection run?
+Garbage Collection runs at the whims and fancies of the JVM (it isn't as bad as that). Possible situations
+when Garbage Collection might run are
+- when available memory on the heap is low
+- when cpu is free
+
 ## <a name="q-9-13"></a> 9.13 What are best practices on garbage collection?
+Programmatically, we can request (remember it’s just a request - Not an order) JVM to run Garbage
+Collection by calling System.gc() method.
+JVM might throw an OutOfMemoryException when memory is full and no objects on the heap are eligible
+for garbage collection.
+finalize() method on the objected is run before the object is removed from the heap from the garbage
+collector. It's recommended not to write any code in finalize().
+
 ## <a name="q-9-14"></a> 9.14 What are initialization blocks?
+Initialization Blocks - Code which runs when an object is created or a class is loaded
+There are two types of Initialization Blocks:
+- Static Initializer: Code that runs when a class is loaded.
+- Instance Initializer: Code that runs when a new object is created.
+
 ## <a name="q-9-15"></a> 9.15 What is a static initializer?
+Example:
+```java
+public class test{
+    static{
+        //This is a static initializer
+        System.out.println("init");
+    }
+}
+```
+Code within `static{}` is called a static initializer. This is run only when class is first loaded. Only static
+variables can be accessed in a static initializer.
+
 ## <a name="q-9-16"></a> 9.16 What is an instance initializer block?
+Example:
+```java
+public class test{
+    {
+        //This is an instance initializer
+        System.out.println("init");
+    }
+}
+```
+Code within instance initializer is run every time an instance of the class is created.
+
 ## <a name="q-9-17"></a> 9.17 What is tokenizing?
+Tokenizing means splitting a string into several sub strings based on delimiters. For example, delimiter ;
+splits the string ac;bd;def;e into four sub strings ac, bd, def and e.
+Delimiter can in itself be any of the regular expression(s) we looked at earlier.
+String.split(regex) function takes regex as an argument.
+
 ## <a name="q-9-18"></a> 9.18 Can you give an example of tokenizing?
+Example:
+```java
+private static void tokenize(String string,String regex) {
+    String[] tokens = string.split(regex);
+    System.out.println(Arrays.toString(tokens));
+}
+
+tokenize("ac;bd;def;e",";");//[ac, bd, def, e]
+```
+
 ## <a name="q-9-19"></a> 9.19 What is serialization?
+Serialization helps us to save and retrieve the state of an object.
+- Serialization => Convert object state to some internal object representation.
+- De-Serialization => The reverse. Convert internal representation to object.
+
+Two important methods
+- ObjectOutputStream.writeObject() // serialize and write to file
+- ObjectInputStream.readObject() // read from file and deserialize
+
 ## <a name="q-9-20"></a> 9.20 How do you serialize an object using serializable interface?
+To serialize an object it should implement Serializable interface.\
+Example:
+```java
+class Rectangle implements Serializable {
+    int length;
+    int breadth;
+    int area;
+    
+    public Rectangle(int length, int breadth) {
+        this.length = length;
+        this.breadth = breadth;
+        area = length * breadth;
+    }
+}
+
+FileOutputStream fileStream = new FileOutputStream("Rectangle.ser");
+ObjectOutputStream objectStream = new ObjectOutputStream(fileStream);
+objectStream.writeObject(new Rectangle(5, 6)); //Here happens the serialization
+objectStream.close();
+```
+
 ## <a name="q-9-21"></a> 9.21 How do you de-serialize in Java?
+Example with the same object as from the question before:
+```java 
+FileInputStream fileInputStream = new FileInputStream("Rectangle.ser");
+ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+Rectangle rectangle = (Rectangle) objectInputStream.readObject(); //Here happens the deserialization
+objectInputStream.close();
+System.out.println(rectangle.length);// 5
+System.out.println(rectangle.breadth);// 6
+System.out.println(rectangle.area);// 30
+```
+
 ## <a name="q-9-22"></a> 9.22 What do you do if only parts of the object have to be serialized?
+We mark all the properties of the object which should not be serialized as `transient`. Transient attributes in
+an object are not serialized.\
+Example:
+```java
+public class Rectangle implements Serializable{
+    transient int nonSerializedInt;
+}
+```
+
 ## <a name="q-9-23"></a> 9.23 How do you serialize a hierarchy of objects?
+Objects of one class might contain objects of other classes. When serializing and de-serializing, we might
+need to serialize and de-serialize entire object chain. All classes that need to be serialized have to
+implement the Serializable interface. Otherwise, an exception is thrown. Otherwise you can also mark the dependent inner objects as `transient`.
+
 ## <a name="q-9-24"></a> 9.24 Are the constructors in an object invoked when it is de-serialized?
+No. When a class is De-serialized, initialization (constructor’s, initializer’s) does not take place. The state
+of the object is retained as it is.
+
 ## <a name="q-9-25"></a> 9.25 Are the values of static variables stored when an object is serialized?
+Static Variables are not part of the object. They are not serialized.
+
 ## <a name="q-9-26"></a> 9.26 Is Java "pass-by-reference" or "pass-by-value"?
 Java is always "pass-by-value" but if you pass an `object`, java is passing the value of the address(reference).
 
@@ -889,39 +1299,326 @@ Note:
 
 ## Collections
 ## <a name="q-10-1"></a> 10.1 Why do we need collections in Java?
+Arrays are not dynamic. Once an array of a particular size is declared, the size cannot be modified. To
+add a new element to the array, a new array has to be created with bigger size and all the elements
+from the old array copied to new array.
+
+Collections are used in situations where data is dynamic. Collections allow adding an element, deleting
+an element and host of other operations. There are a number of Collections in Java allowing to choose
+the right Collection for the right context.
+
 ## <a name="q-10-2"></a> 10.2 What are the important interfaces in the collection hierarchy?
+Example:
+```java
+interface Collection<E> extends Iterable<E> {
+}
+// Unique things only - Does not allow duplication.
+// If obj1.equals(obj2) then only one of them can be in the Set.
+interface Set<E> extends Collection<E> {
+}
+// LIST OF THINGS
+// Cares about which position each object is in
+// Elements can be added in by specifying position - where should it be added in
+// If element is added without specifying position - it is added at the end
+interface List<E> extends Collection<E> {
+}
+// Arranged in order of processing - A to-do list for example
+// Queue interface extends Collection. So, it supports all Collection Methods.
+interface Queue<E> extends Collection<E> {
+}
+// A,C,A,C,E,C,M,D,H,A => {("A",5),("C",2)}
+// Key - Value Pair {["key1",value1],["key2",value2],["key3",value3]}
+// Things with unique identifier
+interface Map<K, V> {
+}
+```
+
 ## <a name="q-10-3"></a> 10.3 What are the important methods that are declared in the collection interface?
+Some of the most important methods:
+- add: Add an element to the collection
+- remove: Remove an element from the collection
+- size: Return the size of the collection (number of objects stored in the collection)
+- isEmpty: Returns if nothing is stored in the collection
+- clear: Removes all the elements from the collection
+- contains: Checks if a element is already stored inside of a collection
+
 ## <a name="q-10-4"></a> 10.4 Can you explain briefly about the List interface?
+List interface extends Collection interface. So, it contains all methods defined in the Collection interface.\
+In addition, List interface allows operation specifying the position of the element in the Collection.
+
+Most important thing to remember about a List interface - any implementation of the List interface
+would maintain the insertion order. When an element A is inserted into a List (without specifying
+position) and then another element B is inserted, A is stored before B in the List.
+When a new element is inserted without specifying a position, it is inserted at the end of the list of
+elements.
+
+However, We can also use the void add(int position, E paramE); method to insert an element at a
+specific position.
+
 ## <a name="q-10-5"></a> 10.5 Explain about ArrayList with an example?
+ArrayList implements the list interface. So, ArrayList stores the elements in insertion order (by default).
+Element’s can be inserted into and removed from ArrayList based on their position.\
+Example:
+```java
+List<Integer> integers = new ArrayList<Integer>();
+```
+
 ## <a name="q-10-6"></a> 10.6 Can an ArrayList have duplicate elements?
+ArrayList can have duplicates (since List can have duplicates).
+
 ## <a name="q-10-7"></a> 10.7 How do you iterate around an ArrayList using iterator?
+Example:
+```java
+Iterator<String> arraylistIterator = arraylist.iterator();
+while (arraylistIterator.hasNext()) {
+    String str = arraylistIterator.next();
+    System.out.println(str);
+}
+```
+
 ## <a name="q-10-8"></a> 10.8 How do you sort an ArrayList?
+You can make use of the `Collections.sort([LIST])` method to sort a list.
+
 ## <a name="q-10-9"></a> 10.9 How do you sort elements in an ArrayList using comparable interface?
+First you have to implement the `Compareable` interface and override the `compareTo()` method this method returns -1, 0 or 1 depending on the comparison to the other object.\
+With this comparison the `Collections.sort([LIST])` method will sort the list.
+
 ## <a name="q-10-10"></a> 10.10 How do you sort elements in an ArrayList using comparator interface?
+With the implementation of the `Comparator` interface to a sorting class you have to override the `compare` method that gets 2 objects and returns like the `compareTo` method 1, -1 or 0.\
+This allows you now to call `Collections.sort([LIST], new [YOUR_SORT_CLASS])` and sort your list by the sorting class you created.
+
 ## <a name="q-10-11"></a> 10.11 What is vector class? How is it different from an ArrayList?
+Vector has the same operations as an ArrayList. However, all methods in Vector are synchronized. So,
+we can use Vector if we share a list between two threads and we would want to them synchronized.
+
 ## <a name="q-10-12"></a> 10.12 What is linkedList? What interfaces does it implement? How is it different from an ArrayList?
+Linked List extends List and Queue. Other than operations exposed by the Queue interface, LinkedList
+has the same operations as an ArrayList. However, the underlying implementation of Linked List is
+different from that of an ArrayList.
+
+ArrayList uses an Array kind of structure to store elements. So, inserting and deleting from an ArrayList
+are expensive operations. However, search of an ArrayList is faster than LinkedList.
+
+LinkedList uses a linked representation. Each object holds a link to the next element. Hence, insertion
+and deletion are faster than ArrayList. But searching is slower.
+
 ## <a name="q-10-13"></a> 10.13 Can you briefly explain about the Set interface?
+There are hardly any new methods in the Set interface other than those in the Collection interface. The
+major difference is that Set interface does not allow duplication. Set interface represents a collection
+that contains no duplicate elements.
+
 ## <a name="q-10-14"></a> 10.14 What are the important interfaces related to the Set interface?
+Some important sets:
+```java
+// Unique things only - Does not allow duplication.
+// If obj1.equals(obj2) then only one of them can be in the Set.
+interface Set<E> extends Collection<E> {}
+
+//Main difference between Set and SortedSet is - an implementation of
+//SortedSet interface maintains its elements in a sorted order. Set
+//interface does not guarantee any Order.
+interface SortedSet<E> extends Set<E> {
+    SortedSet<E> subSet(E fromElement, E toElement);
+    SortedSet<E> headSet(E toElement);
+    SortedSet<E> tailSet(E fromElement);
+    E first();
+    E last();
+}
+
+//A SortedSet extended with navigation methods reporting closest matches for
+//given search targets.
+interface NavigableSet<E> extends SortedSet<E> {
+    E lower(E e);
+    E floor(E e);
+    E ceiling(E e);
+    E higher(E e);
+    E pollFirst();
+    E pollLast();
+}
+
+```
+
 ## <a name="q-10-15"></a> 10.15 What is the difference between Set and sortedSet interfaces?
+SortedSet Interface extends the Set Interface. Both Set and SortedSet do not allow duplicate elements.
+
+Main difference between Set and SortedSet is - an implementation of SortedSet interface maintains its
+elements in a sorted order. Set interface does not guarantee any Order. For example, If elements 4,5,3
+are inserted into an implementation of Set interface, it might store the elements in any order. However,
+if we use SortedSet, the elements are sorted. The SortedSet implementation would give an output
+3,4,5.
+
 ## <a name="q-10-16"></a> 10.16 Can you give examples of classes that implement the Set interface?
+Some examples might be: 
+- `HashSet`:  unordered, unsorted - iterates in random order; uses hashCode()
+- `LinkedHashSet`: ordered - iterates in order of insertion; unsorted; uses hashCode()
+- `TreeSet`: sorted - natural order; implements NavigableSet
+
 ## <a name="q-10-17"></a> 10.17 What is a HashSet?
+HashSet implements set interface. So, HashSet does not allow duplicates. However, HashSet does not
+support ordering. The order in which elements are inserted is not maintained.
+
 ## <a name="q-10-18"></a> 10.18 What is a linkedHashSet? How is different from a HashSet?
+LinkedHashSet implements set interface and exposes similar operations to a HashSet. Difference is that
+LinkedHashSet maintains insertion order. When we iterate a LinkedHashSet, we would get the elements
+back in the order in which they were inserted.
+
 ## <a name="q-10-19"></a> 10.19 What is a TreeSet? How is different from a HashSet?
-## <a name="q-10-20"></a> 10.20 Can you give examples of implementations of navigableSet?
-## <a name="q-10-21"></a> 10.21 Explain briefly about Queue interface?
-## <a name="q-10-22"></a> 10.22 What are the important interfaces related to the Queue interface?
-## <a name="q-10-23"></a> 10.23 Explain about the Deque interface?
-## <a name="q-10-24"></a> 10.24 Explain the BlockingQueue interface?
-## <a name="q-10-25"></a> 10.25 What is a priorityQueue?
-## <a name="q-10-26"></a> 10.26 Can you give example implementations of the BlockingQueue interface?
-## <a name="q-10-27"></a> 10.27 Can you briefly explain about the Map interface?
-## <a name="q-10-28"></a> 10.28 What is difference between Map and sortedMap?
-## <a name="q-10-29"></a> 10.29 What is a HashMap?
-## <a name="q-10-30"></a> 10.30 What are the different methods in a Hash Map?
-## <a name="q-10-31"></a> 10.31 What is a TreeMap? How is different from a HashMap?
-## <a name="q-10-32"></a> 10.32 Can you give an example of implementation of navigableMap interface?
-## <a name="q-10-33"></a> 10.33 What are the static methods present in the collections class?
-## <a name="q-10-34"></a> 10.34 What are two differences between a HashMap and a Hashtable?
+TreeSet implements Set, SortedSet and NavigableSet interfaces.TreeSet is similar to HashSet except that
+it stores element’s in Sorted Order.
+
+## <a name="q-10-20"></a> 10.20 Explain briefly about Queue interface?
+Queue Interface extends Collection interface. Queue Interface is typically used for implementation
+holding elements in order for some processing.
+
+Queue interface offers methods `peek()` and `poll()` which get the element at head of the queue. The
+difference is that `poll()` method removes the head from queue also. `peek()` would keep head of the
+queue unchanged.
+
+## <a name="q-10-21"></a> 10.21 What are the important interfaces related to the Queue interface?
+Two important interfaces are `Deque` and `BlockingQueue`.
+
+## <a name="q-10-22"></a> 10.22 Explain about the Deque interface?
+Example:
+```java
+//A linear collection that supports element insertion and removal at both ends
+interface Deque<E> extends Queue<E> {
+    void addFirst(E e);
+    void addLast(E e);
+    boolean offerFirst(E e);
+    boolean offerLast(E e);
+    E removeFirst();
+    E removeLast();
+    E pollFirst();
+    E pollLast();
+    E getFirst();
+    E getLast();
+    E peekFirst();
+    E peekLast();
+    boolean removeFirstOccurrence(Object o);
+    boolean removeLastOccurrence(Object o);
+}
+```
+
+## <a name="q-10-23"></a> 10.23 Explain the BlockingQueue interface?
+Example:
+```java
+//A Queue that additionally supports operations that wait for
+//the queue to become non-empty when retrieving an
+//element, and wait for space to become available in the queue when
+//storing an element.
+interface BlockingQueue<E> extends Queue<E> {
+    
+    //Same as in Queue Interface
+    //Inserts the specified element into queue IMMEDIATELY
+    //Throws exception in case of failure
+    boolean add(E e);
+    
+    //Same as in Queue Interface
+    //Inserts the specified element into queue IMMEDIATELY
+    //Returns false in case of failure
+    boolean offer(E e); //Same as in Queue Interface
+    
+    //Inserts the specified element into this queue, waiting
+    //if necessary for space to become available.
+    void put(E e) throws InterruptedException;
+    
+    //waiting up to the specified wait time
+    boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException;
+    
+    //waits until element becomes available
+    E take() throws InterruptedException;
+    
+    //waits for specified time and returns null if time expires
+    E poll(long timeout, TimeUnit unit) throws InterruptedException;
+    int remainingCapacity();
+    boolean remove(Object o);
+    public boolean contains(Object o);
+    int drainTo(Collection<? super E> c);
+    int drainTo(Collection<? super E> c, int maxElements);
+}
+```
+
+## <a name="q-10-24"></a> 10.24 What is a `PriorityQueue`?
+`PriorityQueue` implements the `Queue` interface.
+The elements of the priority queue are ordered according to their natural ordering.
+
+## <a name="q-10-25"></a> 10.25 Can you give example implementations of the BlockingQueue interface?
+Two examples:
+- `ArrayBlockingQueue`: uses Array - optionally-bounded
+- `LinkedBlockingQueue`: uses Linked List - optionally-bounded; Linked queues typically have higher throughput than array-based queues but less predictable performance in most concurrent applications.
+
+## <a name="q-10-26"></a> 10.26 Can you briefly explain about the Map interface?
+First and foremost, Map interface does not extend Collection interface. So, it does not inherit any of the
+methods from the Collection interface.
+
+A Map interface supports Collections that use a key value pair. A key-value pair is a set of linked data
+items: a key, which is a unique identifier for some item of data, and the value, which is either the data or
+a pointer to the data. Key-value pairs are used in lookup tables, hash tables and configuration files. A key
+value pair in a Map interface is called an Entry.
+
+Put method allows to add a key, value pair to the Map.
+`V put(K paramK, V paramV);`
+Get method allows to get a value from the Map based on the key.
+`V get(Object paramObject);`
+Other important methods in Map Inteface are shown below:
+
+```java
+interface Map<K, V>
+{
+    int size();
+    boolean isEmpty();
+    boolean containsKey(Object paramObject);
+    boolean containsValue(Object paramObject);
+    V get(Object paramObject);
+    V put(K paramK, V paramV);
+    V remove(Object paramObject);
+    void putAll(Map<? extends K, ? extends V> paramMap);
+    void clear();
+    Set<K> keySet();
+    Collection<V> values();
+    Set<Entry<K, V>> entrySet();
+    boolean equals(Object paramObject);
+    int hashCode();
+    public static abstract interface Entry<K, V>
+    {
+        K getKey();
+        V getValue();
+        V setValue(V paramV);
+        boolean equals(Object paramObject);
+        int hashCode();
+    }
+}
+```
+
+## <a name="q-10-27"></a> 10.27 What is difference between Map and sortedMap?
+SortedMap interface extends the Map interface. In addition, an implementation of SortedMap interface
+maintains keys in a sorted order.
+
+## <a name="q-10-28"></a> 10.28 What is a HashMap?
+HashMap implements Map interface – there by supporting key value pairs.
+
+## <a name="q-10-29"></a> 10.29 What are the different methods in a Hash Map?
+
+
+## <a name="q-10-30"></a> 10.30 What is a TreeMap? How is different from a HashMap?
+TreeMap is similar to HashMap except that it stores keys in sorted order. It implements NavigableMap
+interface and SortedMap interfaces along with the Map interface.
+
+## <a name="q-10-31"></a> 10.31 Can you give an example of implementation of navigableMap interface?
+TreeMap.
+
+## <a name="q-10-32"></a> 10.32 What are the static methods present in the collections class?
+- static int binarySearch(List, key)
+- - Can be used only on sorted list
+- static int binarySearch(List, key, Comparator)
+- static void reverse(List)
+- - Reverse the order of elements in a List.
+- static Comparator reverseOrder();
+- - Return a Comparator that sorts the reverse of the collection current sort sequence.
+- static void sort(List)
+- static void sort(List, Comparator)
+
+## <a name="q-10-33"></a> 10.33 What are two differences between a HashMap and a Hashtable?
 There are several differences between `HashMap` and `Hashtable` in Java:
 1. `Hashtable` is synchronized, whereas `HashMap` is not. This makes `HashMa`p better for non-threaded applications, as unsynchronized Objects typically perform better than synchronized ones.
 2. `Hashtable` does not allow `null` keys or values. `HashMap` allows one `null` key and any number of `null` values.
@@ -936,21 +1633,129 @@ Concurrent collections are exactly opposite. They are called so because they all
 Also concurrent collections doesn't allow `null` keys and `null` values, whereas synchronized collections may allow `null` keys and `null` values based on the original collectionclass being passed inside it.
 
 ## <a name="q-11-2"></a> 11.2 Explain about the new concurrent collections in Java?
+Post Java 5, collections using new approaches to synchronization are available in Java. These are called
+concurrent collections. Examples of new approaches are :
+- Copy on Write
+- Compare and Swap
+- Locks
+These new approaches to concurrency provide better performance in specific context’s.
+
 ## <a name="q-11-3"></a> 11.3 Explain about copyonwrite concurrent collections approach?
+Important points about Copy on Write approach
+- All values in collection are stored in an internal immutable (not-changeable) array. A new array
+is created if there is any modification to the collection.
+- Read operations are not synchronized. Only write operations are synchronized.
+Copy on Write approach is used in scenarios where reads greatly out number write’s on a collection.
+CopyOnWriteArrayList & CopyOnWriteArraySet are implementations of this approach. Copy on Write
+collections are typically used in Subject – Observer scenarios, where the observers very rarely change.
+Most frequent operations would be iterating around the observers and notifying them.
+
 ## <a name="q-11-4"></a> 11.4 What is compareandswap approach?
+Compare and Swap is one of the new approaches (Java 5) introduced in java to handle synchronization.
+In traditional approach, a method which modifies a member variable used by multiple threads is
+completely synchronized – to prevent other threads accessing stale value.
+
+In compare and swap approach, instead of synchronizing entire method, the value of the member
+variable before calculation is cached. After the calculation, the cached value is compared with the current value of member variable. 
+If the value is not modified, the calculated result is stored into the
+member variable. If another thread has modified the value, then the calculation can be performed
+again. Or skipped – as the need might be.\
+ConcurrentLinkedQueue uses this approach.
+
 ## <a name="q-11-5"></a> 11.5 What is a lock? How is it different from using synchronized approach?
+CopyOnWriteArrayList : final ReentrantLock lock = this.lock;
+
+When 10 methods are declared as synchronized, only one of them is executed by any of the threads at
+any point in time. This has severe performance impact.
+
+Another new approach introduced in Java 5 is to use lock and unlock methods. Lock and unlock methods
+are used to divide methods into different blocks and help enhance concurrency. The 10 methods can be
+divided into different blocks, which can be synchronized based on different variables.
+
 ## <a name="q-11-6"></a> 11.6 What is initial capacity of a Java collection?
+Extract from the reference : http://docs.oracle.com/javase/6/docs/api/java/util/HashMap.html. An
+instance of HashMap has two parameters that affect its performance: initial capacity and load factor.
+The capacity is the number of buckets in the hash table, and the initial capacity is simply the capacity at
+the time the hash table is created. The load factor is a measure of how full the hash table is allowed to
+get before its capacity is automatically increased.
+
+When the number of entries in the hash table exceeds the product of the load factor and the current
+capacity, the hash table is rehashed (that is, internal data structures are rebuilt) so that the hash table
+has approximately twice the number of buckets.
+
+As a general rule, the default load factor (.75) offers a good tradeoff between time and space costs.
+Higher values decrease the space overhead but increase the lookup cost (reflected in most of the
+operations of the HashMap class, including get and put).
+
+The expected number of entries in the map and its load factor should be taken into account when
+setting its initial capacity, so as to minimize the number of rehash operations.
+
 ## <a name="q-11-7"></a> 11.7 What is load factor?
+Refer answer to Initial Capacity above.
+
 ## <a name="q-11-8"></a> 11.8 When does a Java collection throw UnsupportedOperationException?
+All Java Collections extend Collection interface. So, they have to implement all the methods in the
+Collection interface. However, certain Java collections are optimized to be used in specific conditions
+and do not support all the Collection operations (methods). When an unsupported operation is called
+on a Collection, the Collection Implementation would throw an UnsupportedOperationException.
+
 ## <a name="q-11-9"></a> 11.9 What is difference between fail-safe and fail-fast iterators?
+Fail Fast Iterators throw a ConcurrentModificationException if there is a modification to the underlying
+collection is modified. This was the default behavior of the synchronized collections of pre Java 5 age.
+
+Fail Safe Iterators do not throw exceptions even when there are changes in the collection. This is the
+default behavior of the concurrent collections, introduced since Java 5.
+
+Fail Safe Iterator makes copy of the internal data structure (object array) and iterates over the copied
+data structure.
+
+Fail Safe is efficient when traversal operations vastly outnumber mutations
+
 ## <a name="q-11-10"></a> 11.10 What are atomic operations in Java?
+Atomic Access Java Tutorial states “In programming, an atomic action is one that effectively happens all
+at once. An atomic action cannot stop in the middle: it either happens completely, or it doesn't happen
+at all. No side effects of an atomic action are visible until the action is complete”.
+
+Let’s assume we are writing a multi threaded program. Let’s create an int variable i. Even a small
+operation, like i++ (increment), is not thread safe. i++ operation involves three steps.
+1. Read the value which is currently stored in i
+2. Add one to it (atomic operation).
+3. Store it in i
+In a multi-threaded environment, there can be unexpected results. For example, if thread1 is reading
+the value (step 1) and immediately after thread2 stores the value (step 3).
+
+To prevent these, Java provides atomic operations. Atomic operations are performed as a single unit
+without interference from other threads ensuring data consistency.
+
+A good example is AtomicInteger. To increment a value of AtomicInteger, we use the
+incrementAndGet() method. Java ensures this operation is Atomic.
+
 ## <a name="q-11-11"></a> 11.11 What is BlockingQueue in Java?
+BlockingQueue interface is introduced in Java specifically to address specific needs of some Producer
+Consumer scenarios. BlockedQueue allows the consumer to wait (for a specified time or infinitely) for an
+element to become available.
 
 ## Generics
 ## <a name="q-12-1"></a> 12.1 What are Generics?
 Generics are a facility of generic programming that were added to the Java programming language in 2004 within version J2SE 5.0. They were designed to extend Java's type system to allow "a type or method to operate on objects of various types while providing compile-time type safety". The aspect compile-time type safety was not fully achieved, since it was shown in 2016 that it is not guaranteed in all cases.
 
 ## <a name="q-12-2"></a> 12.2 Why do we need Generics? Can you give an example of how Generics make a program more flexible?
+Generics help to keep a class as flexible as possible. The example below shows a very flexible class that can store any Object as a self coded list structure:
+```java 
+class MyListGeneric<T> {
+    private List<T> values;
+    void add(T value) {
+        values.add(value);
+    }
+    void remove(T value) {
+        values.remove(value);
+    }
+    T get(int index) {
+        return values.get(index);
+    }
+}
+```
+
 ## <a name="q-12-3"></a> 12.3 How do you declare a generic class?
 Example:
 ```java
@@ -967,6 +1772,10 @@ public class Entry<T, U>{
 ```
 
 ## <a name="q-12-4"></a> 12.4 What are the restrictions in using generic type that is declared in a class declaration?
+If a generic is declared as part of class declaration, it can be used any where a type can be used in a class
+- method (return type or argument), member variable etc. For Example: See how T is used as a
+parameter and return type in the class MyListGeneric.
+
 ## <a name="q-12-5"></a> 12.5 How can we restrict Generics to a subclass of particular class?
 Example:
 ```java
@@ -993,37 +1802,310 @@ public class Entry<? super ChildClass>{
 }
 ```
 
+## <a name="q-12-7"></a> 12.7 Can you give an example of a Generic Method?
+A generic type can be declared as part of method declaration as well. Then the generic type can be used
+anywhere in the method (return type, parameter type, local or block variable type).\
+Example:
+```java
+static <X extends Number> X doSomething(X number){
+    X result = number;
+    //do something with result
+    return result;
+}
+```
+The method can now be called with any Class type extend Number.
+
 ## Multi threading
 ## <a name="q-13-1"></a> 13.1 What is the need for threads in Java?
+Threads allow Java code to run in parallel. So we can do multiple independent things at once. This allows us to get a better performance.
+
 ## <a name="q-13-2"></a> 13.2 How do you create a thread?
+Creating a Thread class in Java can be done in two ways. Extending Thread class and implementing
+Runnable interface.
+
 ## <a name="q-13-3"></a> 13.3 How do you create a thread by extending thread class?
+Thread class can be created by extending Thread class and implementing the public void run() method.\
+Example:
+```java
+class Test extends Thread {
+    //run method without parameters
+    public void run() {
+        for (int i = 0; i < 1000; i++)
+            System.out.println("Running Batting Statistics Thread " + i);
+    }
+}
+```
+
 ## <a name="q-13-4"></a> 13.4 How do you create a thread by implementing runnable interface?
+Thread class can also be created by implementing Runnable interface and implementing the method
+declared in Runnable interface `public void run()`.\
+Example:
+```java
+class Test implements Runnable {
+    //run method without parameters
+    public void run() {
+        for (int i = 0; i < 1000; i++)
+            System.out.println("Running Bowling Statistics Thread " + i);
+    }
+}
+```
+
 ## <a name="q-13-5"></a> 13.5 How do you run a thread in Java?
+Running a Thread in Java is slightly different based on the approach used to create the thread.
+- Thread created Extending Thread class\
+When using inheritance, An object of the thread needs be created and `start()` method on the thread 
+needs to be called. Remember that the method that needs to be called is not `run()` but it is `start()`.
+Example:
+```java
+Test test = new Test();
+test.start();
+```
+- Thread created implementing RunnableInterface.\
+Three steps involved.
+  - Create an object of the BowlingStatisticsThread(class implementing Runnable).
+  - Create a Thread object with the earlier object as constructor argument.
+  - Call the start method on the thread.\
+Example:
+```java
+Test test = new Test();
+Thread thread = nw Thread(test);
+thread.start();
+```
+
 ## <a name="q-13-6"></a> 13.6 What are the different states of a thread?
+Different states that a thread can be in are defined the class State.
+- NEW
+- RUNNABLE
+- RUNNING
+- BLOCKED / WAITING
+- TERMINATED / DEAD
+
 ## <a name="q-13-7"></a> 13.7 What is priority of a thread? How do you change the priority of a thread?
+Scheduler can be requested to allot more CPU to a thread by increasing the threads priority. Each thread
+in Java is assigned a default Priority 5. This priority can be increased or decreased (Range 1 to 10).
+
+If two threads are waiting, the scheduler picks the thread with highest priority to be run. If all threads
+have equal priority, the scheduler then picks one of them randomly. Design programs so that they don't
+depend on priority.
+
+You can set the priority of a thread by using the `[THREAD_OBJECT].setPriority([NUMBER_1-10])` method.\
+Java also provides predefined constants Thread.MAX_PRIORITY(10), Thread.MIN_PRIORITY(1),
+Thread.NORM_PRIORITY(5) which can be used to assign priority to a thread.
+
 ## <a name="q-13-8"></a> 13.8 What is executorservice?
+The java.util.concurrent.ExecutorService interface is a new way of executing tasks asynchronously in the
+background. An ExecutorService is very similar to a thread pool.
+
 ## <a name="q-13-9"></a> 13.9 Can you give an example for executorservice?
-## <a name="q-13-10"></a> 13.10 Explain different ways of creating executor services. 
+Example:
+```java
+ExecutorService executorService = Executors.newSingleThreadExecutor();
+executorService.execute(new Runnable() {
+                            public void run() {
+                                System.out .println("From ExecutorService");
+                            }
+                        });
+System.out .println("End of Main");
+executorService.shutdown();
+```
+
+## <a name="q-13-10"></a> 13.10 Explain different ways of creating executor services.
+There are three ways of creating executor services. Below example shows the three different ways.
+executorService1 can execute one task at a time. executorService2 can execute 10 tasks at a time.
+executorService3 can execute tasks after certain delay or periodically.
+```java
+// Creates an Executor that uses a single worker thread operating off an
+// unbounded queue.
+ExecutorService executorService1 = Executors.newSingleThreadExecutor();
+
+// Creates a thread pool that reuses a fixed number of threads
+// operating off a shared unbounded queue. At any point, the parameter
+// specifies the most threads that will be active processing tasks.
+ExecutorService executorService2 = Executors.newFixedThreadPool(10);
+
+// Creates a thread pool that can schedule commands to run after a
+// given delay, or to execute periodically.
+ExecutorService executorService3 = Executors.newScheduledThreadPool(10);
+```
+
 ## <a name="q-13-11"></a> 13.11 How do you check whether an executionservice task executed successfully?
+We can use a Future to check the return value. Future get method would return null if the task finished successfully.
+Example:
+```java
+Future future = executorService1.submit(new Runnable() {
+                                            public void run() {
+                                                System.out .println("From executorService1");
+                                            }
+                                        });
+future.get(); // returns null if the task has finished correctly.
+```
+
 ## <a name="q-13-12"></a> 13.12 What is callable? How do you execute a callable from executionservice?
+Runnable interface's run method has a return type void. So, it cannot return any result from executing a
+task. However, a Callable interface's call method has a return type. If you have multiple return values
+possible from a task, we can use the Callable interface.\
+Example:
+```java
+Future futureFromCallable = executorService1.submit(new Callable() {
+                                                        public String call() throws Exception {
+                                                            return "RESULT";
+                                                        }
+                                                    });
+System.out .println("futureFromCallable.get() = " + futureFromCallable.get());
+```
+
 ## <a name="q-13-13"></a> 13.13 What is synchronization of threads?
+Since Threads run in parallel, a new problem arises. What if thread1 modifies data which is being
+accessed by thread2? How do we ensure that different threads don’t leave the system in an inconsistent
+state? This problem is usually called synchronization problem.
+
+The way you can prevent multiple threads from executing the same method is by using the synchronized
+keyword on the method. If a method is marked synchronized, a different thread gets access to the
+method only when there is no other thread currently executing the method.\
+Example:
+```java
+public synchronized void calculate(){
+    //Do thread critical stuff
+}
+```
+
 ## <a name="q-13-14"></a> 13.14 Can you give an example of a synchronized block?
+All code which goes into the block is synchronized on the current object.\
+Example:
+```java
+void test() {
+    synchronized (this){
+        //Thread safe code
+    }
+}
+```
+
 ## <a name="q-13-15"></a> 13.15 Can a static method be synchronized?
+Yes.
+
 ## <a name="q-13-16"></a> 13.16 What is the use of join method in threads?
+Join method is an instance method on the Thread class. Let's see a small example to understand what
+join method does.
+Let’s consider the thread's declared below: thread2, thread3, thread4
+```java 
+ThreadExample thread2 = new ThreadExample();
+ThreadExample thread3 = new ThreadExample();
+ThreadExample thread4 = new ThreadExample();
+```
+Let’s say we would want to run thread2 and thread3 in parallel but thread4 can only run when thread3
+is finished. This can be achieved using join method.
+
+- Join method example:
+```java
+thread3.start();
+thread2.start();
+thread3.join();//wait for thread 3 to complete
+System.out.println("Thread3 is completed.");
+thread4.start();
+```
+thread3.join() method call force the execution of main method to stop until thread3 completes
+execution. After that, thread4.start() method is invoked, putting thread4 into a Runnable State.
+- Overloaded Join Method:\
+Join method also has an overloaded method accepting time in milliseconds as a parameter.\
+`thread4.join(2000);`
+In above example, main method thread would wait for 2000 ms or the end of execution of thread4,
+whichever is minimum.
+
 ## <a name="q-13-17"></a> 13.17 Describe a few other important methods in threads?
+- Thread yield method:\
+Yield is a static method in the Thread class. It is like a thread saying " I have enough time in the limelight.
+Can some other thread run next?".\
+A call to yield method changes the state of thread from RUNNING to RUNNABLE. However, the
+scheduler might pick up the same thread to run again, especially if it is the thread with highest priority.\
+Summary is yield method is a request from a thread to go to Runnable state. However, the scheduler
+can immediately put the thread back to RUNNING state.
+- Thread sleep method:\
+sleep is a static method in Thread class. sleep method can throw a InterruptedException. sleep method
+causes the thread in execution to go to sleep for specified number of milliseconds.
+
 ## <a name="q-13-18"></a> 13.18 What is a deadlock?
+Let’s consider a situation where thread1 is waiting for thread2 ( thread1 needs an object whose
+synchronized code is being executed by thread1) and thread2 is waiting for thread1. This situation is
+called a Deadlock. In a Deadlock situation, both these threads would wait for one another for ever.
+
 ## <a name="q-13-19"></a> 13.19 What are the important methods in Java for inter-thread communication?
+Important methods are: 
+- wait
+- notify
+- notifyAll
+
 ## <a name="q-13-20"></a> 13.20 What is the use of wait method?
+wait method is defined in the Object class. This causes the thread to wait until it is notified.\
+Example:
+```java
+synchronized(thread){
+    thread.start();
+    thread.wait();
+}
+```
+
 ## <a name="q-13-21"></a> 13.21 What is the use of notify method?
+notify method is defined in the Object class. This causes the object to notify other waiting threads.\
+Example:
+```java
+synchronized (this) {0
+    doSomeStuff();
+    notify();
+}
+```
 ## <a name="q-13-22"></a> 13.22 What is the use of notifyall method?
-## <a name="q-13-23"></a> 13.23 Can you write a synchronized program with wait and notify methods?
+If more than one thread is waiting for an object, we can notify all the threads by using notifyAll method.\
+Example:
+```java
+synchronized (this) {0
+    doSomeStuff();
+    notifyAll();
+}
+```
 
 ## Functional Programming - Lamdba expressions and Streams
 ## <a name="q-14-1"></a> 14.1 What is functional programming?
-## <a name="q-14-2"></a> 14.2 Can you give an example of functional programming?
-## <a name="q-14-3"></a> 14.3 What is a stream?
-## <a name="q-14-4"></a> 14.4 Explain about streams with an example?
-## <a name="q-14-5"></a> 14.5 What are intermediate operations in streams?
+Functional programming is a programming paradigm — a style of building the structure and elements of
+computer programs — that treats computation as the evaluation of mathematical functions and avoids
+changing-state and mutable data.
+
+## <a name="q-14-2"></a> 14.2 What is a stream?
+A Stream is a source of objects. In the above example, we created a stream from List.
+
+Streams have Intermediate Operations and Terminal Operations. In the example above, we used filter as
+intermediate operation and reduce as a terminal operation.
+
+## <a name="q-14-3"></a> 14.3 Explain about streams with an example?
+Streams are introduced in Java 8. In combination with Lambda expressions, they attempt to bring some
+of the important functional programming concepts to Java.
+
+A stream is a sequence of elements supporting sequential and parallel aggregate operations. Consider
+the example code below. Following steps are done:
+- Step I : Creating an array as a stream
+- Step II : Use Lambda Expression to create a filter
+- Step III : Use map function to invoke a String function
+- Step IV : Use sorted function to sort the array
+- Step V : Print the array using forEach
+
+Example:
+```java
+Arrays.stream(new String[] {"Ram", "Robert", "Rahim"})
+      .filter(s - > s.startsWith("Ro"))
+      .map(String::toLowerCase)
+      .sorted()
+      .forEach(System.out::println);
+```
+
+In general any use of streams involves
+- Source - Creation or use of existing stream : Step I above
+- Intermediate Operations - Step II, III and IV above. Intermediate Operations return a new stream
+- Terminal Operation – Step V. Consume the stream. Print it to output or produce a result (sum,min,max etc).
+
+Intermediate Operations are of two kinds
+- Stateful : Elements need to be compared against one another (sort, distinct etc)
+- Stateless : No need for comparing with other elements (map, filter etc)
+
+## <a name="q-14-4"></a> 14.4 What are intermediate operations in streams?
 Intermediate operations return another Stream which allows you to call multiple operations in a form of a query. Intermediate operations do not get executed until a terminal operation is invoked as there is a possibility they could be processed together when a terminal operation is executed.\
 Operations:
 * `filter`
@@ -1034,7 +2116,7 @@ Operations:
 * `sorted`
 * `limit`
 
-## <a name="q-14-6"></a> 14.6 What are terminal operations in streams?
+## <a name="q-14-5"></a> 14.5 What are terminal operations in streams?
 Terminal operations produces a non-stream, result such as primitive value, a collection or no value at all. Terminal operations are typically preceded by intermediate operations which return another Stream which allows operations to be connected in a form of a query.\
 Operations:
 * `forEach`
@@ -1051,11 +2133,14 @@ Operations:
 * `findAny`
 
 
-## <a name="q-14-7"></a> 14.7 What are method references?
-## <a name="q-14-8"></a> 14.8 What are lambda expressions?
-One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method, then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method, such as what action should be taken when someone clicks a button. Lambda expressions enable you to do this, to treat functionality as method argument, or code as data.
+## <a name="q-14-6"></a> 14.6 What are method references?
+Integer::sum, System.out::print in the above examples are method references. These two are simple
+static methods which are used instead of Lambda Expressions.
 
-## <a name="q-14-9"></a> 14.9 Can you give an example of lambda expression?
+## <a name="q-14-7"></a> 14.7 What are lambda expressions?
+One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method, then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method, such as what action should be taken when someone clicks a button. Lambda expressions enable you to do this, to treat functionality as method argument, or code as data.\
+Syntax : Parameters -> Executed code
+## <a name="q-14-8"></a> 14.8 Can you give an example of lambda expression?
 Example:
 ```java
 List<String> upper = new ArrayList<>();
@@ -1063,11 +2148,50 @@ List<String> list = new ArrayList<>();
 list.forEach(item -> upper.add(item.toUpperCase()));
 ```
 
-## <a name="q-14-10"></a> 14.10 Can you explain the relationship between lambda expression and functional interfaces?
-## <a name="q-14-11"></a> 14.11 What is a predicate?
-## <a name="q-14-12"></a> 14.12 What is the functional interface - function?
-## <a name="q-14-13"></a> 14.13 What is a consumer?
-## <a name="q-14-14"></a> 14.14 Can you give examples of functional interfaces with multiple arguments?
+## <a name="q-14-9"></a> 14.9 Can you explain the relationship between lambda expression and functional interfaces?
+When ever we create a Lambda Expression, we are defining a function which implements a predefined/
+custom defined Functional Interface.
+
+## <a name="q-14-10"></a> 14.10 What is a predicate?
+```java
+@FunctionalInterface
+public interface Predicate<T> {
+    boolean test(T t);
+}
+
+public void lambdaExpression_predicate() {
+    List<Integer> numbers = Arrays.asList(1, 3, 4, 6, 2, 7);
+    numbers.stream().filter((number) -> (number % 2 != 0)).forEach(
+        number -> System.out.print(number));
+}
+```
+(number) -> (number % 2 != 0) is a Predicate. Takes an argument and returns true of false.
+
+Signature of filter function : Stream<T> java.util.stream.Stream.filter(Predicate<? super T> predicate).
+filter returns a stream consisting of the elements of this stream that match the given predicate.
+
+## <a name="q-14-11"></a> 14.11 What is the functional interface - function?
+```java
+@FunctionalInterface
+public interface Function<T, R> {
+    R apply(T t);
+}
+```
+
+## <a name="q-14-12"></a> 14.12 What is a consumer?
+```java
+public interface Consumer<T> {
+    void accept(T t);
+}
+```
+
+## <a name="q-14-13"></a> 14.13 Can you give examples of functional interfaces with multiple arguments?
+```java
+@FunctionalInterface
+public interface BiFunction<T, U, R> {
+    R apply(T t, U u);
+}
+```
 
 ## New Features
 ## <a name="q-15-1"></a> 15.1 What are the new features in Java 4/5?

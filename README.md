@@ -58,6 +58,7 @@ LINK | ENGLISH | DEUTSCH
 &nbsp; | **Data Patterns** | **Datenmuster**
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **GUI Patterns** | **Oberflächenmuster**
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/gui_patterns/model_view_controller) | Model View Controller | Model View Controller
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **Other Patterns** | **Andere Muster**
 &nbsp;|&nbsp;| &nbsp;
@@ -113,7 +114,6 @@ LINK | ENGLISH | DEUTSCH
 * Lazy loading
 * Marker
 * Master worker pattern
-* Model view controller
 * Model view presenter
 * Module
 * Monad
