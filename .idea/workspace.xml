@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data_patterns/unit_of_work/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_patterns/unit_of_work/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_patterns/unit_of_work/UnitOfWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui_patterns/model_view_controller/img/ModelViewController.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui_patterns/model_view_controller/img/ModelViewController.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui_patterns/model_view_controller/img/ModelViewController.vsdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui_patterns/model_view_controller/img/ModelViewController.vsdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui_patterns/model_view_controller/img/~$$ModelViewController.~vsdx" beforeDir="false" />
-    </list>
+    <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data_patterns/unit_of_work/UnitOfWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="805">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data_patterns/unit_of_work/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="299">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -213,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/gui_patterns/model_view_controller/Client.java" />
         <option value="$PROJECT_DIR$/src/gui_patterns/model_view_controller/README.md" />
         <option value="$PROJECT_DIR$/src/data_patterns/unit_of_work/Entity.java" />
-        <option value="$PROJECT_DIR$/src/data_patterns/unit_of_work/Client.java" />
         <option value="$PROJECT_DIR$/src/data_patterns/unit_of_work/UnitOfWork.java" />
+        <option value="$PROJECT_DIR$/src/data_patterns/unit_of_work/Client.java" />
       </list>
     </option>
   </component>
@@ -293,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563541840384" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563542086965" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -445,18 +437,18 @@
       <workItem from="1563355945192" duration="885000" />
       <workItem from="1563369603769" duration="14000" />
       <workItem from="1563533185280" duration="1474000" />
-      <workItem from="1563541023765" duration="774000" />
+      <workItem from="1563541023765" duration="1060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109827000" />
+    <option name="totallyTimeSpent" value="110113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24507658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,7 +457,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32847425" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35082605" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35392156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984451" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -898,20 +890,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_patterns/unit_of_work/UnitOfWork.java">
+    <entry file="file://$PROJECT_DIR$/src/data_patterns/unit_of_work/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_patterns/unit_of_work/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/data_patterns/unit_of_work/UnitOfWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="805">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
