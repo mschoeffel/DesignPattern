@@ -11,7 +11,7 @@ public class Client {
         } else{
             System.out.println("ObjectA doesn't have permission.");
         }
-        
+
         if(objectB instanceof Marker){
             objectB.access();
         } else{

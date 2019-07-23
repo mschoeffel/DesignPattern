@@ -64,6 +64,7 @@ LINK | ENGLISH | DEUTSCH
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **Other Patterns** | **Andere Muster**
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/callback) | Callback | Callback
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/marker) | Marker | Markierung
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **_Template_** | **_Template_**
 [Link]() | ENGLISH | DEUTSCH
@@ -113,7 +114,6 @@ LINK | ENGLISH | DEUTSCH
 * Intercepting filter
 * Layers
 * Lazy loading
-* Marker
 * Master worker pattern
 * Model view presenter
 * Module
