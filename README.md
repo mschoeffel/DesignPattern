@@ -65,6 +65,7 @@ LINK | ENGLISH | DEUTSCH
 &nbsp; | **Other Patterns** | **Andere Muster**
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/callback) | Callback | Callback
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/marker) | Marker | Markierung
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/monad) | Monad | Monade
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **_Template_** | **_Template_**
 [Link]() | ENGLISH | DEUTSCH
@@ -117,7 +118,6 @@ LINK | ENGLISH | DEUTSCH
 * Master worker pattern
 * Model view presenter
 * Module
-* Monad
 * Monostate
 * Mute idiom
 * Mutex
