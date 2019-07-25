@@ -66,7 +66,7 @@ LINK | ENGLISH | DEUTSCH
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/callback) | Callback | Callback
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/marker) | Marker | Markierung
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/monad) | Monad | Monade
-[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/monad) | Double checked locking | Double checked locking
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/other_patterns/double_checked_locking) | Double checked locking | Double checked locking
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **_Template_** | **_Template_**
 [Link]() | ENGLISH | DEUTSCH
