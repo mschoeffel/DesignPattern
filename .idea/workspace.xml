@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac9d9506-23a8-4a62-b9af-b6e48a94de49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/other_patterns/monad/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other_patterns/double_checked_locking/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other_patterns/double_checked_locking/DataObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other_patterns/double_checked_locking/DataStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other_patterns/marker/img/~$$Marker.~vsdx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,70 +16,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://MODULES/mdl-DesignPattern">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MODULES</ID>
+              <OriginalElement>mdl-DesignPattern</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">mdl-DesignPattern</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-505.0" y="-228.0" />
+              <SelectedNodes>
+                <node>mdl-DesignPattern</node>
+              </SelectedNodes>
+              <Categories />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/other_patterns.marker">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>other_patterns.marker</OriginalElement>
+              <nodes>
+                <node x="0.0" y="227.0">other_patterns.marker.ObjectA</node>
+                <node x="0.0" y="153.0">other_patterns.marker.img</node>
+                <node x="0.0" y="79.0">other_patterns.marker.ObjectB</node>
+                <node x="2.5" y="0.0">other_patterns.marker.Marker</node>
+                <node x="136.0" y="227.0">other_patterns.marker.Client</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="other_patterns.marker.ObjectB" target="other_patterns.marker.Marker">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-475.5" y="-114.5" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="0.0" y="74.0">behaviour_patterns</node>
+                <node x="303.0" y="444.0">com</node>
+                <node x="225.0" y="74.0">creational_patterns</node>
+                <node x="171.0" y="370.0">images</node>
+                <node x="0.0" y="370.0">netscape</node>
+                <node x="0.0" y="296.0">data_patterns</node>
+                <node x="288.0" y="518.0">org</node>
+                <node x="253.0" y="0.0">toolbarButtonGraphics</node>
+                <node x="145.0" y="518.0">sun</node>
+                <node x="0.0" y="444.0">script</node>
+                <node x="195.0" y="296.0">gui_patterns</node>
+                <node x="430.0" y="518.0">jdk</node>
+                <node x="384.0" y="296.0">META-INF</node>
+                <node x="0.0" y="148.0">structural_patterns</node>
+                <node x="0.0" y="222.0">groovyjarjarasm</node>
+                <node x="0.0" y="518.0">java</node>
+                <node x="333.0" y="370.0">groovy</node>
+                <node x="153.0" y="444.0">javax</node>
+                <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+                <node x="222.0" y="148.0">groovyjarjarantlr</node>
+                <node x="209.0" y="222.0">other_patterns</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-320.5" y="31.0" />
+              <SelectedNodes>
+                <node>behaviour_patterns</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="444">
-                <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other_patterns/marker/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other_patterns/marker/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="115">
-                <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other_patterns/marker/ObjectA.java">
+        <entry file="file://$PROJECT_DIR$/src/other_patterns/double_checked_locking/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other_patterns/marker/ObjectB.java">
+        <entry file="file://$PROJECT_DIR$/src/other_patterns/double_checked_locking/DataStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state relative-caret-position="561">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other_patterns/monad/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/other_patterns/double_checked_locking/DataObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+            <state relative-caret-position="46">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -87,14 +143,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/other_patterns/monad/Monad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="345">
               <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,7 +157,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="138">
-                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,7 +167,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="575">
               <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
             </state>
           </provider>
@@ -124,20 +176,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/other_patterns/monad/DataObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="345">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,8 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/behaviour_patterns/state/Client.java" />
-        <option value="$PROJECT_DIR$/src/behaviour_patterns/state/README.md" />
         <option value="$PROJECT_DIR$/src/behaviour_patterns/strategy/Context.java" />
         <option value="$PROJECT_DIR$/src/behaviour_patterns/strategy/Strategy.java" />
         <option value="$PROJECT_DIR$/src/behaviour_patterns/strategy/ExplicitStrategyA.java" />
@@ -226,11 +266,14 @@
         <option value="$PROJECT_DIR$/src/other_patterns/monad/Client.java" />
         <option value="$PROJECT_DIR$/src/other_patterns/monad/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/other_patterns/double_checked_locking/DataStorage.java" />
+        <option value="$PROJECT_DIR$/src/other_patterns/double_checked_locking/Client.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="417" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1167" />
   </component>
@@ -242,6 +285,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -272,26 +316,18 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="other_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="marker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="other_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="monad" type="462c0819:PsiDirectoryNode" />
+              <item name="double_checked_locking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563899219405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564073613996" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -320,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (5)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="other_patterns.callback.Client" />
       <module name="DesignPattern" />
@@ -373,12 +409,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_patterns.unit_of_work.Client" />
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other_patterns.double_checked_locking.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_patterns.unit_of_work.*" />
+          <option name="PATTERN" value="other_patterns.double_checked_locking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,11 +424,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -445,18 +481,19 @@
       <workItem from="1563533185280" duration="1474000" />
       <workItem from="1563541023765" duration="1216000" />
       <workItem from="1563806734119" duration="2566000" />
-      <workItem from="1563896097294" duration="3298000" />
+      <workItem from="1563896097294" duration="3345000" />
+      <workItem from="1564066068072" duration="1991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116133000" />
+    <option name="totallyTimeSpent" value="118171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,68 +540,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/strategy/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/strategy/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/strategy/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="230">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/template_method/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/template_method/ExplicitClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/template_method/AbstractClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/behaviour_patterns/template_method/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -849,6 +824,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="444">
+            <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/other_patterns/marker/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -868,50 +853,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_patterns/marker/ObjectA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="92">
           <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_patterns/marker/ObjectB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="92">
           <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other_patterns/monad/DataObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,14 +874,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other_patterns/monad/Monad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="345">
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -940,19 +886,138 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="138">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="444">
-            <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_patterns/monad/DataObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-DesignPattern">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-DesignPattern</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">mdl-DesignPattern</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-505.0" y="-228.0" />
+          <SelectedNodes>
+            <node>mdl-DesignPattern</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/other_patterns.marker">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>other_patterns.marker</OriginalElement>
+          <nodes>
+            <node x="0.0" y="227.0">other_patterns.marker.ObjectA</node>
+            <node x="0.0" y="153.0">other_patterns.marker.img</node>
+            <node x="0.0" y="79.0">other_patterns.marker.ObjectB</node>
+            <node x="2.5" y="0.0">other_patterns.marker.Marker</node>
+            <node x="136.0" y="227.0">other_patterns.marker.Client</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="other_patterns.marker.ObjectB" target="other_patterns.marker.Marker">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-475.5" y="-114.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="74.0">behaviour_patterns</node>
+            <node x="303.0" y="444.0">com</node>
+            <node x="225.0" y="74.0">creational_patterns</node>
+            <node x="171.0" y="370.0">images</node>
+            <node x="0.0" y="370.0">netscape</node>
+            <node x="0.0" y="296.0">data_patterns</node>
+            <node x="288.0" y="518.0">org</node>
+            <node x="253.0" y="0.0">toolbarButtonGraphics</node>
+            <node x="145.0" y="518.0">sun</node>
+            <node x="0.0" y="444.0">script</node>
+            <node x="195.0" y="296.0">gui_patterns</node>
+            <node x="430.0" y="518.0">jdk</node>
+            <node x="384.0" y="296.0">META-INF</node>
+            <node x="0.0" y="148.0">structural_patterns</node>
+            <node x="0.0" y="222.0">groovyjarjarasm</node>
+            <node x="0.0" y="518.0">java</node>
+            <node x="333.0" y="370.0">groovy</node>
+            <node x="153.0" y="444.0">javax</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="222.0" y="148.0">groovyjarjarantlr</node>
+            <node x="209.0" y="222.0">other_patterns</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-320.5" y="31.0" />
+          <SelectedNodes>
+            <node>behaviour_patterns</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_patterns/double_checked_locking/DataStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_patterns/double_checked_locking/DataObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other_patterns/double_checked_locking/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
