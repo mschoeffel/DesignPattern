@@ -54,6 +54,7 @@ LINK | ENGLISH | DEUTSCH
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/strategy) | Strategy | Strategie
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/template_method) | Template Method | Schablonenmethode
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/visitor) | Visitor | Besucher
+[Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/behaviour_patterns/null_object) | Null Object | Null Objekt
 &nbsp;|&nbsp;| &nbsp;
 &nbsp; | **Data Patterns** | **Datenmuster**
 [Link](https://github.com/mschoeffel/DesignPattern/tree/master/src/data_patterns/unit_of_work) | Unit of Work | Unit of Work
@@ -122,7 +123,6 @@ LINK | ENGLISH | DEUTSCH
 * Mute idiom
 * Mutex
 * Naked objects
-* Null object
 * Object mother
 * Object pool
 * Page object
