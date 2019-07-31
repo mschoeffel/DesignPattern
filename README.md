@@ -90,7 +90,6 @@ LINK | ENGLISH | DEUTSCH
 * Delegation
 * Dependency injection
 * Dirty flag
-* Double checked locking
 * Double dispatch
 * EIP aggregator
 * EIP message channel
@@ -153,7 +152,6 @@ LINK | ENGLISH | DEUTSCH
 * Tolerant reader
 * Trampoline
 * Twin
-* Unit of work
 * Value object
 
 
