@@ -5,12 +5,16 @@ Ich hatte Zeit und wollte hier einfach einmal alle Entwurfsmuster nachprogrammie
 Somit sind hier alle bisherigen Entwurfsmuster aufgelistet und implementiert.
 Ich habe versucht die Implementierungen so nahe am Muster zu halten wie möglich, damit diese einfacher zu verstehen sind ohne das man sich in ein Beispiel einlesen muss, welches das Muster anwendet.
 
+Um ein Muster auszuprobieren einfach die `main` Methode der `Client` Klasse eines Musters ausführen.
+
 ---
 
 I had some sparetime and just wanted to program, learn and train all the different design patterns.
 
 So here the list of all design patterns already done. 
 I tried to keep them as close to the pattern as possible so that understanding the pattern is easier as if you first have to get a example that implements that specific pattern.
+
+To run a specific pattern simply execute the `main` method of the `Client` class of a pattern.
 
 ----
 
